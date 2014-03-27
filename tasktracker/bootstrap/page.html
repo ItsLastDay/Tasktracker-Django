@@ -16,8 +16,8 @@
                         <li><a href="#">Profile</a></li>
                     </ul>
                     <form class = "navbar-form pull-right">
-                        <input type="text" class="span2">
-                        <input type="text" class="span2">
+                        <input type="text" placeholder="Login" class="span2">
+                        <input type="text" placeholder="Password" class="span2">
                         <button type="submit" class="btn">Log in</button>
                         <button type="submit" class="btn">Register</button>
                     </form>
@@ -25,14 +25,45 @@
             </div>
             <div class="row-fluid">
                 <div class="span8">
+                    <span>
                     <ul class="nav nav-tabs">
                         <li class="active">
                             <a href="#">Latest</a>
                         </li>
                         <li><a href="#">Popular</a></li>
+                        <li><a href="#">Done</a></li>
                     </ul>
+                    <a href="#new_task_modal" role="button" data-toggle="modal" class="btn">Submit new task</a>
+                    <div id="new_task_modal" class="modal hide fade" tabindex="-1" role="dialog">
+                        <div class="modal-header">
+                            <h3>Task description</h3>
+                        </div>
+                        <div class="modal-body">
+                            <form class="form-horizontal">
+                                <div class="control-group">
+                                    <label class="control-label" for="inputTitle">Title</label>
+                                    <div class="controls">
+                                        <input type="text" id="inputTitle">
+                                    </div>
+                                </div>
+                                <div class="control-group">
+                                    <label class="control-label" for="inputDescription">Description</label>
+                                    <div class="controls">
+                                        <textarea rows="10"></textarea>
+                                    </div>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn" data-dismiss="modal">Close</button>
+                            <button class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
                     <div class="row-fluid">
-                        Hello
+                        <h4>No homework done</h4>
+                    </div>
+                    <div class="row-fluid">
                     </div>
                 </div>
                 <div class="span4">
@@ -45,6 +76,12 @@
                     </div>
                     <div class="row-fluid">
                         <h4>Available tags:</h4>
+                        <div class="row-fluid">
+                            <form class="form-search">
+                                <i class="icon-search"></i>
+                                <input type="text" class="input-medium search-query" placeholder="Search..">
+                            </form>
+                        </div>
                         <div class="row-fluid">
                             <span class="label label-info">issue</span>
                             <span class="label label-info">critical</span>

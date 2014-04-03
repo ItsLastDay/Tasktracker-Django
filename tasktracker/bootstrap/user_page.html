@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Bootstrap first example</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Bootstrap -->
+        <link href="./css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="#">Tasktracker</a>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li class="active"><a href="#">Profile</a></li>
+                        <li><a href="#">Users</a></li>
+                    </ul>
+                    <form class = "navbar-form pull-right">
+                        <a href="#">m.koltsov</a>
+                        <button type="submit" class="btn btn-small">Logout</button>
+                    </form>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span9">
+                    <div class="row-fluid">
+
+                    </div>
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#">My tasks</a></li>
+                        <li><a href="#">Assigned to me</a></li>
+                    </ul>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>R</th>
+                                <th>Title</th>
+                                <th>Posted by</th>
+                                <th>Assigned to</th>
+                                <th>Time</th>
+                                <th>Tags</th>
+                                <th>Status</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="success">
+                                <td>1</td>
+                                <td>3.5</td>
+                                <td><strong>Make it to the seminar</strong></td>
+                                <td><a href="#">m.koltsov</a></td>
+                                <td><a href="#">m.koltsov</a></td>
+                                <td>27/03/2014 17:00</td>
+                                <td>
+                                    <span class="label label-info">meeting</span>
+                                    <span class="label label-info">applicant tracking</span>
+                                    <span class="label label-info">critical</span>
+                                </td>
+                                <td>Open</td>
+                                <td><a href="#">View</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="pagination">
+                        <ul>
+                            <li><a href="#">Prev</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">Next</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="span3">
+                    <div class="row-fluid">
+                        <h4>Selected tags:</h4>
+                        <div class="row-fluid">
+                            <span class="label label-info">meeting</span>
+                            <span class="label label-info">applicant tracking</span>
+                        </div>
+                    </div>
+                    <div class="row-fluid">
+                        <h4>Available tags:</h4>
+                        <div class="row-fluid">
+                            <form class="form-search">
+                                <i class="icon-search"></i>
+                                <input type="text" class="input-medium search-query" placeholder="Search..">
+                            </form>
+                        </div>
+                        <div class="row-fluid">
+                            <span class="label label-info">issue</span>
+                            <span class="label label-info">critical</span>
+                            <span class="label label-info">ideas&brainstorming</span>
+                            <span class="label label-info">management</span>
+                            <span class="label label-info">goals&milestones</span>
+                            <span class="label label-info">templates</span>
+                            <span class="label label-info">documentation</span>
+                            <span class="label label-info">design</span>
+                            <span class="label label-info">bug</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="./js/bootstrap.js"></script>
+    </body>
+</html>

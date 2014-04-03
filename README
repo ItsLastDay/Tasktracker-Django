@@ -1,3 +1,8 @@
 Name: Mikhail Koltsov
-Variant: tasktracker
-page is at /tasktracker/bootstrap/page.html
+Entity: tasktracker
+Main page is at /tasktracker/bootstrap/page.html
+  contains modal window on "Submit new task"
+Task page /tasktracker/bootstrap/task_page.html
+User page /tasktracker/bootstrap/user_page.html
+
+Looks messy not in fullscreen.

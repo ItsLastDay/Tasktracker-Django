@@ -2,7 +2,7 @@ from django.db import models
 
 class Tag(models.Model):
     title = models.CharField(max_length=50, unique=True)
-    tasks = models.ManyToManyField(Task)
+    tasks = models.ManyToManyField('Task')
 
     def __unicode__(self):
         return self.title
@@ -12,14 +12,14 @@ class Tag(models.Model):
 
 class Task(models.Model):
     title = models.CharField(max_length=255)
-    created_by = models.ForeignKey(User)
+    created_by = models.ForeignKey('User', related_name='created_tasks')
     rating = models.IntegerField(db_index=True)
     date_fmt = 'Please use the following format: YYYY-MM-DD HH:MM' # I don't know actual one
     created_on = models.DateTimeField(help_text=date_fmt, db_index=True)
-    assigned_to = models.ManyToManyField(User)
+    assigned_to = models.ManyToManyField('User', related_name='assigned_tasks')
     expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True)
     description = models.TextField()
-    status = models.CharField(choices=[('cp', 'Closed'), ('op', 'Open')])
+    status = models.CharField(max_length=4, choices=[('cp', 'Closed'), ('op', 'Open')])
 
     def __unicode__(self):
         return self.title

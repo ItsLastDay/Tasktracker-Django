@@ -1,6 +1,5 @@
 from django.db import models
 
-# Create your models here.
 class Tag(models.Model):
     title = models.CharField(max_length=50, unique=True)
     tasks = models.ManyToManyField(Task)
@@ -11,11 +10,11 @@ class Tag(models.Model):
 class Task(models.Model):
     title = models.CharField(max_length=255)
     created_by = models.ForeignKey(User)
-    rating = models.IntegerField()
+    rating = models.IntegerField(db_index=True)
     date_fmt = 'Please use the following format: YYYY-MM-DD HH:MM' # I don't know actual one
-    created_on = models.DateTimeField(help_text=date_fmt)
+    created_on = models.DateTimeField(help_text=date_fmt, db_index=True)
     assigned_to = models.ManyToManyField(User)
-    expiration_date = models.DateTimeField(help_text=date_fmt)
+    expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True)
     description = models.TextField()
     status = models.CharField(choices=[('cp', 'Closed'), ('op', 'Open')])
 
@@ -30,7 +29,7 @@ class User(models.Model):
     first_name = models.CharField(max_length=40)
     last_name = models.CharField(max_length=40)
     email = models.CharField(max_length=40)
-    registration_date = models.DateTimeField()
+    registration_date = models.DateTimeField(db_index=True)
     pswd = models.CharField(max_length=255) # not sure in what form the hash will be
 
     def __unicode__(self):

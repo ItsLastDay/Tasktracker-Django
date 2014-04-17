@@ -7,6 +7,9 @@ class Tag(models.Model):
     def __unicode__(self):
         return self.title
 
+    class Meta:
+        ordering = ['title']
+
 class Task(models.Model):
     title = models.CharField(max_length=255)
     created_by = models.ForeignKey(User)
@@ -24,6 +27,9 @@ class Task(models.Model):
     def get_absolute_url(self):
         pass
 
+    class Meta:
+        ordering = ['-created_on']
+
 class User(models.Model):
     login = models.CharField(max_length=20, unique=True, editable=False)
     first_name = models.CharField(max_length=40)
@@ -37,3 +43,6 @@ class User(models.Model):
     
     def get_absolute_url(self):
         pass
+
+    class Meta:
+        ordering = ['login']

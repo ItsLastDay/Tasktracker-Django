@@ -34,7 +34,7 @@ class User(models.Model):
     login = models.CharField(max_length=20, unique=True, editable=False)
     first_name = models.CharField(max_length=40)
     last_name = models.CharField(max_length=40)
-    email = models.CharField(max_length=40)
+    email = models.EmailField(max_length=40)
     registration_date = models.DateTimeField(db_index=True)
     pswd = models.CharField(max_length=255) # not sure in what form the hash will be
 

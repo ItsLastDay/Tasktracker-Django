@@ -11,10 +11,11 @@ class Tag(models.Model):
 class Task(models.Model):
     title = models.CharField(max_length=255)
     created_by = models.ForeignKey(User)
-    rating = models.SmallIntegerField()
-    created_on = models.DateTimeField()
+    rating = models.IntegerField()
+    date_fmt = 'Please use the following format: YYYY-MM-DD 12:25' # I don't know actual one
+    created_on = models.DateTimeField(help_text=date_fmt)
     assigned_to = models.ManyToManyField(User)
-    expiration_date = models.DateTimeField()
+    expiration_date = models.DateTimeField(help_text=date_fmt)
     description = models.TextField()
     status = models.CharField(choices=[('cp', 'Closed'), ('op', 'Open')])
 

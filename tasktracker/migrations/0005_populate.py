@@ -14,17 +14,32 @@ class Migration(DataMigration):
         surnames = ['Иванов', 'Петров', 'Сидоров', 'Разумейский', 'Хорнилов', 'Мамонов']
         a = ['а', 'е', 'и', 'о', 'у']
         b = ['к', 'н', 'р', 'й', 'м', 'б', 'ж', 'ш', 'ф', 'ч', 'х', 'з', 'п', 'р', 'л', 'в', 'д', 'ц']
-        words = map(unidecode, words)
-        names = map(unidecode, names)
-        surnames = map(unidecode, surnames)
+        decoder = lambda x: unidecode(x.decode('utf-8'))
+        words = map(decoder, words)
+        names = map(decoder, names)
+        surnames = map(decoder, surnames)
         bigrams = []
         for x in a:
             for y in b:
                 bigrams.append(y + x)
-        bigrams = map(unidecode, bigrams)
+        bigrams = map(decoder, bigrams)
         def gen_string(n):
             return ''.join([random.choice(string.letters) for i in range(n)])
-        
+        def gen_date():
+            res = ''
+            res += str(random.randint(1990, 2010)) + '-'
+            res += str(random.randint(1, 12)) + '-'
+            res += str(random.randint(1, 25)) + ' '
+            tm = str(random.randint(0, 23)) + ':'
+            if len(tm) < 3:
+                tm = '0' + tm
+            mm = str(random.randint(0, 59))
+            if len(mm) < 2:
+                mm = '0' + mm
+            tm += mm
+            res += tm
+            return res
+
         # populate tags
         titles = []
         for _ in range(n_tags):
@@ -45,7 +60,7 @@ class Migration(DataMigration):
             first_name = random.choice(names)
             last_name = random.choice(surnames)
             email = 'misha@koltsov.su'
-            reg_date = '2008-12-31 00:01'
+            reg_date = gen_date()
             login = gen_string(7)
             users.append(orm.User(login=login, pswd=psw, first_name=first_name, last_name=last_name,\
                     email=email, registration_date=reg_date))
@@ -57,8 +72,8 @@ class Migration(DataMigration):
         for _ in range(n_tasks):
             title = ' '.join([random.choice(words) for i in range(7)]).capitalize() 
             rating = random.randint(1, 10)
-            created_on = '2005-12-01 00:00'
-            expiration_date = '2004-11-01 11:11'
+            created_on = gen_date()
+            expiration_date = gen_date() if random.randint(1, 2) == 2 else None
             description = ' '.join([random.choice(bigrams) for i in range(20)])
             status = 'op' if random.randint(1, 2) == 2 else 'cp'
             created_by = random.choice(users)

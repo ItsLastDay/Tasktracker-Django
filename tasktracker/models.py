@@ -1,5 +1,25 @@
 from django.db import models
 
+class TaskManager(models.Manager):
+    def get_queryset(self):
+        return super(TaskManager, self).get_queryset()
+
+    def open(self):
+        # 1: all tasks with status = open
+        return self.filter(status='op')
+
+    def closed(self):
+        # 2: all tasks with status = closed
+        return self.filter(status='cp')
+
+    def infinite(self):
+        # 3: all tasks with no expiration date
+        return self.filter(expiration_date__isnull=True)
+
+    def query1(self):
+        # 4: all tasks with rating > 4 and assigned to > 2 users
+        return self.filter(rating__gt=4).annotate(num_assigned=models.Count('assigned_to')).filter(num_assigned__gt=2)
+
 class Tag(models.Model):
     title = models.CharField(max_length=50, unique=True)
     tasks = models.ManyToManyField('Task')
@@ -20,6 +40,7 @@ class Task(models.Model):
     expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True, null=True, blank=True)
     description = models.TextField()
     status = models.CharField(max_length=4, choices=[('cp', 'Closed'), ('op', 'Open')])
+    objects = TaskManager()
 
     def __unicode__(self):
         return self.title
@@ -46,3 +67,5 @@ class User(models.Model):
 
     class Meta:
         ordering = ['login']
+
+

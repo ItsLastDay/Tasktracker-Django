@@ -4,6 +4,7 @@ from south.db import db
 from south.v2 import DataMigration
 from django.db import models
 import random, string
+from unidecode import unidecode # pip install unidecode
 
 class Migration(DataMigration):
     def __populate(self, n_tasks, n_tags, n_users, orm):
@@ -13,23 +14,28 @@ class Migration(DataMigration):
         surnames = ['Иванов', 'Петров', 'Сидоров', 'Разумейский', 'Хорнилов', 'Мамонов']
         a = ['а', 'е', 'и', 'о', 'у']
         b = ['к', 'н', 'р', 'й', 'м', 'б', 'ж', 'ш', 'ф', 'ч', 'х', 'з', 'п', 'р', 'л', 'в', 'д', 'ц']
+        words = map(unidecode, words)
+        names = map(unidecode, names)
+        surnames = map(unidecode, surnames)
         bigrams = []
         for x in a:
             for y in b:
-                bigrams.append(decoder(y + x))
+                bigrams.append(y + x)
+        bigrams = map(unidecode, bigrams)
         def gen_string(n):
-            return decoder(''.join([random.choice(string.letters) for i in range(n)]))
+            return ''.join([random.choice(string.letters) for i in range(n)])
         
         # populate tags
-        tags = []
+        titles = []
         for _ in range(n_tags):
             length = random.randint(3, 8)
             title = ''.join([random.choice(bigrams) for i in range(length)])
-            tags.append(title)
-        tags = list(set(tags))
-        print tags
-        for tag in tags:
-            tag = orm.Tag(title=tag)
+            titles.append(title)
+        titles = list(set(titles))
+        tags = []
+        for title in titles:
+            tag = orm.Tag(title=title)
+            tags.append(tag)
             tag.save()
 
         # populate users
@@ -39,7 +45,7 @@ class Migration(DataMigration):
             first_name = random.choice(names)
             last_name = random.choice(surnames)
             email = 'misha@koltsov.su'
-            reg_date = '2008-31-12 00:01'
+            reg_date = '2008-12-31 00:01'
             login = gen_string(7)
             users.append(orm.User(login=login, pswd=psw, first_name=first_name, last_name=last_name,\
                     email=email, registration_date=reg_date))
@@ -60,6 +66,7 @@ class Migration(DataMigration):
             tasks.append(orm.Task(title=title, rating=rating, created_on=created_on,\
                     expiration_date=expiration_date, description=description, status=status,\
                     created_by=created_by))
+            tasks[-1].save()
             for man in assigned_to:
                 tasks[-1].assigned_to.add(man)
         for task in tasks:
@@ -68,7 +75,7 @@ class Migration(DataMigration):
         # add tags for random tasks
         for tag in tags:
             for i in range(4):
-                t = random.choice(task)
+                t = random.choice(tasks)
                 tag.tasks.add(t)
             tag.save()
 

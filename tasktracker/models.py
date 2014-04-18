@@ -17,7 +17,7 @@ class Task(models.Model):
     date_fmt = 'Please use the following format: YYYY-MM-DD HH:MM' # I don't know actual one
     created_on = models.DateTimeField(help_text=date_fmt, db_index=True)
     assigned_to = models.ManyToManyField('User', related_name='assigned_tasks')
-    expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True)
+    expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True, null=True)
     description = models.TextField()
     status = models.CharField(max_length=4, choices=[('cp', 'Closed'), ('op', 'Open')])
 

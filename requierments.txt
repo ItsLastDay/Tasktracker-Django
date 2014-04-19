@@ -1,0 +1,8 @@
+Django==1.6.2
+MySQL-python==1.2.5
+South==0.8.4
+Unidecode==0.04.14
+argparse==1.2.1
+gunicorn==18.0
+wsgiref==0.1.2
+

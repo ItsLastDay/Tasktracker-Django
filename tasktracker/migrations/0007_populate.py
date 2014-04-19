@@ -4,7 +4,7 @@ from south.db import db
 from south.v2 import DataMigration
 from django.db import models
 import random, string
-from unidecode import unidecode # pip install unidecode
+from unidecode import unidecode
 
 class Migration(DataMigration):
     def __populate(self, n_tasks, n_tags, n_users, orm):

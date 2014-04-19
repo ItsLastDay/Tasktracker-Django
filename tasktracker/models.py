@@ -34,9 +34,17 @@ class TaskManager(models.Manager):
         q |= models.Q(expiration_date__isnull=True)
         return self.filter(q)
 
+class UserManager(models.Manager):
+    def get_newest(self, start=0, top=10):
+        return self.order_by('registration_date').reverse()[start:start+top]
+
 class Tag(models.Model):
     title = models.CharField(max_length=50, unique=True)
     tasks = models.ManyToManyField('Task')
+    
+    def refers_to_task_with_a_lot_of_users(self, assigned_thresh=4):
+        return self.tasks.annotate(num_assigned=models.Count('assigned_to')).aggregate(models.Max('num_assigned'))["num_assigned__max"] >\
+                assigned_thresh
 
     def __unicode__(self):
         return self.title
@@ -72,6 +80,10 @@ class User(models.Model):
     email = models.EmailField(max_length=40)
     registration_date = models.DateTimeField(db_index=True)
     pswd = models.CharField(max_length=255) # not sure in what form the hash will be
+    objects = UserManager()
+
+    def email_domain(self):
+        return self.email[self.email.index('@') + 1:]
 
     def __unicode__(self):
         return self.login

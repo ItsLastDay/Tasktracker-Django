@@ -26,3 +26,12 @@ if __name__ == "__main__":
     print '\n\n'
     print '# 7: tasks with valid date (expiration >= creation) or with no expiration date'
     print Task.objects.valid().values('pk', 'created_on', 'expiration_date')
+    print '\n\n'
+    print '# 8: tags, for which there exists a task with that tag, that is assigned to >= 4 users'
+    print filter(Tag.refers_to_task_with_a_lot_of_users, Tag.objects.all())
+    print '\n\n'
+    print '# 9: unique user email domains'
+    print set([user.email_domain() for user in User.objects.all()])
+    print '\n\n'
+    print '# 10: top 10 newest users'
+    print User.objects.get_newest().values('login', 'registration_date')

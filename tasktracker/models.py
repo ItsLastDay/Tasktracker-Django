@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib import auth
 
 class TaskManager(models.Manager):
     def get_queryset(self):
@@ -6,11 +7,11 @@ class TaskManager(models.Manager):
 
     def open(self):
         # 1: all tasks with status = open
-        return self.filter(status='op')
+        return self.filter(status=Task.OPEN)
 
     def closed(self):
         # 2: all tasks with status = closed
-        return self.filter(status='cp')
+        return self.filter(status=Task.CLOSED)
 
     def infinite(self):
         # 3: all tasks with no expiration date
@@ -53,6 +54,12 @@ class Tag(models.Model):
         ordering = ['title']
 
 class Task(models.Model):
+    CLOSED = 'cp'
+    OPEN = 'op'
+    STATUS_CHOICES = (
+            (CLOSED, 'Closed'),
+            (OPEN, 'Open')
+        )
     title = models.CharField(max_length=255)
     created_by = models.ForeignKey('User', related_name='created_tasks')
     rating = models.IntegerField(db_index=True)
@@ -61,7 +68,7 @@ class Task(models.Model):
     assigned_to = models.ManyToManyField('User', related_name='assigned_tasks')
     expiration_date = models.DateTimeField(help_text=date_fmt, db_index=True, null=True, blank=True)
     description = models.TextField()
-    status = models.CharField(max_length=4, choices=[('cp', 'Closed'), ('op', 'Open')])
+    status = models.CharField(max_length=4, db_index=True, choices=STATUS_CHOICES)
     objects = TaskManager()
 
     def __unicode__(self):
@@ -73,25 +80,20 @@ class Task(models.Model):
     class Meta:
         ordering = ['pk', '-created_on']
 
-class User(models.Model):
-    login = models.CharField(max_length=20, unique=True, editable=False)
-    first_name = models.CharField(max_length=40)
-    last_name = models.CharField(max_length=40)
-    email = models.EmailField(max_length=40)
+class User(auth.models.User):
     registration_date = models.DateTimeField(db_index=True)
-    pswd = models.CharField(max_length=255) # not sure in what form the hash will be
     objects = UserManager()
 
     def email_domain(self):
         return self.email[self.email.index('@') + 1:]
 
     def __unicode__(self):
-        return self.login
+        return self.username
     
     def get_absolute_url(self):
-        pass
+        return '/user/' + self.username
 
     class Meta:
-        ordering = ['login']
+        ordering = ['username']
 
 

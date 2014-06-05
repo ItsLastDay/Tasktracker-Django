@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Technosphere</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="/static/css/bootstrap.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="navbar">
+                <div class="navbar-inner">
+                    <a class="brand" href="#">Tasktracker</a>
+                    <ul class="nav">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">Users</a></li>
+                    </ul>
+                    <form class = "navbar-form pull-right">
+                        <a href={{user.get_absolute_url}}>{{user.username}}</a>
+                        <button type="submit" class="btn btn-small">Logout</button>
+                    </form>
+                </div>
+            </div>
+            {% block content %}
+            {% endblock %}
+        </div>
+        <script src="http://code.jquery.com/jquery.js"></script>
+        <script src="/static/js/bootstrap.js"></script>
+    </body>
+</html>

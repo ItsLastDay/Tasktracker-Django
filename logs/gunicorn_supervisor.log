@@ -1,0 +1,48 @@
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+supervisor: couldn't exec /home/last/programming/envs/mailru_first/hello/run.sh: ENOEXEC
+supervisor: child process was not spawned
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: /home/last/programming/envs/mailru_first/hello/run.sh: gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: exec: ../bin/gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: exec: ../bin/gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: exec: ../bin/gunicorn: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 3: /home/last/programming/envs/mailru_first/hello/run.sh: source: not found
+/home/last/programming/envs/mailru_first/hello/run.sh: 4: exec: ../bin/gunicorn: not found
+2014-06-05 17:00:14 [16218] [INFO] Starting gunicorn 18.0
+2014-06-05 17:00:14 [16218] [INFO] Listening at: unix:./run/gunicorn.sock (16218)
+2014-06-05 17:00:14 [16218] [INFO] Using worker: sync
+2014-06-05 17:00:14 [16227] [INFO] Booting worker with pid: 16227
+2014-06-05 17:00:15 [16228] [INFO] Booting worker with pid: 16228
+2014-06-05 17:00:15 [16229] [INFO] Booting worker with pid: 16229
+2014-06-05 17:00:15 [16230] [INFO] Booting worker with pid: 16230
+2014-06-05 17:00:15 [16231] [INFO] Booting worker with pid: 16231
+2014-06-05 17:00:15 [16232] [INFO] Booting worker with pid: 16232
+2014-06-05 17:00:15 [16233] [INFO] Booting worker with pid: 16233
+2014-06-05 17:00:15 [16234] [INFO] Booting worker with pid: 16234
+2014-06-05 17:00:15 [16235] [INFO] Booting worker with pid: 16235

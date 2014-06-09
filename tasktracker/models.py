@@ -75,10 +75,10 @@ class Task(models.Model):
         return self.title
 
     def get_absolute_url(self):
-        pass
+        return 'tasks/%d' % self.id
 
     class Meta:
-        ordering = ['pk', '-created_on']
+        ordering = ['-created_on']
 
 class User(auth.models.User):
     registration_date = models.DateTimeField(db_index=True)
@@ -91,7 +91,7 @@ class User(auth.models.User):
         return self.username
     
     def get_absolute_url(self):
-        return '/user/' + self.username
+        return '/users/' + self.username
 
     class Meta:
         ordering = ['username']

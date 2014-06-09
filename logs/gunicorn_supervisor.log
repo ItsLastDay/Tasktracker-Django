@@ -46,3 +46,1555 @@ supervisor: child process was not spawned
 2014-06-05 17:00:15 [16233] [INFO] Booting worker with pid: 16233
 2014-06-05 17:00:15 [16234] [INFO] Booting worker with pid: 16234
 2014-06-05 17:00:15 [16235] [INFO] Booting worker with pid: 16235
+2014-06-05 17:31:33 [16218] [INFO] Handling signal: term
+2014-06-05 13:31:33 [16228] [INFO] Worker exiting (pid: 16228)
+2014-06-05 13:31:33 [16227] [INFO] Worker exiting (pid: 16227)
+2014-06-05 13:31:33 [16231] [INFO] Worker exiting (pid: 16231)
+2014-06-05 13:31:33 [16229] [INFO] Worker exiting (pid: 16229)
+2014-06-05 13:31:33 [16230] [INFO] Worker exiting (pid: 16230)
+2014-06-05 13:31:33 [16232] [INFO] Worker exiting (pid: 16232)
+2014-06-05 13:31:33 [16233] [INFO] Worker exiting (pid: 16233)
+2014-06-05 13:31:33 [16234] [INFO] Worker exiting (pid: 16234)
+2014-06-05 13:31:33 [16235] [INFO] Worker exiting (pid: 16235)
+2014-06-05 17:31:33 [16218] [INFO] Shutting down: Master
+2014-06-05 17:31:34 [17253] [INFO] Starting gunicorn 18.0
+2014-06-05 17:31:34 [17253] [INFO] Listening at: unix:./run/gunicorn.sock (17253)
+2014-06-05 17:31:34 [17253] [INFO] Using worker: sync
+2014-06-05 17:31:34 [17262] [INFO] Booting worker with pid: 17262
+2014-06-05 17:31:34 [17263] [INFO] Booting worker with pid: 17263
+2014-06-05 17:31:34 [17264] [INFO] Booting worker with pid: 17264
+2014-06-05 17:31:34 [17265] [INFO] Booting worker with pid: 17265
+2014-06-05 17:31:34 [17266] [INFO] Booting worker with pid: 17266
+2014-06-05 17:31:34 [17267] [INFO] Booting worker with pid: 17267
+2014-06-05 17:31:34 [17268] [INFO] Booting worker with pid: 17268
+2014-06-05 17:31:34 [17269] [INFO] Booting worker with pid: 17269
+2014-06-05 17:31:34 [17270] [INFO] Booting worker with pid: 17270
+2014-06-05 17:33:16 [17253] [INFO] Handling signal: term
+2014-06-05 13:33:16 [17262] [INFO] Worker exiting (pid: 17262)
+2014-06-05 13:33:16 [17270] [INFO] Worker exiting (pid: 17270)
+2014-06-05 13:33:16 [17267] [INFO] Worker exiting (pid: 17267)
+2014-06-05 13:33:16 [17268] [INFO] Worker exiting (pid: 17268)
+2014-06-05 13:33:16 [17269] [INFO] Worker exiting (pid: 17269)
+2014-06-05 13:33:16 [17264] [INFO] Worker exiting (pid: 17264)
+2014-06-05 13:33:16 [17263] [INFO] Worker exiting (pid: 17263)
+2014-06-05 13:33:16 [17265] [INFO] Worker exiting (pid: 17265)
+2014-06-05 13:33:16 [17266] [INFO] Worker exiting (pid: 17266)
+2014-06-05 17:33:16 [17253] [INFO] Shutting down: Master
+2014-06-05 17:33:17 [17460] [INFO] Starting gunicorn 18.0
+2014-06-05 17:33:17 [17460] [INFO] Listening at: unix:./run/gunicorn.sock (17460)
+2014-06-05 17:33:17 [17460] [INFO] Using worker: sync
+2014-06-05 17:33:17 [17469] [INFO] Booting worker with pid: 17469
+2014-06-05 17:33:17 [17470] [INFO] Booting worker with pid: 17470
+2014-06-05 17:33:17 [17471] [INFO] Booting worker with pid: 17471
+2014-06-05 17:33:17 [17472] [INFO] Booting worker with pid: 17472
+2014-06-05 17:33:17 [17473] [INFO] Booting worker with pid: 17473
+2014-06-05 17:33:17 [17474] [INFO] Booting worker with pid: 17474
+2014-06-05 17:33:17 [17475] [INFO] Booting worker with pid: 17475
+2014-06-05 17:33:18 [17476] [INFO] Booting worker with pid: 17476
+2014-06-05 17:33:18 [17477] [INFO] Booting worker with pid: 17477
+2014-06-05 17:34:12 [17460] [INFO] Handling signal: term
+2014-06-05 13:34:12 [17474] [INFO] Worker exiting (pid: 17474)
+2014-06-05 13:34:12 [17475] [INFO] Worker exiting (pid: 17475)
+2014-06-05 13:34:12 [17472] [INFO] Worker exiting (pid: 17472)
+2014-06-05 13:34:12 [17473] [INFO] Worker exiting (pid: 17473)
+2014-06-05 13:34:12 [17469] [INFO] Worker exiting (pid: 17469)
+2014-06-05 13:34:12 [17477] [INFO] Worker exiting (pid: 17477)
+2014-06-05 13:34:12 [17471] [INFO] Worker exiting (pid: 17471)
+2014-06-05 13:34:12 [17470] [INFO] Worker exiting (pid: 17470)
+2014-06-05 13:34:12 [17476] [INFO] Worker exiting (pid: 17476)
+2014-06-05 17:34:12 [17460] [INFO] Shutting down: Master
+2014-06-05 17:34:13 [17571] [INFO] Starting gunicorn 18.0
+2014-06-05 17:34:13 [17571] [INFO] Listening at: unix:./run/gunicorn.sock (17571)
+2014-06-05 17:34:13 [17571] [INFO] Using worker: sync
+2014-06-05 17:34:13 [17580] [INFO] Booting worker with pid: 17580
+2014-06-05 17:34:13 [17581] [INFO] Booting worker with pid: 17581
+2014-06-05 17:34:13 [17582] [INFO] Booting worker with pid: 17582
+2014-06-05 17:34:13 [17583] [INFO] Booting worker with pid: 17583
+2014-06-05 17:34:13 [17584] [INFO] Booting worker with pid: 17584
+2014-06-05 17:34:13 [17585] [INFO] Booting worker with pid: 17585
+2014-06-05 17:34:13 [17586] [INFO] Booting worker with pid: 17586
+2014-06-05 17:34:13 [17587] [INFO] Booting worker with pid: 17587
+2014-06-05 17:34:13 [17588] [INFO] Booting worker with pid: 17588
+2014-06-06 02:11:55 [17571] [INFO] Handling signal: term
+Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: Exception SystemExit: Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+0 in  ignored
+Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+0 in  ignored
+Exception SystemExit:  in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2014-06-06 02:11:58 [17571] [INFO] Shutting down: Master
+2014-06-06 08:05:08 [1489] [INFO] Starting gunicorn 18.0
+2014-06-06 08:05:08 [1489] [INFO] Listening at: unix:./run/gunicorn.sock (1489)
+2014-06-06 08:05:08 [1489] [INFO] Using worker: sync
+2014-06-06 08:05:08 [1987] [INFO] Booting worker with pid: 1987
+2014-06-06 08:05:08 [1988] [INFO] Booting worker with pid: 1988
+2014-06-06 08:05:08 [1989] [INFO] Booting worker with pid: 1989
+2014-06-06 08:05:08 [1990] [INFO] Booting worker with pid: 1990
+2014-06-06 08:05:08 [1991] [INFO] Booting worker with pid: 1991
+2014-06-06 08:05:08 [1992] [INFO] Booting worker with pid: 1992
+2014-06-06 08:05:08 [1993] [INFO] Booting worker with pid: 1993
+2014-06-06 08:05:08 [1994] [INFO] Booting worker with pid: 1994
+2014-06-06 08:05:08 [1995] [INFO] Booting worker with pid: 1995
+2014-06-06 08:41:13 [1489] [INFO] Handling signal: term
+2014-06-06 08:41:13 [1988] [INFO] Worker exiting (pid: 1988)
+2014-06-06 08:41:13 [1987] [INFO] Worker exiting (pid: 1987)
+2014-06-06 08:41:13 [1990] [INFO] Worker exiting (pid: 1990)
+2014-06-06 08:41:13 [1989] [INFO] Worker exiting (pid: 1989)
+2014-06-06 08:41:13 [1991] [INFO] Worker exiting (pid: 1991)
+2014-06-06 08:41:13 [1993] [INFO] Worker exiting (pid: 1993)
+2014-06-06 08:41:13 [1992] [INFO] Worker exiting (pid: 1992)
+2014-06-06 08:41:13 [1994] [INFO] Worker exiting (pid: 1994)
+2014-06-06 08:41:13 [1995] [INFO] Worker exiting (pid: 1995)
+2014-06-06 08:41:13 [1489] [INFO] Shutting down: Master
+2014-06-07 19:40:04 [1866] [INFO] Starting gunicorn 18.0
+2014-06-07 19:40:04 [1866] [INFO] Listening at: unix:./run/gunicorn.sock (1866)
+2014-06-07 19:40:04 [1866] [INFO] Using worker: sync
+2014-06-07 19:40:04 [1961] [INFO] Booting worker with pid: 1961
+2014-06-07 19:40:04 [1963] [INFO] Booting worker with pid: 1963
+2014-06-07 19:40:04 [1964] [INFO] Booting worker with pid: 1964
+2014-06-07 19:40:04 [1965] [INFO] Booting worker with pid: 1965
+2014-06-07 19:40:04 [1966] [INFO] Booting worker with pid: 1966
+2014-06-07 19:40:04 [1967] [INFO] Booting worker with pid: 1967
+2014-06-07 19:40:04 [1968] [INFO] Booting worker with pid: 1968
+2014-06-07 19:40:04 [1969] [INFO] Booting worker with pid: 1969
+2014-06-07 19:40:04 [1970] [INFO] Booting worker with pid: 1970
+2014-06-07 15:42:49 [1866] [INFO] Handling signal: term
+2014-06-07 15:42:49 [1961] [INFO] Worker exiting (pid: 1961)
+2014-06-07 15:42:49 [1963] [INFO] Worker exiting (pid: 1963)
+2014-06-07 15:42:49 [1964] [INFO] Worker exiting (pid: 1964)
+2014-06-07 15:42:49 [1965] [INFO] Worker exiting (pid: 1965)
+2014-06-07 15:42:49 [1966] [INFO] Worker exiting (pid: 1966)
+2014-06-07 15:42:49 [1969] [INFO] Worker exiting (pid: 1969)
+2014-06-07 15:42:49 [1967] [INFO] Worker exiting (pid: 1967)
+2014-06-07 15:42:49 [1968] [INFO] Worker exiting (pid: 1968)
+2014-06-07 15:42:49 [1970] [INFO] Worker exiting (pid: 1970)
+2014-06-07 15:42:49 [1866] [INFO] Shutting down: Master
+2014-06-07 17:22:26 [1858] [INFO] Starting gunicorn 18.0
+2014-06-07 17:22:26 [1858] [INFO] Listening at: unix:./run/gunicorn.sock (1858)
+2014-06-07 17:22:26 [1858] [INFO] Using worker: sync
+2014-06-07 17:22:26 [1945] [INFO] Booting worker with pid: 1945
+2014-06-07 17:22:26 [1957] [INFO] Booting worker with pid: 1957
+2014-06-07 17:22:26 [1958] [INFO] Booting worker with pid: 1958
+2014-06-07 17:22:26 [1959] [INFO] Booting worker with pid: 1959
+2014-06-07 17:22:26 [1960] [INFO] Booting worker with pid: 1960
+2014-06-07 17:22:26 [1961] [INFO] Booting worker with pid: 1961
+2014-06-07 17:22:26 [1962] [INFO] Booting worker with pid: 1962
+2014-06-07 17:22:27 [1963] [INFO] Booting worker with pid: 1963
+2014-06-07 17:22:27 [1964] [INFO] Booting worker with pid: 1964
+2014-06-07 22:21:38 [1858] [INFO] Handling signal: term
+2014-06-07 18:21:38 [1957] [INFO] Worker exiting (pid: 1957)
+2014-06-07 18:21:38 [1958] [INFO] Worker exiting (pid: 1958)
+2014-06-07 22:21:38 [1959] [INFO] Worker exiting (pid: 1959)
+2014-06-07 18:21:38 [1964] [INFO] Worker exiting (pid: 1964)
+2014-06-07 18:21:38 [1961] [INFO] Worker exiting (pid: 1961)
+2014-06-07 18:21:38 [1960] [INFO] Worker exiting (pid: 1960)
+2014-06-07 22:21:38 [1962] [INFO] Worker exiting (pid: 1962)
+2014-06-07 18:21:38 [1963] [INFO] Worker exiting (pid: 1963)
+2014-06-07 18:21:38 [1945] [INFO] Worker exiting (pid: 1945)
+2014-06-07 22:21:38 [1858] [INFO] Shutting down: Master
+2014-06-07 22:21:40 [6150] [INFO] Starting gunicorn 18.0
+2014-06-07 22:21:40 [6150] [INFO] Listening at: unix:./run/gunicorn.sock (6150)
+2014-06-07 22:21:40 [6150] [INFO] Using worker: sync
+2014-06-07 22:21:40 [6159] [INFO] Booting worker with pid: 6159
+2014-06-07 22:21:40 [6160] [INFO] Booting worker with pid: 6160
+2014-06-07 22:21:40 [6161] [INFO] Booting worker with pid: 6161
+2014-06-07 22:21:40 [6162] [INFO] Booting worker with pid: 6162
+2014-06-07 22:21:40 [6163] [INFO] Booting worker with pid: 6163
+2014-06-07 22:21:40 [6164] [INFO] Booting worker with pid: 6164
+2014-06-07 22:21:40 [6165] [INFO] Booting worker with pid: 6165
+2014-06-07 22:21:40 [6166] [INFO] Booting worker with pid: 6166
+2014-06-07 22:21:40 [6167] [INFO] Booting worker with pid: 6167
+2014-06-07 22:25:06 [6150] [INFO] Handling signal: term
+2014-06-07 22:25:06 [6159] [INFO] Worker exiting (pid: 6159)
+2014-06-07 22:25:06 [6160] [INFO] Worker exiting (pid: 6160)
+2014-06-07 22:25:06 [6162] [INFO] Worker exiting (pid: 6162)
+2014-06-07 22:25:06 [6161] [INFO] Worker exiting (pid: 6161)
+2014-06-07 18:25:06 [6165] [INFO] Worker exiting (pid: 6165)
+2014-06-07 22:25:06 [6163] [INFO] Worker exiting (pid: 6163)
+2014-06-07 22:25:06 [6164] [INFO] Worker exiting (pid: 6164)
+2014-06-07 22:25:06 [6167] [INFO] Worker exiting (pid: 6167)
+2014-06-07 22:25:06 [6166] [INFO] Worker exiting (pid: 6166)
+2014-06-07 22:25:06 [6150] [INFO] Shutting down: Master
+2014-06-07 22:25:07 [6174] [INFO] Starting gunicorn 18.0
+2014-06-07 22:25:07 [6174] [INFO] Listening at: unix:./run/gunicorn.sock (6174)
+2014-06-07 22:25:07 [6174] [INFO] Using worker: sync
+2014-06-07 22:25:07 [6183] [INFO] Booting worker with pid: 6183
+2014-06-07 22:25:07 [6184] [INFO] Booting worker with pid: 6184
+2014-06-07 22:25:07 [6185] [INFO] Booting worker with pid: 6185
+2014-06-07 22:25:07 [6186] [INFO] Booting worker with pid: 6186
+2014-06-07 22:25:07 [6187] [INFO] Booting worker with pid: 6187
+2014-06-07 22:25:07 [6188] [INFO] Booting worker with pid: 6188
+2014-06-07 22:25:08 [6189] [INFO] Booting worker with pid: 6189
+2014-06-07 22:25:08 [6190] [INFO] Booting worker with pid: 6190
+2014-06-07 22:25:08 [6191] [INFO] Booting worker with pid: 6191
+2014-06-07 22:36:06 [6174] [INFO] Handling signal: term
+2014-06-07 22:36:06 [6183] [INFO] Worker exiting (pid: 6183)
+2014-06-07 22:36:06 [6184] [INFO] Worker exiting (pid: 6184)
+2014-06-07 22:36:06 [6185] [INFO] Worker exiting (pid: 6185)
+2014-06-07 18:36:06 [6187] [INFO] Worker exiting (pid: 6187)
+2014-06-07 22:36:06 [6186] [INFO] Worker exiting (pid: 6186)
+2014-06-07 22:36:06 [6188] [INFO] Worker exiting (pid: 6188)
+2014-06-07 22:36:06 [6189] [INFO] Worker exiting (pid: 6189)
+2014-06-07 22:36:06 [6190] [INFO] Worker exiting (pid: 6190)
+2014-06-07 18:36:06 [6191] [INFO] Worker exiting (pid: 6191)
+2014-06-07 22:36:06 [6174] [INFO] Shutting down: Master
+2014-06-07 22:36:08 [7664] [INFO] Starting gunicorn 18.0
+2014-06-07 22:36:08 [7664] [INFO] Listening at: unix:./run/gunicorn.sock (7664)
+2014-06-07 22:36:08 [7664] [INFO] Using worker: sync
+2014-06-07 22:36:08 [7673] [INFO] Booting worker with pid: 7673
+2014-06-07 22:36:08 [7674] [INFO] Booting worker with pid: 7674
+2014-06-07 22:36:08 [7675] [INFO] Booting worker with pid: 7675
+2014-06-07 22:36:08 [7676] [INFO] Booting worker with pid: 7676
+2014-06-07 22:36:08 [7677] [INFO] Booting worker with pid: 7677
+2014-06-07 22:36:08 [7678] [INFO] Booting worker with pid: 7678
+2014-06-07 22:36:08 [7679] [INFO] Booting worker with pid: 7679
+2014-06-07 22:36:08 [7680] [INFO] Booting worker with pid: 7680
+2014-06-07 22:36:08 [7681] [INFO] Booting worker with pid: 7681
+2014-06-07 18:36:14 [7679] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-07 18:36:17 [7681] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-07 18:36:18 [7675] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-07 22:38:36 [7664] [INFO] Handling signal: term
+2014-06-07 18:38:36 [7681] [INFO] Worker exiting (pid: 7681)
+2014-06-07 22:38:36 [7673] [INFO] Worker exiting (pid: 7673)
+2014-06-07 22:38:36 [7680] [INFO] Worker exiting (pid: 7680)
+2014-06-07 22:38:36 [7674] [INFO] Worker exiting (pid: 7674)
+2014-06-07 22:38:36 [7677] [INFO] Worker exiting (pid: 7677)
+2014-06-07 18:38:36 [7675] [INFO] Worker exiting (pid: 7675)
+2014-06-07 22:38:36 [7676] [INFO] Worker exiting (pid: 7676)
+2014-06-07 22:38:36 [7678] [INFO] Worker exiting (pid: 7678)
+2014-06-07 18:38:36 [7679] [INFO] Worker exiting (pid: 7679)
+2014-06-07 22:38:36 [7664] [INFO] Shutting down: Master
+2014-06-07 22:38:38 [7730] [INFO] Starting gunicorn 18.0
+2014-06-07 22:38:38 [7730] [INFO] Listening at: unix:./run/gunicorn.sock (7730)
+2014-06-07 22:38:38 [7730] [INFO] Using worker: sync
+2014-06-07 22:38:38 [7739] [INFO] Booting worker with pid: 7739
+2014-06-07 22:38:38 [7740] [INFO] Booting worker with pid: 7740
+2014-06-07 22:38:38 [7741] [INFO] Booting worker with pid: 7741
+2014-06-07 22:38:38 [7742] [INFO] Booting worker with pid: 7742
+2014-06-07 22:38:38 [7743] [INFO] Booting worker with pid: 7743
+2014-06-07 22:38:38 [7744] [INFO] Booting worker with pid: 7744
+2014-06-07 22:38:38 [7745] [INFO] Booting worker with pid: 7745
+2014-06-07 22:38:38 [7746] [INFO] Booting worker with pid: 7746
+2014-06-07 22:38:38 [7747] [INFO] Booting worker with pid: 7747
+2014-06-07 18:38:44 [7746] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/views/debug.py", line 324, in get_traceback_html
+    return t.render(c)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/debug.py", line 88, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 613, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/defaultfilters.py", line 705, in date
+    return format(value, arg)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 312, in format
+    return df.format(format_string)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 216, in r
+    return self.format('D, j M Y H:i:s O')
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/encoding.py", line 100, in force_text
+    s = s.__unicode__()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/functional.py", line 138, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/__init__.py", line 76, in ugettext
+    return _trans.ugettext(message)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 281, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 263, in do_translate
+    _default = translation(settings.LANGUAGE_CODE)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 177, in translation
+    default_translation = _fetch(settings.LANGUAGE_CODE)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 159, in _fetch
+    app = import_module(appname)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImportError: No module named debug_toolbar
+2014-06-07 18:38:45 [7745] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 206, in __call__
+    response = self.get_response(request)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 196, in get_response
+    response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 231, in handle_uncaught_exception
+    return debug.technical_500_response(request, *exc_info)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/views/debug.py", line 69, in technical_500_response
+    html = reporter.get_traceback_html()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/views/debug.py", line 324, in get_traceback_html
+    return t.render(c)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 140, in render
+    return self._render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 134, in _render
+    return self.nodelist.render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 840, in render
+    bit = self.render_node(node, context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/debug.py", line 78, in render_node
+    return node.render(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/debug.py", line 88, in render
+    output = self.filter_expression.resolve(context)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/base.py", line 613, in resolve
+    new_obj = func(obj, *arg_vals)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/template/defaultfilters.py", line 705, in date
+    return format(value, arg)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 312, in format
+    return df.format(format_string)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 216, in r
+    return self.format('D, j M Y H:i:s O')
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/dateformat.py", line 35, in format
+    pieces.append(force_text(getattr(self, piece)()))
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/encoding.py", line 100, in force_text
+    s = s.__unicode__()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/functional.py", line 138, in __text_cast
+    return func(*self.__args, **self.__kw)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/__init__.py", line 76, in ugettext
+    return _trans.ugettext(message)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 281, in ugettext
+    return do_translate(message, 'ugettext')
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 263, in do_translate
+    _default = translation(settings.LANGUAGE_CODE)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 177, in translation
+    default_translation = _fetch(settings.LANGUAGE_CODE)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/translation/trans_real.py", line 159, in _fetch
+    app = import_module(appname)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImportError: No module named debug_toolbar
+2014-06-07 22:38:52 [7730] [INFO] Handling signal: term
+2014-06-07 18:38:52 [7745] [INFO] Worker exiting (pid: 7745)
+2014-06-07 22:38:52 [7744] [INFO] Worker exiting (pid: 7744)
+2014-06-07 22:38:52 [7747] [INFO] Worker exiting (pid: 7747)
+2014-06-07 22:38:52 [7742] [INFO] Worker exiting (pid: 7742)
+2014-06-07 22:38:52 [7743] [INFO] Worker exiting (pid: 7743)
+2014-06-07 22:38:52 [7741] [INFO] Worker exiting (pid: 7741)
+2014-06-07 22:38:52 [7740] [INFO] Worker exiting (pid: 7740)
+2014-06-07 22:38:52 [7739] [INFO] Worker exiting (pid: 7739)
+2014-06-07 18:38:52 [7746] [INFO] Worker exiting (pid: 7746)
+2014-06-07 22:38:52 [7730] [INFO] Shutting down: Master
+2014-06-07 22:38:53 [7750] [INFO] Starting gunicorn 18.0
+2014-06-07 22:38:53 [7750] [INFO] Listening at: unix:./run/gunicorn.sock (7750)
+2014-06-07 22:38:53 [7750] [INFO] Using worker: sync
+2014-06-07 22:38:53 [7759] [INFO] Booting worker with pid: 7759
+2014-06-07 22:38:53 [7760] [INFO] Booting worker with pid: 7760
+2014-06-07 22:38:53 [7761] [INFO] Booting worker with pid: 7761
+2014-06-07 22:38:53 [7762] [INFO] Booting worker with pid: 7762
+2014-06-07 22:38:53 [7763] [INFO] Booting worker with pid: 7763
+2014-06-07 22:38:53 [7764] [INFO] Booting worker with pid: 7764
+2014-06-07 22:38:53 [7765] [INFO] Booting worker with pid: 7765
+2014-06-07 22:38:53 [7766] [INFO] Booting worker with pid: 7766
+2014-06-07 22:38:53 [7767] [INFO] Booting worker with pid: 7767
+2014-06-07 22:53:31 [7750] [INFO] Handling signal: term
+2014-06-07 22:53:31 [7760] [INFO] Worker exiting (pid: 7760)
+2014-06-07 22:53:31 [7759] [INFO] Worker exiting (pid: 7759)
+2014-06-07 18:53:31 [7764] [INFO] Worker exiting (pid: 7764)
+2014-06-07 22:53:31 [7761] [INFO] Worker exiting (pid: 7761)
+2014-06-07 22:53:31 [7763] [INFO] Worker exiting (pid: 7763)
+2014-06-07 22:53:31 [7762] [INFO] Worker exiting (pid: 7762)
+2014-06-07 22:53:31 [7766] [INFO] Worker exiting (pid: 7766)
+2014-06-07 22:53:31 [7765] [INFO] Worker exiting (pid: 7765)
+2014-06-07 22:53:31 [7767] [INFO] Worker exiting (pid: 7767)
+2014-06-07 22:53:31 [7750] [INFO] Shutting down: Master
+2014-06-07 22:53:32 [8189] [INFO] Starting gunicorn 18.0
+2014-06-07 22:53:32 [8189] [INFO] Listening at: unix:./run/gunicorn.sock (8189)
+2014-06-07 22:53:32 [8189] [INFO] Using worker: sync
+2014-06-07 22:53:32 [8198] [INFO] Booting worker with pid: 8198
+2014-06-07 22:53:32 [8199] [INFO] Booting worker with pid: 8199
+2014-06-07 22:53:32 [8200] [INFO] Booting worker with pid: 8200
+2014-06-07 22:53:33 [8201] [INFO] Booting worker with pid: 8201
+2014-06-07 22:53:33 [8202] [INFO] Booting worker with pid: 8202
+2014-06-07 22:53:33 [8203] [INFO] Booting worker with pid: 8203
+2014-06-07 22:53:33 [8204] [INFO] Booting worker with pid: 8204
+2014-06-07 22:53:33 [8205] [INFO] Booting worker with pid: 8205
+2014-06-07 22:53:33 [8206] [INFO] Booting worker with pid: 8206
+2014-06-07 22:54:39 [8189] [INFO] Handling signal: term
+2014-06-07 22:54:39 [8198] [INFO] Worker exiting (pid: 8198)
+2014-06-07 22:54:39 [8199] [INFO] Worker exiting (pid: 8199)
+2014-06-07 22:54:39 [8201] [INFO] Worker exiting (pid: 8201)
+2014-06-07 22:54:39 [8200] [INFO] Worker exiting (pid: 8200)
+2014-06-07 22:54:39 [8204] [INFO] Worker exiting (pid: 8204)
+2014-06-07 22:54:39 [8202] [INFO] Worker exiting (pid: 8202)
+2014-06-07 18:54:39 [8203] [INFO] Worker exiting (pid: 8203)
+2014-06-07 22:54:39 [8206] [INFO] Worker exiting (pid: 8206)
+2014-06-07 22:54:39 [8205] [INFO] Worker exiting (pid: 8205)
+2014-06-07 22:54:39 [8189] [INFO] Shutting down: Master
+2014-06-07 22:54:41 [8228] [INFO] Starting gunicorn 18.0
+2014-06-07 22:54:41 [8228] [INFO] Listening at: unix:./run/gunicorn.sock (8228)
+2014-06-07 22:54:41 [8228] [INFO] Using worker: sync
+2014-06-07 22:54:41 [8237] [INFO] Booting worker with pid: 8237
+2014-06-07 22:54:41 [8238] [INFO] Booting worker with pid: 8238
+2014-06-07 22:54:41 [8239] [INFO] Booting worker with pid: 8239
+2014-06-07 22:54:41 [8240] [INFO] Booting worker with pid: 8240
+2014-06-07 22:54:41 [8241] [INFO] Booting worker with pid: 8241
+2014-06-07 22:54:41 [8242] [INFO] Booting worker with pid: 8242
+2014-06-07 22:54:41 [8243] [INFO] Booting worker with pid: 8243
+2014-06-07 22:54:41 [8244] [INFO] Booting worker with pid: 8244
+2014-06-07 22:54:41 [8245] [INFO] Booting worker with pid: 8245
+2014-06-07 23:04:35 [8228] [INFO] Handling signal: term
+2014-06-07 23:04:35 [8237] [INFO] Worker exiting (pid: 8237)
+2014-06-07 23:04:35 [8240] [INFO] Worker exiting (pid: 8240)
+2014-06-07 23:04:35 [8245] [INFO] Worker exiting (pid: 8245)
+2014-06-07 23:04:35 [8238] [INFO] Worker exiting (pid: 8238)
+2014-06-07 23:04:35 [8239] [INFO] Worker exiting (pid: 8239)
+2014-06-07 23:04:35 [8244] [INFO] Worker exiting (pid: 8244)
+2014-06-07 19:04:35 [8242] [INFO] Worker exiting (pid: 8242)
+2014-06-07 23:04:35 [8241] [INFO] Worker exiting (pid: 8241)
+2014-06-07 23:04:35 [8243] [INFO] Worker exiting (pid: 8243)
+2014-06-07 23:04:35 [8228] [INFO] Shutting down: Master
+2014-06-07 23:04:36 [8542] [INFO] Starting gunicorn 18.0
+2014-06-07 23:04:36 [8542] [INFO] Listening at: unix:./run/gunicorn.sock (8542)
+2014-06-07 23:04:36 [8542] [INFO] Using worker: sync
+2014-06-07 23:04:36 [8551] [INFO] Booting worker with pid: 8551
+2014-06-07 23:04:36 [8552] [INFO] Booting worker with pid: 8552
+2014-06-07 23:04:36 [8553] [INFO] Booting worker with pid: 8553
+2014-06-07 23:04:36 [8554] [INFO] Booting worker with pid: 8554
+2014-06-07 23:04:36 [8555] [INFO] Booting worker with pid: 8555
+2014-06-07 23:04:36 [8556] [INFO] Booting worker with pid: 8556
+2014-06-07 23:04:36 [8557] [INFO] Booting worker with pid: 8557
+2014-06-07 23:04:36 [8558] [INFO] Booting worker with pid: 8558
+2014-06-07 23:04:36 [8559] [INFO] Booting worker with pid: 8559
+2014-06-08 11:54:02 [8542] [CRITICAL] WORKER TIMEOUT (pid:8551)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8552)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8553)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8554)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8555)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8556)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8557)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8558)
+2014-06-08 11:54:04 [8542] [CRITICAL] WORKER TIMEOUT (pid:8559)
+2014-06-08 11:54:04 [12159] [INFO] Booting worker with pid: 12159
+2014-06-08 11:54:04 [12160] [INFO] Booting worker with pid: 12160
+2014-06-08 11:54:04 [12161] [INFO] Booting worker with pid: 12161
+2014-06-08 11:54:04 [12162] [INFO] Booting worker with pid: 12162
+2014-06-08 11:54:04 [12163] [INFO] Booting worker with pid: 12163
+2014-06-08 11:54:04 [12164] [INFO] Booting worker with pid: 12164
+2014-06-08 11:54:04 [12165] [INFO] Booting worker with pid: 12165
+2014-06-08 11:54:04 [12168] [INFO] Booting worker with pid: 12168
+2014-06-08 11:54:04 [12169] [INFO] Booting worker with pid: 12169
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12160)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12161)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12162)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12163)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12164)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12165)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12168)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12169)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12159)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12165)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12169)
+2014-06-08 14:08:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:12159)
+2014-06-08 14:08:50 [13240] [INFO] Booting worker with pid: 13240
+2014-06-08 14:08:50 [13241] [INFO] Booting worker with pid: 13241
+2014-06-08 14:08:50 [13242] [INFO] Booting worker with pid: 13242
+2014-06-08 14:08:50 [13243] [INFO] Booting worker with pid: 13243
+2014-06-08 14:08:50 [13244] [INFO] Booting worker with pid: 13244
+2014-06-08 14:08:50 [13245] [INFO] Booting worker with pid: 13245
+2014-06-08 14:08:50 [13246] [INFO] Booting worker with pid: 13246
+2014-06-08 14:08:50 [13248] [INFO] Booting worker with pid: 13248
+2014-06-08 14:08:50 [13250] [INFO] Booting worker with pid: 13250
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13248)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13250)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13240)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13241)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13242)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13243)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13244)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13245)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13246)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13250)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13240)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13241)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13242)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13243)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13244)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13245)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13246)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13240)
+2014-06-08 18:22:50 [17720] [INFO] Booting worker with pid: 17720
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13241)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13242)
+2014-06-08 18:22:50 [8542] [CRITICAL] WORKER TIMEOUT (pid:13244)
+2014-06-08 18:22:50 [17722] [INFO] Booting worker with pid: 17722
+2014-06-08 18:22:50 [17724] [INFO] Booting worker with pid: 17724
+2014-06-08 18:22:50 [17723] [INFO] Booting worker with pid: 17723
+2014-06-08 18:22:50 [17725] [INFO] Booting worker with pid: 17725
+2014-06-08 18:22:51 [17727] [INFO] Booting worker with pid: 17727
+2014-06-08 18:22:51 [17728] [INFO] Booting worker with pid: 17728
+2014-06-08 18:22:51 [17729] [INFO] Booting worker with pid: 17729
+2014-06-08 18:22:51 [17730] [INFO] Booting worker with pid: 17730
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17728)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17729)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17730)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17720)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17722)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17724)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17723)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17725)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17727)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17722)
+2014-06-08 18:38:43 [8542] [CRITICAL] WORKER TIMEOUT (pid:17727)
+2014-06-08 18:38:43 [18774] [INFO] Booting worker with pid: 18774
+2014-06-08 18:38:43 [18775] [INFO] Booting worker with pid: 18775
+2014-06-08 18:38:43 [18776] [INFO] Booting worker with pid: 18776
+2014-06-08 18:38:43 [18777] [INFO] Booting worker with pid: 18777
+2014-06-08 18:38:43 [18778] [INFO] Booting worker with pid: 18778
+2014-06-08 18:38:43 [18779] [INFO] Booting worker with pid: 18779
+2014-06-08 18:38:43 [18780] [INFO] Booting worker with pid: 18780
+2014-06-08 18:38:43 [18781] [INFO] Booting worker with pid: 18781
+2014-06-08 18:38:43 [18782] [INFO] Booting worker with pid: 18782
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18774)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18775)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18776)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18777)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18778)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18779)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18780)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18781)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18782)
+2014-06-08 19:03:31 [8542] [CRITICAL] WORKER TIMEOUT (pid:18781)
+2014-06-08 19:03:31 [19476] [INFO] Booting worker with pid: 19476
+2014-06-08 19:03:31 [19477] [INFO] Booting worker with pid: 19477
+2014-06-08 19:03:32 [19478] [INFO] Booting worker with pid: 19478
+2014-06-08 19:03:32 [19479] [INFO] Booting worker with pid: 19479
+2014-06-08 19:03:32 [19480] [INFO] Booting worker with pid: 19480
+2014-06-08 19:03:32 [19481] [INFO] Booting worker with pid: 19481
+2014-06-08 19:03:32 [19482] [INFO] Booting worker with pid: 19482
+2014-06-08 19:03:32 [19483] [INFO] Booting worker with pid: 19483
+2014-06-08 19:03:32 [19484] [INFO] Booting worker with pid: 19484
+2014-06-08 23:33:57 [8542] [INFO] Handling signal: term
+2014-06-08 19:33:57 [19476] [INFO] Worker exiting (pid: 19476)
+2014-06-08 19:33:57 [19477] [INFO] Worker exiting (pid: 19477)
+2014-06-08 19:33:57 [19481] [INFO] Worker exiting (pid: 19481)
+2014-06-08 19:33:57 [19478] [INFO] Worker exiting (pid: 19478)
+2014-06-08 19:33:57 [19484] [INFO] Worker exiting (pid: 19484)
+2014-06-08 19:33:57 [19483] [INFO] Worker exiting (pid: 19483)
+2014-06-08 19:33:57 [19482] [INFO] Worker exiting (pid: 19482)
+2014-06-08 19:33:57 [19480] [INFO] Worker exiting (pid: 19480)
+2014-06-08 19:33:57 [19479] [INFO] Worker exiting (pid: 19479)
+2014-06-08 23:33:58 [8542] [INFO] Shutting down: Master
+2014-06-08 23:33:59 [22818] [INFO] Starting gunicorn 18.0
+2014-06-08 23:33:59 [22818] [INFO] Listening at: unix:./run/gunicorn.sock (22818)
+2014-06-08 23:33:59 [22818] [INFO] Using worker: sync
+2014-06-08 23:33:59 [22827] [INFO] Booting worker with pid: 22827
+2014-06-08 23:33:59 [22828] [INFO] Booting worker with pid: 22828
+2014-06-08 23:34:00 [22829] [INFO] Booting worker with pid: 22829
+2014-06-08 23:34:00 [22830] [INFO] Booting worker with pid: 22830
+2014-06-08 23:34:00 [22831] [INFO] Booting worker with pid: 22831
+2014-06-08 23:34:00 [22832] [INFO] Booting worker with pid: 22832
+2014-06-08 23:34:00 [22833] [INFO] Booting worker with pid: 22833
+2014-06-08 23:34:00 [22834] [INFO] Booting worker with pid: 22834
+2014-06-08 23:34:00 [22835] [INFO] Booting worker with pid: 22835
+2014-06-08 19:34:01 [22832] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-08 19:34:05 [22831] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-08 19:34:29 [22831] [ERROR] Error handling request
+Traceback (most recent call last):
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/gunicorn/workers/sync.py", line 131, in handle_request
+    respiter = self.wsgi(environ, resp.start_response)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/wsgi.py", line 187, in __call__
+    self.load_middleware()
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 47, in load_middleware
+    mw_class = import_by_path(middleware_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 26, in import_by_path
+    sys.exc_info()[2])
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/module_loading.py", line 21, in import_by_path
+    module = import_module(module_path)
+  File "/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/utils/importlib.py", line 40, in import_module
+    __import__(name)
+ImproperlyConfigured: Error importing module debug_toolbar.middleware: "No module named debug_toolbar.middleware"
+2014-06-08 23:34:34 [22818] [INFO] Handling signal: term
+2014-06-08 19:34:34 [22827] [INFO] Worker exiting (pid: 22827)
+2014-06-08 23:34:34 [22828] [INFO] Worker exiting (pid: 22828)
+2014-06-08 23:34:34 [22829] [INFO] Worker exiting (pid: 22829)
+2014-06-08 19:34:34 [22831] [INFO] Worker exiting (pid: 22831)
+2014-06-08 23:34:34 [22830] [INFO] Worker exiting (pid: 22830)
+2014-06-08 19:34:34 [22832] [INFO] Worker exiting (pid: 22832)
+2014-06-08 23:34:34 [22834] [INFO] Worker exiting (pid: 22834)
+2014-06-08 23:34:34 [22835] [INFO] Worker exiting (pid: 22835)
+2014-06-08 19:34:34 [22833] [INFO] Worker exiting (pid: 22833)
+2014-06-08 23:34:34 [22818] [INFO] Shutting down: Master
+2014-06-08 23:34:35 [22840] [INFO] Starting gunicorn 18.0
+2014-06-08 23:34:35 [22840] [INFO] Listening at: unix:./run/gunicorn.sock (22840)
+2014-06-08 23:34:35 [22840] [INFO] Using worker: sync
+2014-06-08 23:34:35 [22849] [INFO] Booting worker with pid: 22849
+2014-06-08 23:34:35 [22850] [INFO] Booting worker with pid: 22850
+2014-06-08 23:34:35 [22851] [INFO] Booting worker with pid: 22851
+2014-06-08 23:34:36 [22852] [INFO] Booting worker with pid: 22852
+2014-06-08 23:34:36 [22853] [INFO] Booting worker with pid: 22853
+2014-06-08 23:34:36 [22854] [INFO] Booting worker with pid: 22854
+2014-06-08 23:34:36 [22855] [INFO] Booting worker with pid: 22855
+2014-06-08 23:34:36 [22856] [INFO] Booting worker with pid: 22856
+2014-06-08 23:34:36 [22857] [INFO] Booting worker with pid: 22857
+2014-06-08 23:40:09 [22840] [INFO] Handling signal: term
+2014-06-08 23:40:09 [22849] [INFO] Worker exiting (pid: 22849)
+2014-06-08 23:40:09 [22850] [INFO] Worker exiting (pid: 22850)
+2014-06-08 23:40:09 [22851] [INFO] Worker exiting (pid: 22851)
+2014-06-08 23:40:09 [22855] [INFO] Worker exiting (pid: 22855)
+2014-06-08 23:40:09 [22854] [INFO] Worker exiting (pid: 22854)
+2014-06-08 19:40:09 [22852] [INFO] Worker exiting (pid: 22852)
+2014-06-08 23:40:09 [22857] [INFO] Worker exiting (pid: 22857)
+2014-06-08 19:40:09 [22856] [INFO] Worker exiting (pid: 22856)
+2014-06-08 19:40:09 [22853] [INFO] Worker exiting (pid: 22853)
+2014-06-08 23:40:09 [22840] [INFO] Shutting down: Master
+2014-06-08 23:40:10 [22875] [INFO] Starting gunicorn 18.0
+2014-06-08 23:40:10 [22875] [INFO] Listening at: unix:./run/gunicorn.sock (22875)
+2014-06-08 23:40:10 [22875] [INFO] Using worker: sync
+2014-06-08 23:40:10 [22884] [INFO] Booting worker with pid: 22884
+2014-06-08 23:40:10 [22885] [INFO] Booting worker with pid: 22885
+2014-06-08 23:40:10 [22886] [INFO] Booting worker with pid: 22886
+2014-06-08 23:40:10 [22887] [INFO] Booting worker with pid: 22887
+2014-06-08 23:40:10 [22888] [INFO] Booting worker with pid: 22888
+2014-06-08 23:40:10 [22889] [INFO] Booting worker with pid: 22889
+2014-06-08 23:40:10 [22890] [INFO] Booting worker with pid: 22890
+2014-06-08 23:40:10 [22891] [INFO] Booting worker with pid: 22891
+2014-06-08 23:40:10 [22892] [INFO] Booting worker with pid: 22892
+2014-06-08 23:42:17 [22875] [INFO] Handling signal: term
+2014-06-08 19:42:17 [22884] [INFO] Worker exiting (pid: 22884)
+2014-06-08 23:42:17 [22885] [INFO] Worker exiting (pid: 22885)
+2014-06-08 19:42:17 [22890] [INFO] Worker exiting (pid: 22890)
+2014-06-08 19:42:17 [22892] [INFO] Worker exiting (pid: 22892)
+2014-06-08 23:42:17 [22886] [INFO] Worker exiting (pid: 22886)
+2014-06-08 19:42:17 [22889] [INFO] Worker exiting (pid: 22889)
+2014-06-08 19:42:17 [22888] [INFO] Worker exiting (pid: 22888)
+2014-06-08 19:42:17 [22887] [INFO] Worker exiting (pid: 22887)
+2014-06-08 23:42:17 [22891] [INFO] Worker exiting (pid: 22891)
+2014-06-08 23:42:17 [22875] [INFO] Shutting down: Master
+2014-06-08 23:42:18 [22902] [INFO] Starting gunicorn 18.0
+2014-06-08 23:42:18 [22902] [INFO] Listening at: unix:./run/gunicorn.sock (22902)
+2014-06-08 23:42:18 [22902] [INFO] Using worker: sync
+2014-06-08 23:42:18 [22911] [INFO] Booting worker with pid: 22911
+2014-06-08 23:42:18 [22912] [INFO] Booting worker with pid: 22912
+2014-06-08 23:42:18 [22913] [INFO] Booting worker with pid: 22913
+2014-06-08 23:42:18 [22914] [INFO] Booting worker with pid: 22914
+2014-06-08 23:42:18 [22915] [INFO] Booting worker with pid: 22915
+2014-06-08 23:42:18 [22916] [INFO] Booting worker with pid: 22916
+2014-06-08 23:42:18 [22917] [INFO] Booting worker with pid: 22917
+2014-06-08 23:42:18 [22918] [INFO] Booting worker with pid: 22918
+2014-06-08 23:42:18 [22919] [INFO] Booting worker with pid: 22919
+2014-06-09 00:05:56 [22902] [INFO] Handling signal: term
+2014-06-08 20:05:56 [22912] [INFO] Worker exiting (pid: 22912)
+2014-06-08 20:05:56 [22913] [INFO] Worker exiting (pid: 22913)
+2014-06-08 20:05:56 [22911] [INFO] Worker exiting (pid: 22911)
+2014-06-08 20:05:56 [22919] [INFO] Worker exiting (pid: 22919)
+2014-06-08 20:05:56 [22914] [INFO] Worker exiting (pid: 22914)
+2014-06-08 20:05:56 [22915] [INFO] Worker exiting (pid: 22915)
+2014-06-08 20:05:56 [22916] [INFO] Worker exiting (pid: 22916)
+2014-06-08 20:05:56 [22917] [INFO] Worker exiting (pid: 22917)
+2014-06-08 20:05:56 [22918] [INFO] Worker exiting (pid: 22918)
+2014-06-09 00:05:56 [22902] [INFO] Shutting down: Master
+2014-06-09 00:05:57 [23044] [INFO] Starting gunicorn 18.0
+2014-06-09 00:05:57 [23044] [INFO] Listening at: unix:./run/gunicorn.sock (23044)
+2014-06-09 00:05:57 [23044] [INFO] Using worker: sync
+2014-06-09 00:05:57 [23053] [INFO] Booting worker with pid: 23053
+2014-06-09 00:05:57 [23054] [INFO] Booting worker with pid: 23054
+2014-06-09 00:05:57 [23055] [INFO] Booting worker with pid: 23055
+2014-06-09 00:05:57 [23056] [INFO] Booting worker with pid: 23056
+2014-06-09 00:05:57 [23057] [INFO] Booting worker with pid: 23057
+2014-06-09 00:05:57 [23058] [INFO] Booting worker with pid: 23058
+2014-06-09 00:05:57 [23059] [INFO] Booting worker with pid: 23059
+2014-06-09 00:05:58 [23060] [INFO] Booting worker with pid: 23060
+2014-06-09 00:05:58 [23061] [INFO] Booting worker with pid: 23061
+2014-06-09 00:12:18 [23044] [INFO] Handling signal: term
+2014-06-08 20:12:18 [23054] [INFO] Worker exiting (pid: 23054)
+2014-06-08 20:12:18 [23057] [INFO] Worker exiting (pid: 23057)
+2014-06-08 20:12:18 [23055] [INFO] Worker exiting (pid: 23055)
+2014-06-08 20:12:18 [23058] [INFO] Worker exiting (pid: 23058)
+2014-06-08 20:12:18 [23053] [INFO] Worker exiting (pid: 23053)
+2014-06-08 20:12:18 [23059] [INFO] Worker exiting (pid: 23059)
+2014-06-09 00:12:18 [23061] [INFO] Worker exiting (pid: 23061)
+2014-06-08 20:12:18 [23060] [INFO] Worker exiting (pid: 23060)
+2014-06-08 20:12:18 [23056] [INFO] Worker exiting (pid: 23056)
+2014-06-09 00:12:19 [23044] [INFO] Shutting down: Master
+2014-06-09 00:12:20 [23089] [INFO] Starting gunicorn 18.0
+2014-06-09 00:12:20 [23089] [INFO] Listening at: unix:./run/gunicorn.sock (23089)
+2014-06-09 00:12:20 [23089] [INFO] Using worker: sync
+2014-06-09 00:12:20 [23098] [INFO] Booting worker with pid: 23098
+2014-06-09 00:12:20 [23099] [INFO] Booting worker with pid: 23099
+2014-06-09 00:12:20 [23100] [INFO] Booting worker with pid: 23100
+2014-06-09 00:12:20 [23101] [INFO] Booting worker with pid: 23101
+2014-06-09 00:12:20 [23102] [INFO] Booting worker with pid: 23102
+2014-06-09 00:12:20 [23103] [INFO] Booting worker with pid: 23103
+2014-06-09 00:12:20 [23104] [INFO] Booting worker with pid: 23104
+2014-06-09 00:12:20 [23105] [INFO] Booting worker with pid: 23105
+2014-06-09 00:12:20 [23106] [INFO] Booting worker with pid: 23106
+2014-06-09 00:17:50 [23089] [INFO] Handling signal: term
+2014-06-08 20:17:50 [23104] [INFO] Worker exiting (pid: 23104)
+2014-06-08 20:17:50 [23105] [INFO] Worker exiting (pid: 23105)
+2014-06-08 20:17:50 [23106] [INFO] Worker exiting (pid: 23106)
+2014-06-08 20:17:50 [23098] [INFO] Worker exiting (pid: 23098)
+2014-06-08 20:17:50 [23099] [INFO] Worker exiting (pid: 23099)
+2014-06-08 20:17:50 [23102] [INFO] Worker exiting (pid: 23102)
+2014-06-08 20:17:50 [23101] [INFO] Worker exiting (pid: 23101)
+2014-06-08 20:17:50 [23100] [INFO] Worker exiting (pid: 23100)
+2014-06-08 20:17:50 [23103] [INFO] Worker exiting (pid: 23103)
+2014-06-09 00:17:50 [23089] [INFO] Shutting down: Master
+2014-06-09 00:17:52 [23129] [INFO] Starting gunicorn 18.0
+2014-06-09 00:17:52 [23129] [INFO] Listening at: unix:./run/gunicorn.sock (23129)
+2014-06-09 00:17:52 [23129] [INFO] Using worker: sync
+2014-06-09 00:17:52 [23138] [INFO] Booting worker with pid: 23138
+2014-06-09 00:17:52 [23139] [INFO] Booting worker with pid: 23139
+2014-06-09 00:17:52 [23140] [INFO] Booting worker with pid: 23140
+2014-06-09 00:17:52 [23141] [INFO] Booting worker with pid: 23141
+2014-06-09 00:17:52 [23142] [INFO] Booting worker with pid: 23142
+2014-06-09 00:17:52 [23143] [INFO] Booting worker with pid: 23143
+2014-06-09 00:17:52 [23144] [INFO] Booting worker with pid: 23144
+2014-06-09 00:17:52 [23145] [INFO] Booting worker with pid: 23145
+2014-06-09 00:17:52 [23146] [INFO] Booting worker with pid: 23146
+2014-06-09 00:18:12 [23129] [INFO] Handling signal: term
+2014-06-09 00:18:12 [23138] [INFO] Worker exiting (pid: 23138)
+2014-06-09 00:18:12 [23140] [INFO] Worker exiting (pid: 23140)
+2014-06-08 20:18:12 [23139] [INFO] Worker exiting (pid: 23139)
+2014-06-09 00:18:12 [23141] [INFO] Worker exiting (pid: 23141)
+2014-06-09 00:18:12 [23142] [INFO] Worker exiting (pid: 23142)
+2014-06-09 00:18:12 [23143] [INFO] Worker exiting (pid: 23143)
+2014-06-09 00:18:12 [23145] [INFO] Worker exiting (pid: 23145)
+2014-06-09 00:18:12 [23144] [INFO] Worker exiting (pid: 23144)
+2014-06-08 20:18:12 [23146] [INFO] Worker exiting (pid: 23146)
+2014-06-09 00:18:12 [23129] [INFO] Shutting down: Master
+2014-06-09 00:18:13 [23151] [INFO] Starting gunicorn 18.0
+2014-06-09 00:18:13 [23151] [INFO] Listening at: unix:./run/gunicorn.sock (23151)
+2014-06-09 00:18:13 [23151] [INFO] Using worker: sync
+2014-06-09 00:18:13 [23160] [INFO] Booting worker with pid: 23160
+2014-06-09 00:18:13 [23161] [INFO] Booting worker with pid: 23161
+2014-06-09 00:18:13 [23162] [INFO] Booting worker with pid: 23162
+2014-06-09 00:18:13 [23163] [INFO] Booting worker with pid: 23163
+2014-06-09 00:18:13 [23164] [INFO] Booting worker with pid: 23164
+2014-06-09 00:18:13 [23165] [INFO] Booting worker with pid: 23165
+2014-06-09 00:18:13 [23166] [INFO] Booting worker with pid: 23166
+2014-06-09 00:18:14 [23167] [INFO] Booting worker with pid: 23167
+2014-06-09 00:18:14 [23168] [INFO] Booting worker with pid: 23168
+2014-06-09 00:19:05 [23151] [INFO] Handling signal: term
+2014-06-09 00:19:05 [23160] [INFO] Worker exiting (pid: 23160)
+2014-06-08 20:19:05 [23168] [INFO] Worker exiting (pid: 23168)
+2014-06-08 20:19:05 [23163] [INFO] Worker exiting (pid: 23163)
+2014-06-09 00:19:05 [23161] [INFO] Worker exiting (pid: 23161)
+2014-06-09 00:19:05 [23162] [INFO] Worker exiting (pid: 23162)
+2014-06-08 20:19:05 [23166] [INFO] Worker exiting (pid: 23166)
+2014-06-09 00:19:05 [23164] [INFO] Worker exiting (pid: 23164)
+2014-06-08 20:19:05 [23165] [INFO] Worker exiting (pid: 23165)
+2014-06-08 20:19:05 [23167] [INFO] Worker exiting (pid: 23167)
+2014-06-09 00:19:05 [23151] [INFO] Shutting down: Master
+2014-06-09 00:19:06 [23177] [INFO] Starting gunicorn 18.0
+2014-06-09 00:19:06 [23177] [INFO] Listening at: unix:./run/gunicorn.sock (23177)
+2014-06-09 00:19:06 [23177] [INFO] Using worker: sync
+2014-06-09 00:19:06 [23186] [INFO] Booting worker with pid: 23186
+2014-06-09 00:19:06 [23187] [INFO] Booting worker with pid: 23187
+2014-06-09 00:19:06 [23188] [INFO] Booting worker with pid: 23188
+2014-06-09 00:19:06 [23189] [INFO] Booting worker with pid: 23189
+2014-06-09 00:19:06 [23190] [INFO] Booting worker with pid: 23190
+2014-06-09 00:19:06 [23191] [INFO] Booting worker with pid: 23191
+2014-06-09 00:19:06 [23192] [INFO] Booting worker with pid: 23192
+2014-06-09 00:19:07 [23193] [INFO] Booting worker with pid: 23193
+2014-06-09 00:19:07 [23194] [INFO] Booting worker with pid: 23194
+2014-06-09 00:20:05 [23177] [INFO] Handling signal: term
+2014-06-09 00:20:05 [23187] [INFO] Worker exiting (pid: 23187)
+2014-06-09 00:20:05 [23188] [INFO] Worker exiting (pid: 23188)
+2014-06-09 00:20:05 [23186] [INFO] Worker exiting (pid: 23186)
+2014-06-09 00:20:05 [23189] [INFO] Worker exiting (pid: 23189)
+2014-06-09 00:20:05 [23190] [INFO] Worker exiting (pid: 23190)
+2014-06-09 00:20:05 [23192] [INFO] Worker exiting (pid: 23192)
+2014-06-08 20:20:05 [23191] [INFO] Worker exiting (pid: 23191)
+2014-06-08 20:20:05 [23193] [INFO] Worker exiting (pid: 23193)
+2014-06-09 00:20:05 [23194] [INFO] Worker exiting (pid: 23194)
+2014-06-09 00:20:05 [23177] [INFO] Shutting down: Master
+2014-06-09 00:20:06 [23239] [INFO] Starting gunicorn 18.0
+2014-06-09 00:20:06 [23239] [INFO] Listening at: unix:./run/gunicorn.sock (23239)
+2014-06-09 00:20:06 [23239] [INFO] Using worker: sync
+2014-06-09 00:20:06 [23248] [INFO] Booting worker with pid: 23248
+2014-06-09 00:20:06 [23249] [INFO] Booting worker with pid: 23249
+2014-06-09 00:20:06 [23250] [INFO] Booting worker with pid: 23250
+2014-06-09 00:20:06 [23251] [INFO] Booting worker with pid: 23251
+2014-06-09 00:20:07 [23252] [INFO] Booting worker with pid: 23252
+2014-06-09 00:20:07 [23253] [INFO] Booting worker with pid: 23253
+2014-06-09 00:20:07 [23254] [INFO] Booting worker with pid: 23254
+2014-06-09 00:20:07 [23255] [INFO] Booting worker with pid: 23255
+2014-06-09 00:20:07 [23256] [INFO] Booting worker with pid: 23256
+2014-06-09 00:27:38 [23239] [INFO] Handling signal: term
+2014-06-09 00:27:38 [23250] [INFO] Worker exiting (pid: 23250)
+2014-06-09 00:27:38 [23248] [INFO] Worker exiting (pid: 23248)
+2014-06-08 20:27:38 [23253] [INFO] Worker exiting (pid: 23253)
+2014-06-08 20:27:38 [23251] [INFO] Worker exiting (pid: 23251)
+2014-06-08 20:27:38 [23252] [INFO] Worker exiting (pid: 23252)
+2014-06-08 20:27:38 [23255] [INFO] Worker exiting (pid: 23255)
+2014-06-08 20:27:38 [23256] [INFO] Worker exiting (pid: 23256)
+2014-06-08 20:27:38 [23249] [INFO] Worker exiting (pid: 23249)
+2014-06-08 20:27:38 [23254] [INFO] Worker exiting (pid: 23254)
+2014-06-09 00:27:38 [23239] [INFO] Shutting down: Master
+2014-06-09 00:27:39 [23359] [INFO] Starting gunicorn 18.0
+2014-06-09 00:27:39 [23359] [INFO] Listening at: unix:./run/gunicorn.sock (23359)
+2014-06-09 00:27:39 [23359] [INFO] Using worker: sync
+2014-06-09 00:27:39 [23368] [INFO] Booting worker with pid: 23368
+2014-06-09 00:27:39 [23369] [INFO] Booting worker with pid: 23369
+2014-06-09 00:27:39 [23370] [INFO] Booting worker with pid: 23370
+2014-06-09 00:27:39 [23371] [INFO] Booting worker with pid: 23371
+2014-06-09 00:27:39 [23372] [INFO] Booting worker with pid: 23372
+2014-06-09 00:27:39 [23373] [INFO] Booting worker with pid: 23373
+2014-06-09 00:27:40 [23374] [INFO] Booting worker with pid: 23374
+2014-06-09 00:27:40 [23375] [INFO] Booting worker with pid: 23375
+2014-06-09 00:27:40 [23376] [INFO] Booting worker with pid: 23376
+2014-06-09 00:53:25 [23359] [INFO] Handling signal: term
+2014-06-08 20:53:25 [23368] [INFO] Worker exiting (pid: 23368)
+2014-06-08 20:53:25 [23369] [INFO] Worker exiting (pid: 23369)
+2014-06-08 20:53:25 [23371] [INFO] Worker exiting (pid: 23371)
+2014-06-08 20:53:25 [23376] [INFO] Worker exiting (pid: 23376)
+2014-06-08 20:53:25 [23374] [INFO] Worker exiting (pid: 23374)
+2014-06-09 00:53:25 [23375] [INFO] Worker exiting (pid: 23375)
+2014-06-08 20:53:25 [23373] [INFO] Worker exiting (pid: 23373)
+2014-06-08 20:53:25 [23372] [INFO] Worker exiting (pid: 23372)
+2014-06-08 20:53:25 [23370] [INFO] Worker exiting (pid: 23370)
+2014-06-09 00:53:25 [23359] [INFO] Shutting down: Master
+2014-06-09 00:53:27 [23571] [INFO] Starting gunicorn 18.0
+2014-06-09 00:53:27 [23571] [INFO] Listening at: unix:./run/gunicorn.sock (23571)
+2014-06-09 00:53:27 [23571] [INFO] Using worker: sync
+2014-06-09 00:53:27 [23580] [INFO] Booting worker with pid: 23580
+2014-06-09 00:53:27 [23581] [INFO] Booting worker with pid: 23581
+2014-06-09 00:53:27 [23582] [INFO] Booting worker with pid: 23582
+2014-06-09 00:53:27 [23583] [INFO] Booting worker with pid: 23583
+2014-06-09 00:53:27 [23584] [INFO] Booting worker with pid: 23584
+2014-06-09 00:53:27 [23585] [INFO] Booting worker with pid: 23585
+2014-06-09 00:53:27 [23586] [INFO] Booting worker with pid: 23586
+2014-06-09 00:53:27 [23587] [INFO] Booting worker with pid: 23587
+2014-06-09 00:53:27 [23588] [INFO] Booting worker with pid: 23588
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23584)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23585)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23586)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23587)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23588)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23580)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23581)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23582)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23583)
+2014-06-09 11:54:23 [23571] [CRITICAL] WORKER TIMEOUT (pid:23583)
+2014-06-09 11:54:23 [24403] [INFO] Booting worker with pid: 24403
+2014-06-09 11:54:23 [24404] [INFO] Booting worker with pid: 24404
+2014-06-09 11:54:23 [24457] [INFO] Booting worker with pid: 24457
+2014-06-09 11:54:23 [24507] [INFO] Booting worker with pid: 24507
+2014-06-09 11:54:23 [24519] [INFO] Booting worker with pid: 24519
+2014-06-09 11:54:23 [24552] [INFO] Booting worker with pid: 24552
+2014-06-09 11:54:24 [24566] [INFO] Booting worker with pid: 24566
+2014-06-09 11:54:24 [24593] [INFO] Booting worker with pid: 24593
+2014-06-09 11:54:24 [24601] [INFO] Booting worker with pid: 24601
+2014-06-09 12:22:01 [23571] [INFO] Handling signal: term
+2014-06-09 08:22:01 [24552] [INFO] Worker exiting (pid: 24552)
+2014-06-09 08:22:01 [24519] [INFO] Worker exiting (pid: 24519)
+2014-06-09 08:22:01 [24403] [INFO] Worker exiting (pid: 24403)
+2014-06-09 08:22:01 [24457] [INFO] Worker exiting (pid: 24457)
+2014-06-09 08:22:01 [24601] [INFO] Worker exiting (pid: 24601)
+2014-06-09 08:22:01 [24593] [INFO] Worker exiting (pid: 24593)
+2014-06-09 08:22:01 [24404] [INFO] Worker exiting (pid: 24404)
+2014-06-09 08:22:01 [24566] [INFO] Worker exiting (pid: 24566)
+2014-06-09 08:22:01 [24507] [INFO] Worker exiting (pid: 24507)
+2014-06-09 12:22:01 [23571] [INFO] Shutting down: Master
+2014-06-09 12:22:03 [25624] [INFO] Starting gunicorn 18.0
+2014-06-09 12:22:03 [25624] [INFO] Listening at: unix:./run/gunicorn.sock (25624)
+2014-06-09 12:22:03 [25624] [INFO] Using worker: sync
+2014-06-09 12:22:03 [25633] [INFO] Booting worker with pid: 25633
+2014-06-09 12:22:03 [25634] [INFO] Booting worker with pid: 25634
+2014-06-09 12:22:03 [25635] [INFO] Booting worker with pid: 25635
+2014-06-09 12:22:03 [25636] [INFO] Booting worker with pid: 25636
+2014-06-09 12:22:03 [25637] [INFO] Booting worker with pid: 25637
+2014-06-09 12:22:03 [25638] [INFO] Booting worker with pid: 25638
+2014-06-09 12:22:03 [25639] [INFO] Booting worker with pid: 25639
+2014-06-09 12:22:03 [25640] [INFO] Booting worker with pid: 25640
+2014-06-09 12:22:03 [25641] [INFO] Booting worker with pid: 25641
+2014-06-09 12:22:34 [25624] [INFO] Handling signal: term
+2014-06-09 08:22:34 [25633] [INFO] Worker exiting (pid: 25633)
+2014-06-09 08:22:34 [25640] [INFO] Worker exiting (pid: 25640)
+2014-06-09 08:22:34 [25639] [INFO] Worker exiting (pid: 25639)
+2014-06-09 08:22:34 [25641] [INFO] Worker exiting (pid: 25641)
+2014-06-09 12:22:34 [25637] [INFO] Worker exiting (pid: 25637)
+2014-06-09 12:22:34 [25635] [INFO] Worker exiting (pid: 25635)
+2014-06-09 12:22:34 [25634] [INFO] Worker exiting (pid: 25634)
+2014-06-09 08:22:34 [25636] [INFO] Worker exiting (pid: 25636)
+2014-06-09 08:22:34 [25638] [INFO] Worker exiting (pid: 25638)
+2014-06-09 12:22:34 [25624] [INFO] Shutting down: Master
+2014-06-09 12:22:35 [25651] [INFO] Starting gunicorn 18.0
+2014-06-09 12:22:35 [25651] [INFO] Listening at: unix:./run/gunicorn.sock (25651)
+2014-06-09 12:22:35 [25651] [INFO] Using worker: sync
+2014-06-09 12:22:35 [25660] [INFO] Booting worker with pid: 25660
+2014-06-09 12:22:35 [25661] [INFO] Booting worker with pid: 25661
+2014-06-09 12:22:35 [25662] [INFO] Booting worker with pid: 25662
+2014-06-09 12:22:35 [25663] [INFO] Booting worker with pid: 25663
+2014-06-09 12:22:36 [25664] [INFO] Booting worker with pid: 25664
+2014-06-09 12:22:36 [25665] [INFO] Booting worker with pid: 25665
+2014-06-09 12:22:36 [25666] [INFO] Booting worker with pid: 25666
+2014-06-09 12:22:36 [25667] [INFO] Booting worker with pid: 25667
+2014-06-09 12:22:36 [25668] [INFO] Booting worker with pid: 25668
+2014-06-09 12:30:30 [25651] [INFO] Handling signal: term
+2014-06-09 08:30:30 [25664] [INFO] Worker exiting (pid: 25664)
+2014-06-09 12:30:30 [25665] [INFO] Worker exiting (pid: 25665)
+2014-06-09 08:30:30 [25667] [INFO] Worker exiting (pid: 25667)
+2014-06-09 08:30:30 [25668] [INFO] Worker exiting (pid: 25668)
+2014-06-09 12:30:30 [25660] [INFO] Worker exiting (pid: 25660)
+2014-06-09 12:30:30 [25661] [INFO] Worker exiting (pid: 25661)
+2014-06-09 12:30:30 [25662] [INFO] Worker exiting (pid: 25662)
+2014-06-09 12:30:30 [25663] [INFO] Worker exiting (pid: 25663)
+2014-06-09 08:30:30 [25666] [INFO] Worker exiting (pid: 25666)
+2014-06-09 12:30:30 [25651] [INFO] Shutting down: Master
+2014-06-09 12:30:31 [25702] [INFO] Starting gunicorn 18.0
+2014-06-09 12:30:31 [25702] [INFO] Listening at: unix:./run/gunicorn.sock (25702)
+2014-06-09 12:30:31 [25702] [INFO] Using worker: sync
+2014-06-09 12:30:31 [25711] [INFO] Booting worker with pid: 25711
+2014-06-09 12:30:31 [25712] [INFO] Booting worker with pid: 25712
+2014-06-09 12:30:31 [25713] [INFO] Booting worker with pid: 25713
+2014-06-09 12:30:32 [25714] [INFO] Booting worker with pid: 25714
+2014-06-09 12:30:32 [25715] [INFO] Booting worker with pid: 25715
+2014-06-09 12:30:32 [25716] [INFO] Booting worker with pid: 25716
+2014-06-09 12:30:32 [25717] [INFO] Booting worker with pid: 25717
+2014-06-09 12:30:32 [25718] [INFO] Booting worker with pid: 25718
+2014-06-09 12:30:32 [25719] [INFO] Booting worker with pid: 25719
+2014-06-09 12:32:11 [25702] [INFO] Handling signal: term
+2014-06-09 12:32:11 [25711] [INFO] Worker exiting (pid: 25711)
+2014-06-09 12:32:11 [25712] [INFO] Worker exiting (pid: 25712)
+2014-06-09 12:32:11 [25715] [INFO] Worker exiting (pid: 25715)
+2014-06-09 12:32:11 [25714] [INFO] Worker exiting (pid: 25714)
+2014-06-09 12:32:11 [25717] [INFO] Worker exiting (pid: 25717)
+2014-06-09 12:32:11 [25713] [INFO] Worker exiting (pid: 25713)
+2014-06-09 12:32:11 [25718] [INFO] Worker exiting (pid: 25718)
+2014-06-09 08:32:11 [25716] [INFO] Worker exiting (pid: 25716)
+2014-06-09 08:32:11 [25719] [INFO] Worker exiting (pid: 25719)
+2014-06-09 12:32:11 [25702] [INFO] Shutting down: Master
+2014-06-09 12:32:12 [25750] [INFO] Starting gunicorn 18.0
+2014-06-09 12:32:12 [25750] [INFO] Listening at: unix:./run/gunicorn.sock (25750)
+2014-06-09 12:32:12 [25750] [INFO] Using worker: sync
+2014-06-09 12:32:12 [25759] [INFO] Booting worker with pid: 25759
+2014-06-09 12:32:12 [25760] [INFO] Booting worker with pid: 25760
+2014-06-09 12:32:12 [25761] [INFO] Booting worker with pid: 25761
+2014-06-09 12:32:12 [25762] [INFO] Booting worker with pid: 25762
+2014-06-09 12:32:12 [25763] [INFO] Booting worker with pid: 25763
+2014-06-09 12:32:12 [25764] [INFO] Booting worker with pid: 25764
+2014-06-09 12:32:12 [25765] [INFO] Booting worker with pid: 25765
+2014-06-09 12:32:12 [25766] [INFO] Booting worker with pid: 25766
+2014-06-09 12:32:12 [25767] [INFO] Booting worker with pid: 25767
+2014-06-09 12:37:24 [25750] [INFO] Handling signal: term
+2014-06-09 08:37:24 [25760] [INFO] Worker exiting (pid: 25760)
+2014-06-09 08:37:24 [25761] [INFO] Worker exiting (pid: 25761)
+2014-06-09 08:37:24 [25762] [INFO] Worker exiting (pid: 25762)
+2014-06-09 08:37:24 [25763] [INFO] Worker exiting (pid: 25763)
+2014-06-09 08:37:24 [25764] [INFO] Worker exiting (pid: 25764)
+2014-06-09 08:37:24 [25765] [INFO] Worker exiting (pid: 25765)
+2014-06-09 08:37:24 [25767] [INFO] Worker exiting (pid: 25767)
+2014-06-09 08:37:24 [25759] [INFO] Worker exiting (pid: 25759)
+2014-06-09 08:37:24 [25766] [INFO] Worker exiting (pid: 25766)
+2014-06-09 12:37:24 [25750] [INFO] Shutting down: Master
+2014-06-09 12:37:25 [25794] [INFO] Starting gunicorn 18.0
+2014-06-09 12:37:25 [25794] [INFO] Listening at: unix:./run/gunicorn.sock (25794)
+2014-06-09 12:37:25 [25794] [INFO] Using worker: sync
+2014-06-09 12:37:25 [25803] [INFO] Booting worker with pid: 25803
+2014-06-09 12:37:25 [25804] [INFO] Booting worker with pid: 25804
+2014-06-09 12:37:25 [25805] [INFO] Booting worker with pid: 25805
+2014-06-09 12:37:25 [25806] [INFO] Booting worker with pid: 25806
+2014-06-09 12:37:25 [25807] [INFO] Booting worker with pid: 25807
+2014-06-09 12:37:26 [25808] [INFO] Booting worker with pid: 25808
+2014-06-09 12:37:26 [25809] [INFO] Booting worker with pid: 25809
+2014-06-09 12:37:26 [25810] [INFO] Booting worker with pid: 25810
+2014-06-09 12:37:26 [25811] [INFO] Booting worker with pid: 25811
+2014-06-09 12:37:38 [25794] [INFO] Handling signal: term
+2014-06-09 12:37:38 [25805] [INFO] Worker exiting (pid: 25805)
+2014-06-09 12:37:38 [25804] [INFO] Worker exiting (pid: 25804)
+2014-06-09 12:37:38 [25803] [INFO] Worker exiting (pid: 25803)
+2014-06-09 12:37:38 [25809] [INFO] Worker exiting (pid: 25809)
+2014-06-09 12:37:38 [25808] [INFO] Worker exiting (pid: 25808)
+2014-06-09 12:37:38 [25807] [INFO] Worker exiting (pid: 25807)
+2014-06-09 12:37:38 [25806] [INFO] Worker exiting (pid: 25806)
+2014-06-09 12:37:38 [25810] [INFO] Worker exiting (pid: 25810)
+2014-06-09 12:37:38 [25811] [INFO] Worker exiting (pid: 25811)
+2014-06-09 12:37:38 [25794] [INFO] Shutting down: Master
+2014-06-09 12:37:39 [25815] [INFO] Starting gunicorn 18.0
+2014-06-09 12:37:39 [25815] [INFO] Listening at: unix:./run/gunicorn.sock (25815)
+2014-06-09 12:37:39 [25815] [INFO] Using worker: sync
+2014-06-09 12:37:39 [25824] [INFO] Booting worker with pid: 25824
+2014-06-09 12:37:39 [25825] [INFO] Booting worker with pid: 25825
+2014-06-09 12:37:39 [25826] [INFO] Booting worker with pid: 25826
+2014-06-09 12:37:39 [25827] [INFO] Booting worker with pid: 25827
+2014-06-09 12:37:39 [25828] [INFO] Booting worker with pid: 25828
+2014-06-09 12:37:39 [25829] [INFO] Booting worker with pid: 25829
+2014-06-09 12:37:39 [25830] [INFO] Booting worker with pid: 25830
+2014-06-09 12:37:39 [25831] [INFO] Booting worker with pid: 25831
+2014-06-09 12:37:39 [25832] [INFO] Booting worker with pid: 25832
+2014-06-09 13:24:14 [25815] [INFO] Handling signal: term
+2014-06-09 09:24:14 [25824] [INFO] Worker exiting (pid: 25824)
+2014-06-09 09:24:14 [25826] [INFO] Worker exiting (pid: 25826)
+2014-06-09 09:24:14 [25827] [INFO] Worker exiting (pid: 25827)
+2014-06-09 13:24:14 [25825] [INFO] Worker exiting (pid: 25825)
+2014-06-09 09:24:14 [25828] [INFO] Worker exiting (pid: 25828)
+2014-06-09 09:24:14 [25831] [INFO] Worker exiting (pid: 25831)
+2014-06-09 09:24:14 [25832] [INFO] Worker exiting (pid: 25832)
+2014-06-09 09:24:14 [25829] [INFO] Worker exiting (pid: 25829)
+2014-06-09 09:24:14 [25830] [INFO] Worker exiting (pid: 25830)
+2014-06-09 13:24:14 [25815] [INFO] Shutting down: Master
+2014-06-09 13:24:15 [26486] [INFO] Starting gunicorn 18.0
+2014-06-09 13:24:15 [26486] [INFO] Listening at: unix:./run/gunicorn.sock (26486)
+2014-06-09 13:24:15 [26486] [INFO] Using worker: sync
+2014-06-09 13:24:15 [26495] [INFO] Booting worker with pid: 26495
+2014-06-09 13:24:15 [26496] [INFO] Booting worker with pid: 26496
+2014-06-09 13:24:15 [26497] [INFO] Booting worker with pid: 26497
+2014-06-09 13:24:15 [26498] [INFO] Booting worker with pid: 26498
+2014-06-09 13:24:15 [26499] [INFO] Booting worker with pid: 26499
+2014-06-09 13:24:15 [26500] [INFO] Booting worker with pid: 26500
+2014-06-09 13:24:15 [26501] [INFO] Booting worker with pid: 26501
+2014-06-09 13:24:15 [26502] [INFO] Booting worker with pid: 26502
+2014-06-09 13:24:15 [26503] [INFO] Booting worker with pid: 26503
+2014-06-09 13:45:09 [26486] [INFO] Handling signal: term
+2014-06-09 13:45:09 [26497] [INFO] Worker exiting (pid: 26497)
+2014-06-09 13:45:09 [26496] [INFO] Worker exiting (pid: 26496)
+2014-06-09 13:45:09 [26499] [INFO] Worker exiting (pid: 26499)
+2014-06-09 09:45:09 [26498] [INFO] Worker exiting (pid: 26498)
+2014-06-09 09:45:09 [26500] [INFO] Worker exiting (pid: 26500)
+2014-06-09 09:45:09 [26502] [INFO] Worker exiting (pid: 26502)
+2014-06-09 09:45:09 [26501] [INFO] Worker exiting (pid: 26501)
+2014-06-09 13:45:09 [26495] [INFO] Worker exiting (pid: 26495)
+2014-06-09 13:45:09 [26503] [INFO] Worker exiting (pid: 26503)
+2014-06-09 13:45:09 [26486] [INFO] Shutting down: Master
+2014-06-09 13:45:10 [26731] [INFO] Starting gunicorn 18.0
+2014-06-09 13:45:10 [26731] [INFO] Listening at: unix:./run/gunicorn.sock (26731)
+2014-06-09 13:45:10 [26731] [INFO] Using worker: sync
+2014-06-09 13:45:10 [26740] [INFO] Booting worker with pid: 26740
+2014-06-09 13:45:10 [26741] [INFO] Booting worker with pid: 26741
+2014-06-09 13:45:10 [26742] [INFO] Booting worker with pid: 26742
+2014-06-09 13:45:10 [26743] [INFO] Booting worker with pid: 26743
+2014-06-09 13:45:10 [26744] [INFO] Booting worker with pid: 26744
+2014-06-09 13:45:10 [26745] [INFO] Booting worker with pid: 26745
+2014-06-09 13:45:10 [26746] [INFO] Booting worker with pid: 26746
+2014-06-09 13:45:10 [26747] [INFO] Booting worker with pid: 26747
+2014-06-09 13:45:10 [26748] [INFO] Booting worker with pid: 26748
+2014-06-09 14:04:51 [26731] [INFO] Handling signal: term
+2014-06-09 14:04:51 [26741] [INFO] Worker exiting (pid: 26741)
+2014-06-09 14:04:51 [26742] [INFO] Worker exiting (pid: 26742)
+2014-06-09 14:04:51 [26740] [INFO] Worker exiting (pid: 26740)
+2014-06-09 14:04:51 [26743] [INFO] Worker exiting (pid: 26743)
+2014-06-09 10:04:51 [26748] [INFO] Worker exiting (pid: 26748)
+2014-06-09 10:04:51 [26746] [INFO] Worker exiting (pid: 26746)
+2014-06-09 14:04:51 [26744] [INFO] Worker exiting (pid: 26744)
+2014-06-09 14:04:51 [26745] [INFO] Worker exiting (pid: 26745)
+2014-06-09 10:04:51 [26747] [INFO] Worker exiting (pid: 26747)
+2014-06-09 14:04:51 [26731] [INFO] Shutting down: Master
+2014-06-09 14:04:52 [27062] [INFO] Starting gunicorn 18.0
+2014-06-09 14:04:52 [27062] [INFO] Listening at: unix:./run/gunicorn.sock (27062)
+2014-06-09 14:04:52 [27062] [INFO] Using worker: sync
+2014-06-09 14:04:52 [27071] [INFO] Booting worker with pid: 27071
+2014-06-09 14:04:52 [27072] [INFO] Booting worker with pid: 27072
+2014-06-09 14:04:53 [27073] [INFO] Booting worker with pid: 27073
+2014-06-09 14:04:53 [27074] [INFO] Booting worker with pid: 27074
+2014-06-09 14:04:53 [27075] [INFO] Booting worker with pid: 27075
+2014-06-09 14:04:53 [27076] [INFO] Booting worker with pid: 27076
+2014-06-09 14:04:53 [27077] [INFO] Booting worker with pid: 27077
+2014-06-09 14:04:53 [27078] [INFO] Booting worker with pid: 27078
+2014-06-09 14:04:53 [27079] [INFO] Booting worker with pid: 27079
+2014-06-09 14:37:29 [27062] [INFO] Handling signal: term
+2014-06-09 10:37:29 [27072] [INFO] Worker exiting (pid: 27072)
+2014-06-09 10:37:29 [27076] [INFO] Worker exiting (pid: 27076)
+2014-06-09 10:37:29 [27079] [INFO] Worker exiting (pid: 27079)
+2014-06-09 10:37:29 [27073] [INFO] Worker exiting (pid: 27073)
+2014-06-09 10:37:29 [27078] [INFO] Worker exiting (pid: 27078)
+2014-06-09 10:37:29 [27071] [INFO] Worker exiting (pid: 27071)
+2014-06-09 10:37:29 [27077] [INFO] Worker exiting (pid: 27077)
+2014-06-09 10:37:29 [27075] [INFO] Worker exiting (pid: 27075)
+2014-06-09 10:37:29 [27074] [INFO] Worker exiting (pid: 27074)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2014-06-09 14:37:29 [27062] [INFO] Shutting down: Master
+2014-06-09 14:37:31 [28366] [INFO] Starting gunicorn 18.0
+2014-06-09 14:37:31 [28366] [INFO] Listening at: unix:./run/gunicorn.sock (28366)
+2014-06-09 14:37:31 [28366] [INFO] Using worker: sync
+2014-06-09 14:37:31 [28375] [INFO] Booting worker with pid: 28375
+2014-06-09 14:37:31 [28376] [INFO] Booting worker with pid: 28376
+2014-06-09 14:37:31 [28377] [INFO] Booting worker with pid: 28377
+2014-06-09 14:37:31 [28378] [INFO] Booting worker with pid: 28378
+2014-06-09 14:37:31 [28379] [INFO] Booting worker with pid: 28379
+2014-06-09 14:37:31 [28380] [INFO] Booting worker with pid: 28380
+2014-06-09 14:37:31 [28381] [INFO] Booting worker with pid: 28381
+2014-06-09 14:37:31 [28382] [INFO] Booting worker with pid: 28382
+2014-06-09 14:37:31 [28383] [INFO] Booting worker with pid: 28383
+2014-06-09 14:45:18 [28366] [INFO] Handling signal: term
+2014-06-09 10:45:18 [28375] [INFO] Worker exiting (pid: 28375)
+2014-06-09 14:45:18 [28376] [INFO] Worker exiting (pid: 28376)
+2014-06-09 14:45:18 [28377] [INFO] Worker exiting (pid: 28377)
+2014-06-09 10:45:18 [28379] [INFO] Worker exiting (pid: 28379)
+2014-06-09 10:45:18 [28380] [INFO] Worker exiting (pid: 28380)
+2014-06-09 14:45:18 [28378] [INFO] Worker exiting (pid: 28378)
+2014-06-09 10:45:18 [28383] [INFO] Worker exiting (pid: 28383)
+2014-06-09 14:45:18 [28381] [INFO] Worker exiting (pid: 28381)
+2014-06-09 10:45:18 [28382] [INFO] Worker exiting (pid: 28382)
+2014-06-09 14:45:18 [28366] [INFO] Shutting down: Master
+2014-06-09 14:45:20 [28778] [INFO] Starting gunicorn 18.0
+2014-06-09 14:45:20 [28778] [INFO] Listening at: unix:./run/gunicorn.sock (28778)
+2014-06-09 14:45:20 [28778] [INFO] Using worker: sync
+2014-06-09 14:45:20 [28787] [INFO] Booting worker with pid: 28787
+2014-06-09 14:45:20 [28788] [INFO] Booting worker with pid: 28788
+2014-06-09 14:45:20 [28789] [INFO] Booting worker with pid: 28789
+2014-06-09 14:45:20 [28790] [INFO] Booting worker with pid: 28790
+2014-06-09 14:45:20 [28791] [INFO] Booting worker with pid: 28791
+2014-06-09 14:45:20 [28792] [INFO] Booting worker with pid: 28792
+2014-06-09 14:45:20 [28793] [INFO] Booting worker with pid: 28793
+2014-06-09 14:45:20 [28794] [INFO] Booting worker with pid: 28794
+2014-06-09 14:45:20 [28795] [INFO] Booting worker with pid: 28795
+2014-06-09 14:45:48 [28778] [INFO] Handling signal: term
+2014-06-09 14:45:48 [28788] [INFO] Worker exiting (pid: 28788)
+2014-06-09 14:45:48 [28787] [INFO] Worker exiting (pid: 28787)
+2014-06-09 14:45:48 [28789] [INFO] Worker exiting (pid: 28789)
+2014-06-09 14:45:48 [28790] [INFO] Worker exiting (pid: 28790)
+2014-06-09 10:45:48 [28791] [INFO] Worker exiting (pid: 28791)
+2014-06-09 14:45:48 [28792] [INFO] Worker exiting (pid: 28792)
+2014-06-09 10:45:48 [28793] [INFO] Worker exiting (pid: 28793)
+2014-06-09 10:45:48 [28794] [INFO] Worker exiting (pid: 28794)
+2014-06-09 14:45:48 [28795] [INFO] Worker exiting (pid: 28795)
+2014-06-09 14:45:49 [28778] [INFO] Shutting down: Master
+2014-06-09 14:45:50 [28813] [INFO] Starting gunicorn 18.0
+2014-06-09 14:45:50 [28813] [INFO] Listening at: unix:./run/gunicorn.sock (28813)
+2014-06-09 14:45:50 [28813] [INFO] Using worker: sync
+2014-06-09 14:45:50 [28822] [INFO] Booting worker with pid: 28822
+2014-06-09 14:45:50 [28823] [INFO] Booting worker with pid: 28823
+2014-06-09 14:45:50 [28824] [INFO] Booting worker with pid: 28824
+2014-06-09 14:45:50 [28825] [INFO] Booting worker with pid: 28825
+2014-06-09 14:45:50 [28834] [INFO] Booting worker with pid: 28834
+2014-06-09 14:45:50 [28835] [INFO] Booting worker with pid: 28835
+2014-06-09 14:45:50 [28836] [INFO] Booting worker with pid: 28836
+2014-06-09 14:45:50 [28837] [INFO] Booting worker with pid: 28837
+2014-06-09 14:45:50 [28838] [INFO] Booting worker with pid: 28838
+2014-06-09 14:46:45 [28813] [INFO] Handling signal: term
+2014-06-09 10:46:45 [28835] [INFO] Worker exiting (pid: 28835)
+2014-06-09 14:46:45 [28823] [INFO] Worker exiting (pid: 28823)
+2014-06-09 10:46:45 [28825] [INFO] Worker exiting (pid: 28825)
+2014-06-09 14:46:45 [28837] [INFO] Worker exiting (pid: 28837)
+2014-06-09 14:46:45 [28834] [INFO] Worker exiting (pid: 28834)
+2014-06-09 14:46:45 [28836] [INFO] Worker exiting (pid: 28836)
+2014-06-09 14:46:45 [28838] [INFO] Worker exiting (pid: 28838)
+2014-06-09 10:46:45 [28822] [INFO] Worker exiting (pid: 28822)
+2014-06-09 14:46:45 [28813] [INFO] Shutting down: Master
+2014-06-09 14:46:46 [28865] [INFO] Starting gunicorn 18.0
+2014-06-09 14:46:46 [28865] [INFO] Listening at: unix:./run/gunicorn.sock (28865)
+2014-06-09 14:46:46 [28865] [INFO] Using worker: sync
+2014-06-09 14:46:46 [28874] [INFO] Booting worker with pid: 28874
+2014-06-09 14:46:46 [28875] [INFO] Booting worker with pid: 28875
+2014-06-09 14:46:46 [28876] [INFO] Booting worker with pid: 28876
+2014-06-09 14:46:46 [28877] [INFO] Booting worker with pid: 28877
+2014-06-09 14:46:46 [28878] [INFO] Booting worker with pid: 28878
+2014-06-09 14:46:46 [28879] [INFO] Booting worker with pid: 28879
+2014-06-09 14:46:47 [28880] [INFO] Booting worker with pid: 28880
+2014-06-09 14:46:47 [28881] [INFO] Booting worker with pid: 28881
+2014-06-09 14:46:47 [28882] [INFO] Booting worker with pid: 28882
+2014-06-09 14:47:17 [28865] [INFO] Handling signal: term
+2014-06-09 14:47:17 [28874] [INFO] Worker exiting (pid: 28874)
+2014-06-09 14:47:17 [28878] [INFO] Worker exiting (pid: 28878)
+2014-06-09 14:47:17 [28880] [INFO] Worker exiting (pid: 28880)
+2014-06-09 14:47:17 [28877] [INFO] Worker exiting (pid: 28877)
+2014-06-09 14:47:17 [28881] [INFO] Worker exiting (pid: 28881)
+2014-06-09 14:47:17 [28882] [INFO] Worker exiting (pid: 28882)
+2014-06-09 10:47:17 [28879] [INFO] Worker exiting (pid: 28879)
+2014-06-09 10:47:17 [28875] [INFO] Worker exiting (pid: 28875)
+2014-06-09 10:47:17 [28876] [INFO] Worker exiting (pid: 28876)
+2014-06-09 14:47:17 [28865] [INFO] Shutting down: Master
+2014-06-09 14:47:19 [28912] [INFO] Starting gunicorn 18.0
+2014-06-09 14:47:19 [28912] [INFO] Listening at: unix:./run/gunicorn.sock (28912)
+2014-06-09 14:47:19 [28912] [INFO] Using worker: sync
+2014-06-09 14:47:19 [28921] [INFO] Booting worker with pid: 28921
+2014-06-09 14:47:19 [28922] [INFO] Booting worker with pid: 28922
+2014-06-09 14:47:19 [28923] [INFO] Booting worker with pid: 28923
+2014-06-09 14:47:19 [28924] [INFO] Booting worker with pid: 28924
+2014-06-09 14:47:19 [28925] [INFO] Booting worker with pid: 28925
+2014-06-09 14:47:19 [28926] [INFO] Booting worker with pid: 28926
+2014-06-09 14:47:19 [28927] [INFO] Booting worker with pid: 28927
+2014-06-09 14:47:19 [28928] [INFO] Booting worker with pid: 28928
+2014-06-09 14:47:19 [28929] [INFO] Booting worker with pid: 28929
+2014-06-09 14:47:57 [28912] [INFO] Handling signal: term
+2014-06-09 14:47:57 [28921] [INFO] Worker exiting (pid: 28921)
+2014-06-09 14:47:57 [28928] [INFO] Worker exiting (pid: 28928)
+2014-06-09 14:47:57 [28929] [INFO] Worker exiting (pid: 28929)
+2014-06-09 14:47:57 [28925] [INFO] Worker exiting (pid: 28925)
+2014-06-09 14:47:57 [28923] [INFO] Worker exiting (pid: 28923)
+2014-06-09 14:47:57 [28924] [INFO] Worker exiting (pid: 28924)
+2014-06-09 14:47:57 [28927] [INFO] Worker exiting (pid: 28927)
+2014-06-09 10:47:57 [28922] [INFO] Worker exiting (pid: 28922)
+2014-06-09 10:47:57 [28926] [INFO] Worker exiting (pid: 28926)
+2014-06-09 14:47:57 [28912] [INFO] Shutting down: Master
+2014-06-09 14:47:58 [28961] [INFO] Starting gunicorn 18.0
+2014-06-09 14:47:58 [28961] [INFO] Listening at: unix:./run/gunicorn.sock (28961)
+2014-06-09 14:47:58 [28961] [INFO] Using worker: sync
+2014-06-09 14:47:58 [28970] [INFO] Booting worker with pid: 28970
+2014-06-09 14:47:58 [28971] [INFO] Booting worker with pid: 28971
+2014-06-09 14:47:58 [28972] [INFO] Booting worker with pid: 28972
+2014-06-09 14:47:58 [28973] [INFO] Booting worker with pid: 28973
+2014-06-09 14:47:58 [28974] [INFO] Booting worker with pid: 28974
+2014-06-09 14:47:58 [28975] [INFO] Booting worker with pid: 28975
+2014-06-09 14:47:58 [28976] [INFO] Booting worker with pid: 28976
+2014-06-09 14:47:58 [28977] [INFO] Booting worker with pid: 28977
+2014-06-09 14:47:58 [28978] [INFO] Booting worker with pid: 28978
+2014-06-09 14:49:03 [28961] [INFO] Handling signal: term
+2014-06-09 14:49:03 [28972] [INFO] Worker exiting (pid: 28972)
+2014-06-09 14:49:03 [28970] [INFO] Worker exiting (pid: 28970)
+2014-06-09 10:49:03 [28978] [INFO] Worker exiting (pid: 28978)
+2014-06-09 10:49:03 [28976] [INFO] Worker exiting (pid: 28976)
+2014-06-09 14:49:03 [28977] [INFO] Worker exiting (pid: 28977)
+2014-06-09 14:49:03 [28974] [INFO] Worker exiting (pid: 28974)
+2014-06-09 14:49:03 [28973] [INFO] Worker exiting (pid: 28973)
+Exception SystemExitException :  in SystemExit<module 'threading' from '/usr/lib/python2.7/threading.pyc'>: 0 ignored
+ in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2014-06-09 14:49:03 [28961] [INFO] Shutting down: Master
+2014-06-09 14:49:04 [29023] [INFO] Starting gunicorn 18.0
+2014-06-09 14:49:04 [29023] [INFO] Listening at: unix:./run/gunicorn.sock (29023)
+2014-06-09 14:49:04 [29023] [INFO] Using worker: sync
+2014-06-09 14:49:04 [29032] [INFO] Booting worker with pid: 29032
+2014-06-09 14:49:04 [29033] [INFO] Booting worker with pid: 29033
+2014-06-09 14:49:04 [29034] [INFO] Booting worker with pid: 29034
+2014-06-09 14:49:04 [29035] [INFO] Booting worker with pid: 29035
+2014-06-09 14:49:04 [29036] [INFO] Booting worker with pid: 29036
+2014-06-09 14:49:04 [29037] [INFO] Booting worker with pid: 29037
+2014-06-09 14:49:04 [29038] [INFO] Booting worker with pid: 29038
+2014-06-09 14:49:05 [29039] [INFO] Booting worker with pid: 29039
+2014-06-09 14:49:05 [29040] [INFO] Booting worker with pid: 29040
+2014-06-09 14:49:30 [29023] [INFO] Handling signal: term
+2014-06-09 14:49:30 [29032] [INFO] Worker exiting (pid: 29032)
+2014-06-09 14:49:30 [29034] [INFO] Worker exiting (pid: 29034)
+2014-06-09 14:49:30 [29037] [INFO] Worker exiting (pid: 29037)
+2014-06-09 14:49:30 [29033] [INFO] Worker exiting (pid: 29033)
+2014-06-09 14:49:30 [29036] [INFO] Worker exiting (pid: 29036)
+2014-06-09 14:49:30 [29040] [INFO] Worker exiting (pid: 29040)
+2014-06-09 14:49:30 [29039] [INFO] Worker exiting (pid: 29039)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2014-06-09 10:49:30 [29038] [INFO] Worker exiting (pid: 29038)
+2014-06-09 14:49:30 [29023] [INFO] Shutting down: Master
+2014-06-09 14:49:31 [29069] [INFO] Starting gunicorn 18.0
+2014-06-09 14:49:31 [29069] [INFO] Listening at: unix:./run/gunicorn.sock (29069)
+2014-06-09 14:49:31 [29069] [INFO] Using worker: sync
+2014-06-09 14:49:31 [29078] [INFO] Booting worker with pid: 29078
+2014-06-09 14:49:31 [29079] [INFO] Booting worker with pid: 29079
+2014-06-09 14:49:31 [29080] [INFO] Booting worker with pid: 29080
+2014-06-09 14:49:31 [29081] [INFO] Booting worker with pid: 29081
+2014-06-09 14:49:31 [29082] [INFO] Booting worker with pid: 29082
+2014-06-09 14:49:31 [29083] [INFO] Booting worker with pid: 29083
+2014-06-09 14:49:31 [29084] [INFO] Booting worker with pid: 29084
+2014-06-09 14:49:31 [29085] [INFO] Booting worker with pid: 29085
+2014-06-09 14:49:31 [29086] [INFO] Booting worker with pid: 29086
+2014-06-09 14:49:53 [29069] [INFO] Handling signal: term
+2014-06-09 14:49:53 [29078] [INFO] Worker exiting (pid: 29078)
+2014-06-09 14:49:53 [29080] [INFO] Worker exiting (pid: 29080)
+2014-06-09 14:49:53 [29079] [INFO] Worker exiting (pid: 29079)
+2014-06-09 10:49:53 [29082] [INFO] Worker exiting (pid: 29082)
+2014-06-09 14:49:53 [29083] [INFO] Worker exiting (pid: 29083)
+2014-06-09 14:49:53 [29085] [INFO] Worker exiting (pid: 29085)
+2014-06-09 14:49:53 [29086] [INFO] Worker exiting (pid: 29086)
+2014-06-09 14:49:53 [29084] [INFO] Worker exiting (pid: 29084)
+2014-06-09 10:49:53 [29081] [INFO] Worker exiting (pid: 29081)
+2014-06-09 14:49:53 [29069] [INFO] Shutting down: Master
+2014-06-09 14:49:54 [29122] [INFO] Starting gunicorn 18.0
+2014-06-09 14:49:54 [29122] [INFO] Listening at: unix:./run/gunicorn.sock (29122)
+2014-06-09 14:49:54 [29122] [INFO] Using worker: sync
+2014-06-09 14:49:54 [29131] [INFO] Booting worker with pid: 29131
+2014-06-09 14:49:54 [29132] [INFO] Booting worker with pid: 29132
+2014-06-09 14:49:54 [29133] [INFO] Booting worker with pid: 29133
+2014-06-09 14:49:54 [29134] [INFO] Booting worker with pid: 29134
+2014-06-09 14:49:54 [29141] [INFO] Booting worker with pid: 29141
+2014-06-09 14:49:54 [29142] [INFO] Booting worker with pid: 29142
+2014-06-09 14:49:54 [29143] [INFO] Booting worker with pid: 29143
+2014-06-09 14:49:55 [29144] [INFO] Booting worker with pid: 29144
+2014-06-09 14:49:55 [29145] [INFO] Booting worker with pid: 29145
+2014-06-09 14:51:55 [29122] [INFO] Handling signal: term
+2014-06-09 10:51:55 [29132] [INFO] Worker exiting (pid: 29132)
+2014-06-09 10:51:55 [29133] [INFO] Worker exiting (pid: 29133)
+2014-06-09 10:51:55 [29131] [INFO] Worker exiting (pid: 29131)
+2014-06-09 10:51:55 [29134] [INFO] Worker exiting (pid: 29134)
+2014-06-09 10:51:55 [29144] [INFO] Worker exiting (pid: 29144)
+2014-06-09 10:51:55 [29143] [INFO] Worker exiting (pid: 29143)
+2014-06-09 10:51:55 [29141] [INFO] Worker exiting (pid: 29141)
+2014-06-09 10:51:55 [29145] [INFO] Worker exiting (pid: 29145)
+2014-06-09 10:51:55 [29142] [INFO] Worker exiting (pid: 29142)
+2014-06-09 14:51:55 [29122] [INFO] Shutting down: Master
+2014-06-09 14:51:56 [29253] [INFO] Starting gunicorn 18.0
+2014-06-09 14:51:56 [29253] [INFO] Listening at: unix:./run/gunicorn.sock (29253)
+2014-06-09 14:51:56 [29253] [INFO] Using worker: sync
+2014-06-09 14:51:56 [29262] [INFO] Booting worker with pid: 29262
+2014-06-09 14:51:56 [29263] [INFO] Booting worker with pid: 29263
+2014-06-09 14:51:56 [29264] [INFO] Booting worker with pid: 29264
+2014-06-09 14:51:56 [29265] [INFO] Booting worker with pid: 29265
+2014-06-09 14:51:56 [29266] [INFO] Booting worker with pid: 29266
+2014-06-09 14:51:57 [29267] [INFO] Booting worker with pid: 29267
+2014-06-09 14:51:57 [29268] [INFO] Booting worker with pid: 29268
+2014-06-09 14:51:57 [29269] [INFO] Booting worker with pid: 29269
+2014-06-09 14:51:57 [29270] [INFO] Booting worker with pid: 29270
+2014-06-09 14:58:47 [29253] [INFO] Handling signal: term
+2014-06-09 14:58:47 [29263] [INFO] Worker exiting (pid: 29263)
+2014-06-09 14:58:47 [29262] [INFO] Worker exiting (pid: 29262)
+2014-06-09 14:58:47 [29266] [INFO] Worker exiting (pid: 29266)
+2014-06-09 14:58:47 [29264] [INFO] Worker exiting (pid: 29264)
+2014-06-09 14:58:47 [29265] [INFO] Worker exiting (pid: 29265)
+2014-06-09 10:58:47 [29270] [INFO] Worker exiting (pid: 29270)
+2014-06-09 10:58:47 [29267] [INFO] Worker exiting (pid: 29267)
+2014-06-09 10:58:47 [29269] [INFO] Worker exiting (pid: 29269)
+2014-06-09 10:58:47 [29268] [INFO] Worker exiting (pid: 29268)
+2014-06-09 14:58:47 [29253] [INFO] Shutting down: Master
+2014-06-09 14:58:48 [29329] [INFO] Starting gunicorn 18.0
+2014-06-09 14:58:48 [29329] [INFO] Listening at: unix:./run/gunicorn.sock (29329)
+2014-06-09 14:58:48 [29329] [INFO] Using worker: sync
+2014-06-09 14:58:48 [29338] [INFO] Booting worker with pid: 29338
+2014-06-09 14:58:48 [29339] [INFO] Booting worker with pid: 29339
+2014-06-09 14:58:48 [29340] [INFO] Booting worker with pid: 29340
+2014-06-09 14:58:48 [29341] [INFO] Booting worker with pid: 29341
+2014-06-09 14:58:48 [29342] [INFO] Booting worker with pid: 29342
+2014-06-09 14:58:48 [29343] [INFO] Booting worker with pid: 29343
+2014-06-09 14:58:48 [29344] [INFO] Booting worker with pid: 29344
+2014-06-09 14:58:48 [29345] [INFO] Booting worker with pid: 29345
+2014-06-09 14:58:48 [29346] [INFO] Booting worker with pid: 29346
+2014-06-09 16:27:14 [29329] [INFO] Handling signal: term
+2014-06-09 12:27:14 [29342] [INFO] Worker exiting (pid: 29342)
+2014-06-09 16:27:14 [29344] [INFO] Worker exiting (pid: 29344)
+2014-06-09 16:27:14 [29338] [INFO] Worker exiting (pid: 29338)
+2014-06-09 12:27:14 [29346] [INFO] Worker exiting (pid: 29346)
+2014-06-09 16:27:14 [29343] [INFO] Worker exiting (pid: 29343)
+2014-06-09 12:27:14 [29345] [INFO] Worker exiting (pid: 29345)
+2014-06-09 12:27:14 [29340] [INFO] Worker exiting (pid: 29340)
+2014-06-09 16:27:14 [29341] [INFO] Worker exiting (pid: 29341)
+2014-06-09 16:27:14 [29329] [INFO] Shutting down: Master
+2014-06-09 16:27:15 [30435] [INFO] Starting gunicorn 18.0
+2014-06-09 16:27:15 [30435] [INFO] Listening at: unix:./run/gunicorn.sock (30435)
+2014-06-09 16:27:15 [30435] [INFO] Using worker: sync
+2014-06-09 16:27:15 [30444] [INFO] Booting worker with pid: 30444
+2014-06-09 16:27:15 [30445] [INFO] Booting worker with pid: 30445
+2014-06-09 16:27:16 [30446] [INFO] Booting worker with pid: 30446
+2014-06-09 16:27:16 [30447] [INFO] Booting worker with pid: 30447
+2014-06-09 16:27:16 [30448] [INFO] Booting worker with pid: 30448
+2014-06-09 16:27:16 [30449] [INFO] Booting worker with pid: 30449
+2014-06-09 16:27:16 [30450] [INFO] Booting worker with pid: 30450
+2014-06-09 16:27:16 [30451] [INFO] Booting worker with pid: 30451
+2014-06-09 16:27:16 [30452] [INFO] Booting worker with pid: 30452
+2014-06-09 16:33:46 [30435] [INFO] Handling signal: term
+2014-06-09 16:33:46 [30444] [INFO] Worker exiting (pid: 30444)
+2014-06-09 16:33:46 [30445] [INFO] Worker exiting (pid: 30445)
+2014-06-09 16:33:46 [30446] [INFO] Worker exiting (pid: 30446)
+2014-06-09 16:33:46 [30447] [INFO] Worker exiting (pid: 30447)
+2014-06-09 16:33:46 [30448] [INFO] Worker exiting (pid: 30448)
+2014-06-09 12:33:46 [30449] [INFO] Worker exiting (pid: 30449)
+2014-06-09 16:33:46 [30450] [INFO] Worker exiting (pid: 30450)
+2014-06-09 16:33:46 [30451] [INFO] Worker exiting (pid: 30451)
+2014-06-09 16:33:46 [30435] [INFO] Shutting down: Master
+2014-06-09 16:33:47 [30540] [INFO] Starting gunicorn 18.0
+2014-06-09 16:33:47 [30540] [INFO] Listening at: unix:./run/gunicorn.sock (30540)
+2014-06-09 16:33:47 [30540] [INFO] Using worker: sync
+2014-06-09 16:33:47 [30549] [INFO] Booting worker with pid: 30549
+2014-06-09 16:33:47 [30550] [INFO] Booting worker with pid: 30550
+2014-06-09 16:33:47 [30551] [INFO] Booting worker with pid: 30551
+2014-06-09 16:33:47 [30552] [INFO] Booting worker with pid: 30552
+2014-06-09 16:33:47 [30553] [INFO] Booting worker with pid: 30553
+2014-06-09 16:33:47 [30554] [INFO] Booting worker with pid: 30554
+2014-06-09 16:33:48 [30555] [INFO] Booting worker with pid: 30555
+2014-06-09 16:33:48 [30556] [INFO] Booting worker with pid: 30556
+2014-06-09 16:33:48 [30557] [INFO] Booting worker with pid: 30557
+2014-06-09 16:35:25 [30540] [INFO] Handling signal: term
+2014-06-09 16:35:25 [30549] [INFO] Worker exiting (pid: 30549)
+2014-06-09 16:35:25 [30550] [INFO] Worker exiting (pid: 30550)
+2014-06-09 16:35:25 [30553] [INFO] Worker exiting (pid: 30553)
+2014-06-09 16:35:25 [30552] [INFO] Worker exiting (pid: 30552)
+2014-06-09 16:35:25 [30557] [INFO] Worker exiting (pid: 30557)
+2014-06-09 16:35:25 [30551] [INFO] Worker exiting (pid: 30551)
+2014-06-09 12:35:25 [30556] [INFO] Worker exiting (pid: 30556)
+2014-06-09 12:35:25 [30555] [INFO] Worker exiting (pid: 30555)
+2014-06-09 16:35:25 [30554] [INFO] Worker exiting (pid: 30554)
+2014-06-09 16:35:25 [30540] [INFO] Shutting down: Master
+2014-06-09 16:35:26 [30585] [INFO] Starting gunicorn 18.0
+2014-06-09 16:35:26 [30585] [INFO] Listening at: unix:./run/gunicorn.sock (30585)
+2014-06-09 16:35:26 [30585] [INFO] Using worker: sync
+2014-06-09 16:35:26 [30594] [INFO] Booting worker with pid: 30594
+2014-06-09 16:35:26 [30595] [INFO] Booting worker with pid: 30595
+2014-06-09 16:35:26 [30596] [INFO] Booting worker with pid: 30596
+2014-06-09 16:35:26 [30597] [INFO] Booting worker with pid: 30597
+2014-06-09 16:35:26 [30598] [INFO] Booting worker with pid: 30598
+2014-06-09 16:35:26 [30599] [INFO] Booting worker with pid: 30599
+2014-06-09 16:35:26 [30600] [INFO] Booting worker with pid: 30600
+2014-06-09 16:35:26 [30601] [INFO] Booting worker with pid: 30601
+2014-06-09 16:35:26 [30602] [INFO] Booting worker with pid: 30602
+2014-06-09 16:36:14 [30585] [INFO] Handling signal: term
+2014-06-09 16:36:14 [30595] [INFO] Worker exiting (pid: 30595)
+2014-06-09 16:36:14 [30594] [INFO] Worker exiting (pid: 30594)
+2014-06-09 12:36:14 [30601] [INFO] Worker exiting (pid: 30601)
+2014-06-09 16:36:14 [30600] [INFO] Worker exiting (pid: 30600)
+2014-06-09 12:36:14 [30599] [INFO] Worker exiting (pid: 30599)
+2014-06-09 16:36:14 [30596] [INFO] Worker exiting (pid: 30596)
+2014-06-09 12:36:14 [30598] [INFO] Worker exiting (pid: 30598)
+2014-06-09 16:36:14 [30597] [INFO] Worker exiting (pid: 30597)
+2014-06-09 12:36:14 [30602] [INFO] Worker exiting (pid: 30602)
+2014-06-09 16:36:14 [30585] [INFO] Shutting down: Master
+2014-06-09 16:36:15 [30639] [INFO] Starting gunicorn 18.0
+2014-06-09 16:36:15 [30639] [INFO] Listening at: unix:./run/gunicorn.sock (30639)
+2014-06-09 16:36:15 [30639] [INFO] Using worker: sync
+2014-06-09 16:36:15 [30648] [INFO] Booting worker with pid: 30648
+2014-06-09 16:36:15 [30649] [INFO] Booting worker with pid: 30649
+2014-06-09 16:36:15 [30650] [INFO] Booting worker with pid: 30650
+2014-06-09 16:36:16 [30651] [INFO] Booting worker with pid: 30651
+2014-06-09 16:36:16 [30652] [INFO] Booting worker with pid: 30652
+2014-06-09 16:36:16 [30653] [INFO] Booting worker with pid: 30653
+2014-06-09 16:36:16 [30654] [INFO] Booting worker with pid: 30654
+2014-06-09 16:36:16 [30655] [INFO] Booting worker with pid: 30655
+2014-06-09 16:36:16 [30656] [INFO] Booting worker with pid: 30656
+2014-06-09 16:36:28 [30639] [INFO] Handling signal: term
+2014-06-09 16:36:28 [30648] [INFO] Worker exiting (pid: 30648)
+2014-06-09 16:36:28 [30656] [INFO] Worker exiting (pid: 30656)
+2014-06-09 16:36:28 [30649] [INFO] Worker exiting (pid: 30649)
+2014-06-09 16:36:28 [30651] [INFO] Worker exiting (pid: 30651)
+2014-06-09 16:36:28 [30650] [INFO] Worker exiting (pid: 30650)
+2014-06-09 12:36:28 [30652] [INFO] Worker exiting (pid: 30652)
+2014-06-09 16:36:28 [30653] [INFO] Worker exiting (pid: 30653)
+2014-06-09 16:36:28 [30655] [INFO] Worker exiting (pid: 30655)
+2014-06-09 16:36:28 [30654] [INFO] Worker exiting (pid: 30654)
+Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threading.pyc'> ignored
+2014-06-09 16:36:28 [30639] [INFO] Shutting down: Master
+2014-06-09 16:36:29 [30673] [INFO] Starting gunicorn 18.0
+2014-06-09 16:36:29 [30673] [INFO] Listening at: unix:./run/gunicorn.sock (30673)
+2014-06-09 16:36:29 [30673] [INFO] Using worker: sync
+2014-06-09 16:36:29 [30682] [INFO] Booting worker with pid: 30682
+2014-06-09 16:36:29 [30683] [INFO] Booting worker with pid: 30683
+2014-06-09 16:36:29 [30684] [INFO] Booting worker with pid: 30684
+2014-06-09 16:36:29 [30685] [INFO] Booting worker with pid: 30685
+2014-06-09 16:36:29 [30686] [INFO] Booting worker with pid: 30686
+2014-06-09 16:36:29 [30687] [INFO] Booting worker with pid: 30687
+2014-06-09 16:36:29 [30688] [INFO] Booting worker with pid: 30688
+2014-06-09 16:36:30 [30689] [INFO] Booting worker with pid: 30689
+2014-06-09 16:36:30 [30690] [INFO] Booting worker with pid: 30690
+2014-06-09 16:37:16 [30673] [INFO] Handling signal: term
+2014-06-09 16:37:16 [30690] [INFO] Worker exiting (pid: 30690)
+2014-06-09 16:37:16 [30688] [INFO] Worker exiting (pid: 30688)
+2014-06-09 12:37:16 [30689] [INFO] Worker exiting (pid: 30689)
+2014-06-09 12:37:16 [30682] [INFO] Worker exiting (pid: 30682)
+2014-06-09 16:37:16 [30683] [INFO] Worker exiting (pid: 30683)
+2014-06-09 16:37:16 [30685] [INFO] Worker exiting (pid: 30685)
+2014-06-09 16:37:16 [30684] [INFO] Worker exiting (pid: 30684)
+2014-06-09 16:37:16 [30686] [INFO] Worker exiting (pid: 30686)
+2014-06-09 16:37:16 [30687] [INFO] Worker exiting (pid: 30687)
+2014-06-09 16:37:16 [30673] [INFO] Shutting down: Master
+2014-06-09 16:37:17 [30724] [INFO] Starting gunicorn 18.0
+2014-06-09 16:37:17 [30724] [INFO] Listening at: unix:./run/gunicorn.sock (30724)
+2014-06-09 16:37:17 [30724] [INFO] Using worker: sync
+2014-06-09 16:37:17 [30733] [INFO] Booting worker with pid: 30733
+2014-06-09 16:37:17 [30734] [INFO] Booting worker with pid: 30734
+2014-06-09 16:37:17 [30735] [INFO] Booting worker with pid: 30735
+2014-06-09 16:37:17 [30736] [INFO] Booting worker with pid: 30736
+2014-06-09 16:37:17 [30737] [INFO] Booting worker with pid: 30737
+2014-06-09 16:37:17 [30738] [INFO] Booting worker with pid: 30738
+2014-06-09 16:37:17 [30739] [INFO] Booting worker with pid: 30739
+2014-06-09 16:37:17 [30740] [INFO] Booting worker with pid: 30740
+2014-06-09 16:37:17 [30741] [INFO] Booting worker with pid: 30741
+2014-06-09 16:40:03 [30724] [INFO] Handling signal: term
+2014-06-09 12:40:03 [30734] [INFO] Worker exiting (pid: 30734)
+2014-06-09 12:40:03 [30733] [INFO] Worker exiting (pid: 30733)
+2014-06-09 12:40:03 [30737] [INFO] Worker exiting (pid: 30737)
+2014-06-09 12:40:03 [30738] [INFO] Worker exiting (pid: 30738)
+2014-06-09 12:40:03 [30735] [INFO] Worker exiting (pid: 30735)
+2014-06-09 12:40:03 [30736] [INFO] Worker exiting (pid: 30736)
+2014-06-09 12:40:03 [30741] [INFO] Worker exiting (pid: 30741)
+2014-06-09 12:40:03 [30739] [INFO] Worker exiting (pid: 30739)
+2014-06-09 16:40:03 [30740] [INFO] Worker exiting (pid: 30740)
+2014-06-09 16:40:03 [30724] [INFO] Shutting down: Master
+2014-06-09 16:40:04 [30825] [INFO] Starting gunicorn 18.0
+2014-06-09 16:40:04 [30825] [INFO] Listening at: unix:./run/gunicorn.sock (30825)
+2014-06-09 16:40:04 [30825] [INFO] Using worker: sync
+2014-06-09 16:40:04 [30834] [INFO] Booting worker with pid: 30834
+2014-06-09 16:40:04 [30835] [INFO] Booting worker with pid: 30835
+2014-06-09 16:40:04 [30836] [INFO] Booting worker with pid: 30836
+2014-06-09 16:40:04 [30837] [INFO] Booting worker with pid: 30837
+2014-06-09 16:40:04 [30838] [INFO] Booting worker with pid: 30838
+2014-06-09 16:40:04 [30839] [INFO] Booting worker with pid: 30839
+2014-06-09 16:40:04 [30840] [INFO] Booting worker with pid: 30840
+2014-06-09 16:40:05 [30841] [INFO] Booting worker with pid: 30841
+2014-06-09 16:40:05 [30842] [INFO] Booting worker with pid: 30842

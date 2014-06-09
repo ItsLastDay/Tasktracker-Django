@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{user.username}}'s page
+{% endblock %}
+
+{% block content %}
+    <h4>Personal page</h4>
+    <div class="row">
+        <p class="span2 text-right"><strong>User</strong>: </p>
+        <p class="span10" id="username">{{user.username}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>First Name</strong>: </p>
+        <p class="span10" id="fname">{{user.first_name}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>Last Name</strong>: </p>
+        <p class="span10" id="lname">{{user.last_name}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>E-mail</strong>: </p>
+        <p class="span10" id="email">{{user.email}}</p>
+    </div>
+{% endblock %}

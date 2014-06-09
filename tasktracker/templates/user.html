@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+{{user.username}}'s page
+{% endblock %}
+
+{% block content %}
+{% if error_message %}
+    <p class="text-error text-center">{{error_message}}</p>
+{% else %}
+    <h4>User's page</h4>
+    <div class="row">
+        <p class="span2 text-right"><strong>User</strong>: </p>
+        <p class="span10" id="username">{{person.username}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>First Name</strong>: </p>
+        <p class="span10" id="fname">{{person.first_name}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>Last Name</strong>: </p>
+        <p class="span10" id="lname">{{person.last_name}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>E-mail</strong>: </p>
+        <p class="span10" id="email">{{person.email}}</p>
+    </div>
+    <div class="row">
+        <p class="span2 text-right"><strong>Registration date</strong>: </p>
+        <p class="span2" id="regdate">{{person.registration_date}}</p>
+    </div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,131 @@
+{% extends "base.html" %}
+
+{% block title %}
+Tasktracker home
+{% endblock %}
+
+{% block content %}
+<h4>Task list:</h4>
+
+    <ul class="nav nav-tabs">
+        {% for sort_choice in sort_choices %}
+            {% if sort_order == sort_choice %}
+                <li class="active">
+                <a>{{sort_choice}}</a>
+                </li>
+            {% else %}
+                <li>
+                <a href="?sort={{sort_choice}}">
+                    {{sort_choice}}
+                </a>
+                </li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+    {% for key in ps.items %}
+    <p>{{key.0}} --- {{key.1}}</p>
+    {% endfor %}
+    <form action="/home_submit/" method="post">
+        {% csrf_token %}
+        <fieldset>
+            <label for="numpages">Tasks per page:
+                <select id="numpages" name="tasks_on_page" style="width:80px;">
+                    {% for choice in numpage_choices %}
+                        <option value="{{choice}}" 
+                            {% if choice == tasks_on_page %}
+                            selected="true"
+                            {% endif %} >
+                            {{choice}}
+                        </option>
+                    {% endfor %}
+                </select>
+            </label>
+            <label for="input_page">Page:
+            <input type="text" name="page" id="input_page" value="{{page}}"
+                style="width: 50px;"/>
+            </label>
+            <label for="show_closed_chb" class="checkbox">Show closed
+            <input type="checkbox" id="show_closed_chb" 
+                {% if show_closed %} checked="true" {% endif %} name="show_closed"/>
+            </label>
+            <button type="submit" class="btn" value='search'>Apply changes</button>
+        </fieldset>
+    </form>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>R</th>
+            <th>Title</th>
+            <th>Posted by</th>
+            <th>Assigned to</th>
+            <th>Posted at</th>
+            <th>Tags</th>
+            <th>Due to</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for task in tasks %}
+            {% if task.status == "op" %}
+                {% if task.expiration_date %}
+                    <tr class="warning">
+                {% else %}
+                    <tr class="success">
+                {% endif %}
+            {% else %}
+                <tr class="error">
+            {% endif %}
+                <td>{{forloop.counter0|add:tasks.start_index}}</td>
+                <td>{{task.rating}}</td>
+                <td><strong>{{task.title}}</strong></td>
+                <td><a href="{{task.created_by.get_absolute_url}}">
+                        {{task.created_by.username}}</a>
+                </td>
+                <td>
+                    {% if task.person_names.all|length > 1 %}
+                        {{task.person_names.all|length}} people
+                    {% else %}
+                        {% for person in task.person_names.all %}
+                            <a href="{{person.get_absolute_url}}">{{person.username}}</a></td>
+                        {% endfor %}
+                    {% endif %}
+                <td>{{task.created_on}}</td>
+                <td>
+                    {% for tag in task.tag_titles.all %}
+                        <span class="label label-info">{{tag.title}}</span>
+                    {% endfor %}
+                </td>
+                <td>{{task.expiration_date}}</td>
+                <td>
+                    {% if task.status == "cp" %}
+                        Closed
+                    {% else %}
+                        Open
+                    {% endif %}
+                </td>
+                <td><a href="/{{task.get_absolute_url}}">View</a></td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<div class="pagination pull-right">
+    <span class="step-links">
+        {% if tasks.has_previous %}
+            <a href="?page={{tasks.previous_page_number}}">
+                Previous page
+            </a>
+        {% endif %}
+
+        <span class="current">
+            Page {{tasks.number}} of {{tasks.paginator.num_pages}}
+        </span>
+        {% if tasks.has_next %}
+            <a href="?page={{tasks.next_page_number}}">
+                Next page
+            </a>
+        {% endif %}
+    </span>
+</div>
+{% endblock %}

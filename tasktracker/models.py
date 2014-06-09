@@ -42,7 +42,7 @@ class UserManager(models.Manager):
 class Tag(models.Model):
     title = models.CharField(max_length=50, unique=True)
     tasks = models.ManyToManyField('Task')
-    
+
     def refers_to_task_with_a_lot_of_users(self, assigned_thresh=4):
         return self.tasks.annotate(num_assigned=models.Count('assigned_to')).aggregate(models.Max('num_assigned'))["num_assigned__max"] >\
                 assigned_thresh
@@ -70,6 +70,12 @@ class Task(models.Model):
     description = models.TextField()
     status = models.CharField(max_length=4, db_index=True, choices=STATUS_CHOICES)
     objects = TaskManager()
+
+    def tag_titles(self):
+        return self.tag_set.defer('tasks')
+
+    def person_names(self):
+        return self.assigned_to.only('username')
 
     def __unicode__(self):
         return self.title

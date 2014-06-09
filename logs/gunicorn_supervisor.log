@@ -1598,3 +1598,1029 @@ Exception SystemExit: 0 in <module 'threading' from '/usr/lib/python2.7/threadin
 2014-06-09 16:40:04 [30840] [INFO] Booting worker with pid: 30840
 2014-06-09 16:40:05 [30841] [INFO] Booting worker with pid: 30841
 2014-06-09 16:40:05 [30842] [INFO] Booting worker with pid: 30842
+2014-06-09 17:24:00 [30825] [INFO] Handling signal: term
+2014-06-09 13:24:00 [30835] [INFO] Worker exiting (pid: 30835)
+2014-06-09 13:24:00 [30834] [INFO] Worker exiting (pid: 30834)
+2014-06-09 13:24:00 [30836] [INFO] Worker exiting (pid: 30836)
+2014-06-09 13:24:00 [30840] [INFO] Worker exiting (pid: 30840)
+2014-06-09 13:24:00 [30838] [INFO] Worker exiting (pid: 30838)
+2014-06-09 13:24:00 [30841] [INFO] Worker exiting (pid: 30841)
+2014-06-09 13:24:00 [30842] [INFO] Worker exiting (pid: 30842)
+2014-06-09 13:24:00 [30837] [INFO] Worker exiting (pid: 30837)
+2014-06-09 17:24:00 [30825] [INFO] Shutting down: Master
+2014-06-09 17:24:01 [31950] [INFO] Starting gunicorn 18.0
+2014-06-09 17:24:01 [31950] [INFO] Listening at: unix:./run/gunicorn.sock (31950)
+2014-06-09 17:24:01 [31950] [INFO] Using worker: sync
+2014-06-09 17:24:01 [31959] [INFO] Booting worker with pid: 31959
+2014-06-09 17:24:01 [31960] [INFO] Booting worker with pid: 31960
+2014-06-09 17:24:01 [31961] [INFO] Booting worker with pid: 31961
+2014-06-09 17:24:01 [31962] [INFO] Booting worker with pid: 31962
+2014-06-09 17:24:01 [31963] [INFO] Booting worker with pid: 31963
+2014-06-09 17:24:01 [31964] [INFO] Booting worker with pid: 31964
+2014-06-09 17:24:01 [31965] [INFO] Booting worker with pid: 31965
+2014-06-09 17:24:01 [31966] [INFO] Booting worker with pid: 31966
+2014-06-09 17:24:01 [31967] [INFO] Booting worker with pid: 31967
+2014-06-09 17:26:27 [31950] [INFO] Handling signal: term
+2014-06-09 13:26:27 [31959] [INFO] Worker exiting (pid: 31959)
+2014-06-09 17:26:27 [31960] [INFO] Worker exiting (pid: 31960)
+2014-06-09 13:26:27 [31965] [INFO] Worker exiting (pid: 31965)
+2014-06-09 13:26:27 [31967] [INFO] Worker exiting (pid: 31967)
+2014-06-09 13:26:27 [31962] [INFO] Worker exiting (pid: 31962)
+2014-06-09 13:26:27 [31963] [INFO] Worker exiting (pid: 31963)
+2014-06-09 13:26:27 [31966] [INFO] Worker exiting (pid: 31966)
+2014-06-09 13:26:27 [31961] [INFO] Worker exiting (pid: 31961)
+2014-06-09 17:26:27 [31950] [INFO] Shutting down: Master
+2014-06-09 17:26:28 [32184] [INFO] Starting gunicorn 18.0
+2014-06-09 17:26:28 [32184] [INFO] Listening at: unix:./run/gunicorn.sock (32184)
+2014-06-09 17:26:28 [32184] [INFO] Using worker: sync
+2014-06-09 17:26:28 [32193] [INFO] Booting worker with pid: 32193
+2014-06-09 17:26:28 [32194] [INFO] Booting worker with pid: 32194
+2014-06-09 17:26:28 [32195] [INFO] Booting worker with pid: 32195
+2014-06-09 17:26:28 [32196] [INFO] Booting worker with pid: 32196
+2014-06-09 17:26:28 [32197] [INFO] Booting worker with pid: 32197
+2014-06-09 17:26:28 [32198] [INFO] Booting worker with pid: 32198
+2014-06-09 17:26:28 [32199] [INFO] Booting worker with pid: 32199
+2014-06-09 17:26:28 [32200] [INFO] Booting worker with pid: 32200
+2014-06-09 17:26:28 [32201] [INFO] Booting worker with pid: 32201
+2014-06-09 17:43:15 [32184] [INFO] Handling signal: term
+2014-06-09 17:43:15 [32193] [INFO] Worker exiting (pid: 32193)
+2014-06-09 17:43:15 [32194] [INFO] Worker exiting (pid: 32194)
+2014-06-09 13:43:15 [32195] [INFO] Worker exiting (pid: 32195)
+2014-06-09 13:43:15 [32201] [INFO] Worker exiting (pid: 32201)
+2014-06-09 13:43:15 [32197] [INFO] Worker exiting (pid: 32197)
+2014-06-09 13:43:15 [32199] [INFO] Worker exiting (pid: 32199)
+2014-06-09 13:43:15 [32200] [INFO] Worker exiting (pid: 32200)
+2014-06-09 13:43:15 [32196] [INFO] Worker exiting (pid: 32196)
+2014-06-09 13:43:15 [32198] [INFO] Worker exiting (pid: 32198)
+2014-06-09 17:43:15 [32184] [INFO] Shutting down: Master
+2014-06-09 17:43:16 [32628] [INFO] Starting gunicorn 18.0
+2014-06-09 17:43:16 [32628] [INFO] Listening at: unix:./run/gunicorn.sock (32628)
+2014-06-09 17:43:16 [32628] [INFO] Using worker: sync
+2014-06-09 17:43:16 [32637] [INFO] Booting worker with pid: 32637
+2014-06-09 17:43:16 [32638] [INFO] Booting worker with pid: 32638
+2014-06-09 17:43:16 [32639] [INFO] Booting worker with pid: 32639
+2014-06-09 17:43:16 [32640] [INFO] Booting worker with pid: 32640
+2014-06-09 17:43:16 [32641] [INFO] Booting worker with pid: 32641
+2014-06-09 17:43:16 [32642] [INFO] Booting worker with pid: 32642
+2014-06-09 17:43:16 [32643] [INFO] Booting worker with pid: 32643
+2014-06-09 17:43:16 [32644] [INFO] Booting worker with pid: 32644
+2014-06-09 17:43:17 [32645] [INFO] Booting worker with pid: 32645
+2014-06-09 17:46:33 [32628] [INFO] Handling signal: term
+2014-06-09 13:46:33 [32640] [INFO] Worker exiting (pid: 32640)
+2014-06-09 13:46:33 [32645] [INFO] Worker exiting (pid: 32645)
+2014-06-09 17:46:33 [32643] [INFO] Worker exiting (pid: 32643)
+2014-06-09 17:46:33 [32641] [INFO] Worker exiting (pid: 32641)
+2014-06-09 17:46:33 [32644] [INFO] Worker exiting (pid: 32644)
+2014-06-09 17:46:33 [32638] [INFO] Worker exiting (pid: 32638)
+2014-06-09 17:46:33 [32642] [INFO] Worker exiting (pid: 32642)
+2014-06-09 17:46:33 [32639] [INFO] Worker exiting (pid: 32639)
+2014-06-09 13:46:33 [32637] [INFO] Worker exiting (pid: 32637)
+2014-06-09 17:46:33 [32628] [INFO] Shutting down: Master
+2014-06-09 17:46:34 [32763] [INFO] Starting gunicorn 18.0
+2014-06-09 17:46:34 [32763] [INFO] Listening at: unix:./run/gunicorn.sock (32763)
+2014-06-09 17:46:34 [32763] [INFO] Using worker: sync
+2014-06-09 17:46:34 [304] [INFO] Booting worker with pid: 304
+2014-06-09 17:46:34 [305] [INFO] Booting worker with pid: 305
+2014-06-09 17:46:34 [306] [INFO] Booting worker with pid: 306
+2014-06-09 17:46:34 [307] [INFO] Booting worker with pid: 307
+2014-06-09 17:46:34 [308] [INFO] Booting worker with pid: 308
+2014-06-09 17:46:34 [309] [INFO] Booting worker with pid: 309
+2014-06-09 17:46:34 [310] [INFO] Booting worker with pid: 310
+2014-06-09 17:46:34 [311] [INFO] Booting worker with pid: 311
+2014-06-09 17:46:34 [312] [INFO] Booting worker with pid: 312
+2014-06-09 17:46:58 [32763] [INFO] Handling signal: term
+2014-06-09 17:46:58 [306] [INFO] Worker exiting (pid: 306)
+2014-06-09 17:46:58 [309] [INFO] Worker exiting (pid: 309)
+2014-06-09 17:46:58 [307] [INFO] Worker exiting (pid: 307)
+2014-06-09 17:46:58 [304] [INFO] Worker exiting (pid: 304)
+2014-06-09 17:46:58 [305] [INFO] Worker exiting (pid: 305)
+2014-06-09 17:46:58 [308] [INFO] Worker exiting (pid: 308)
+2014-06-09 17:46:58 [310] [INFO] Worker exiting (pid: 310)
+2014-06-09 17:46:58 [311] [INFO] Worker exiting (pid: 311)
+2014-06-09 13:46:58 [312] [INFO] Worker exiting (pid: 312)
+2014-06-09 17:46:58 [32763] [INFO] Shutting down: Master
+2014-06-09 17:47:00 [348] [INFO] Starting gunicorn 18.0
+2014-06-09 17:47:00 [348] [INFO] Listening at: unix:./run/gunicorn.sock (348)
+2014-06-09 17:47:00 [348] [INFO] Using worker: sync
+2014-06-09 17:47:00 [357] [INFO] Booting worker with pid: 357
+2014-06-09 17:47:00 [358] [INFO] Booting worker with pid: 358
+2014-06-09 17:47:00 [359] [INFO] Booting worker with pid: 359
+2014-06-09 17:47:00 [360] [INFO] Booting worker with pid: 360
+2014-06-09 17:47:00 [361] [INFO] Booting worker with pid: 361
+2014-06-09 17:47:00 [362] [INFO] Booting worker with pid: 362
+2014-06-09 17:47:00 [363] [INFO] Booting worker with pid: 363
+2014-06-09 17:47:00 [364] [INFO] Booting worker with pid: 364
+2014-06-09 17:47:00 [365] [INFO] Booting worker with pid: 365
+2014-06-09 17:48:32 [348] [INFO] Handling signal: term
+2014-06-09 17:48:32 [357] [INFO] Worker exiting (pid: 357)
+2014-06-09 13:48:32 [359] [INFO] Worker exiting (pid: 359)
+2014-06-09 17:48:32 [358] [INFO] Worker exiting (pid: 358)
+2014-06-09 13:48:32 [363] [INFO] Worker exiting (pid: 363)
+2014-06-09 17:48:32 [365] [INFO] Worker exiting (pid: 365)
+2014-06-09 17:48:32 [364] [INFO] Worker exiting (pid: 364)
+2014-06-09 13:48:32 [360] [INFO] Worker exiting (pid: 360)
+2014-06-09 13:48:32 [362] [INFO] Worker exiting (pid: 362)
+2014-06-09 13:48:32 [361] [INFO] Worker exiting (pid: 361)
+2014-06-09 17:48:32 [348] [INFO] Shutting down: Master
+2014-06-09 17:48:33 [444] [INFO] Starting gunicorn 18.0
+2014-06-09 17:48:33 [444] [INFO] Listening at: unix:./run/gunicorn.sock (444)
+2014-06-09 17:48:33 [444] [INFO] Using worker: sync
+2014-06-09 17:48:33 [454] [INFO] Booting worker with pid: 454
+2014-06-09 17:48:33 [455] [INFO] Booting worker with pid: 455
+2014-06-09 17:48:33 [456] [INFO] Booting worker with pid: 456
+2014-06-09 17:48:33 [457] [INFO] Booting worker with pid: 457
+2014-06-09 17:48:33 [458] [INFO] Booting worker with pid: 458
+2014-06-09 17:48:33 [459] [INFO] Booting worker with pid: 459
+2014-06-09 17:48:33 [460] [INFO] Booting worker with pid: 460
+2014-06-09 17:48:33 [461] [INFO] Booting worker with pid: 461
+2014-06-09 17:48:33 [462] [INFO] Booting worker with pid: 462
+2014-06-09 17:48:57 [444] [INFO] Handling signal: term
+2014-06-09 17:48:57 [454] [INFO] Worker exiting (pid: 454)
+2014-06-09 17:48:57 [455] [INFO] Worker exiting (pid: 455)
+2014-06-09 17:48:57 [456] [INFO] Worker exiting (pid: 456)
+2014-06-09 17:48:57 [461] [INFO] Worker exiting (pid: 461)
+2014-06-09 17:48:57 [457] [INFO] Worker exiting (pid: 457)
+2014-06-09 13:48:57 [459] [INFO] Worker exiting (pid: 459)
+2014-06-09 13:48:57 [460] [INFO] Worker exiting (pid: 460)
+2014-06-09 13:48:57 [458] [INFO] Worker exiting (pid: 458)
+2014-06-09 13:48:57 [462] [INFO] Worker exiting (pid: 462)
+2014-06-09 17:48:57 [444] [INFO] Shutting down: Master
+2014-06-09 17:48:58 [495] [INFO] Starting gunicorn 18.0
+2014-06-09 17:48:58 [495] [INFO] Listening at: unix:./run/gunicorn.sock (495)
+2014-06-09 17:48:58 [495] [INFO] Using worker: sync
+2014-06-09 17:48:58 [504] [INFO] Booting worker with pid: 504
+2014-06-09 17:48:58 [505] [INFO] Booting worker with pid: 505
+2014-06-09 17:48:58 [506] [INFO] Booting worker with pid: 506
+2014-06-09 17:48:58 [507] [INFO] Booting worker with pid: 507
+2014-06-09 17:48:58 [509] [INFO] Booting worker with pid: 509
+2014-06-09 17:48:59 [510] [INFO] Booting worker with pid: 510
+2014-06-09 17:48:59 [511] [INFO] Booting worker with pid: 511
+2014-06-09 17:48:59 [512] [INFO] Booting worker with pid: 512
+2014-06-09 17:48:59 [513] [INFO] Booting worker with pid: 513
+2014-06-09 17:51:08 [495] [INFO] Handling signal: term
+2014-06-09 13:51:08 [513] [INFO] Worker exiting (pid: 513)
+2014-06-09 13:51:08 [512] [INFO] Worker exiting (pid: 512)
+2014-06-09 13:51:08 [505] [INFO] Worker exiting (pid: 505)
+2014-06-09 13:51:08 [511] [INFO] Worker exiting (pid: 511)
+2014-06-09 13:51:08 [510] [INFO] Worker exiting (pid: 510)
+2014-06-09 13:51:08 [507] [INFO] Worker exiting (pid: 507)
+2014-06-09 13:51:08 [506] [INFO] Worker exiting (pid: 506)
+2014-06-09 13:51:08 [509] [INFO] Worker exiting (pid: 509)
+2014-06-09 17:51:08 [495] [INFO] Shutting down: Master
+2014-06-09 17:51:09 [610] [INFO] Starting gunicorn 18.0
+2014-06-09 17:51:09 [610] [INFO] Listening at: unix:./run/gunicorn.sock (610)
+2014-06-09 17:51:09 [610] [INFO] Using worker: sync
+2014-06-09 17:51:09 [619] [INFO] Booting worker with pid: 619
+2014-06-09 17:51:09 [620] [INFO] Booting worker with pid: 620
+2014-06-09 17:51:09 [621] [INFO] Booting worker with pid: 621
+2014-06-09 17:51:09 [622] [INFO] Booting worker with pid: 622
+2014-06-09 17:51:09 [623] [INFO] Booting worker with pid: 623
+2014-06-09 17:51:09 [624] [INFO] Booting worker with pid: 624
+2014-06-09 17:51:09 [625] [INFO] Booting worker with pid: 625
+2014-06-09 17:51:09 [626] [INFO] Booting worker with pid: 626
+2014-06-09 17:51:09 [627] [INFO] Booting worker with pid: 627
+2014-06-09 17:58:56 [610] [INFO] Handling signal: term
+2014-06-09 13:58:56 [619] [INFO] Worker exiting (pid: 619)
+2014-06-09 13:58:56 [620] [INFO] Worker exiting (pid: 620)
+2014-06-09 13:58:56 [623] [INFO] Worker exiting (pid: 623)
+2014-06-09 13:58:56 [621] [INFO] Worker exiting (pid: 621)
+2014-06-09 13:58:56 [622] [INFO] Worker exiting (pid: 622)
+2014-06-09 13:58:56 [626] [INFO] Worker exiting (pid: 626)
+2014-06-09 13:58:56 [624] [INFO] Worker exiting (pid: 624)
+2014-06-09 13:58:56 [627] [INFO] Worker exiting (pid: 627)
+2014-06-09 13:58:56 [625] [INFO] Worker exiting (pid: 625)
+2014-06-09 17:58:56 [610] [INFO] Shutting down: Master
+2014-06-09 17:58:57 [858] [INFO] Starting gunicorn 18.0
+2014-06-09 17:58:57 [858] [INFO] Listening at: unix:./run/gunicorn.sock (858)
+2014-06-09 17:58:57 [858] [INFO] Using worker: sync
+2014-06-09 17:58:57 [867] [INFO] Booting worker with pid: 867
+2014-06-09 17:58:57 [868] [INFO] Booting worker with pid: 868
+2014-06-09 17:58:57 [869] [INFO] Booting worker with pid: 869
+2014-06-09 17:58:57 [870] [INFO] Booting worker with pid: 870
+2014-06-09 17:58:58 [871] [INFO] Booting worker with pid: 871
+2014-06-09 17:58:58 [872] [INFO] Booting worker with pid: 872
+2014-06-09 17:58:58 [873] [INFO] Booting worker with pid: 873
+2014-06-09 17:58:58 [874] [INFO] Booting worker with pid: 874
+2014-06-09 17:58:58 [875] [INFO] Booting worker with pid: 875
+2014-06-09 17:59:52 [858] [INFO] Handling signal: term
+2014-06-09 17:59:52 [867] [INFO] Worker exiting (pid: 867)
+2014-06-09 17:59:52 [869] [INFO] Worker exiting (pid: 869)
+2014-06-09 17:59:52 [868] [INFO] Worker exiting (pid: 868)
+2014-06-09 17:59:52 [871] [INFO] Worker exiting (pid: 871)
+2014-06-09 13:59:52 [870] [INFO] Worker exiting (pid: 870)
+2014-06-09 13:59:52 [872] [INFO] Worker exiting (pid: 872)
+2014-06-09 17:59:52 [874] [INFO] Worker exiting (pid: 874)
+2014-06-09 13:59:52 [873] [INFO] Worker exiting (pid: 873)
+2014-06-09 13:59:52 [875] [INFO] Worker exiting (pid: 875)
+2014-06-09 17:59:52 [858] [INFO] Shutting down: Master
+2014-06-09 17:59:54 [940] [INFO] Starting gunicorn 18.0
+2014-06-09 17:59:54 [940] [INFO] Listening at: unix:./run/gunicorn.sock (940)
+2014-06-09 17:59:54 [940] [INFO] Using worker: sync
+2014-06-09 17:59:54 [950] [INFO] Booting worker with pid: 950
+2014-06-09 17:59:54 [953] [INFO] Booting worker with pid: 953
+2014-06-09 17:59:54 [954] [INFO] Booting worker with pid: 954
+2014-06-09 17:59:54 [955] [INFO] Booting worker with pid: 955
+2014-06-09 17:59:54 [956] [INFO] Booting worker with pid: 956
+2014-06-09 17:59:54 [957] [INFO] Booting worker with pid: 957
+2014-06-09 17:59:54 [959] [INFO] Booting worker with pid: 959
+2014-06-09 17:59:54 [960] [INFO] Booting worker with pid: 960
+2014-06-09 17:59:54 [961] [INFO] Booting worker with pid: 961
+2014-06-09 18:00:50 [940] [INFO] Handling signal: term
+2014-06-09 18:00:50 [950] [INFO] Worker exiting (pid: 950)
+2014-06-09 18:00:50 [960] [INFO] Worker exiting (pid: 960)
+2014-06-09 18:00:50 [961] [INFO] Worker exiting (pid: 961)
+2014-06-09 14:00:50 [956] [INFO] Worker exiting (pid: 956)
+2014-06-09 18:00:50 [953] [INFO] Worker exiting (pid: 953)
+2014-06-09 18:00:50 [954] [INFO] Worker exiting (pid: 954)
+2014-06-09 18:00:50 [959] [INFO] Worker exiting (pid: 959)
+2014-06-09 18:00:50 [955] [INFO] Worker exiting (pid: 955)
+2014-06-09 18:00:50 [957] [INFO] Worker exiting (pid: 957)
+2014-06-09 18:00:50 [940] [INFO] Shutting down: Master
+2014-06-09 18:00:51 [996] [INFO] Starting gunicorn 18.0
+2014-06-09 18:00:51 [996] [INFO] Listening at: unix:./run/gunicorn.sock (996)
+2014-06-09 18:00:51 [996] [INFO] Using worker: sync
+2014-06-09 18:00:51 [1008] [INFO] Booting worker with pid: 1008
+2014-06-09 18:00:51 [1010] [INFO] Booting worker with pid: 1010
+2014-06-09 18:00:51 [1011] [INFO] Booting worker with pid: 1011
+2014-06-09 18:00:51 [1012] [INFO] Booting worker with pid: 1012
+2014-06-09 18:00:51 [1013] [INFO] Booting worker with pid: 1013
+2014-06-09 18:00:51 [1014] [INFO] Booting worker with pid: 1014
+2014-06-09 18:00:51 [1015] [INFO] Booting worker with pid: 1015
+2014-06-09 18:00:51 [1016] [INFO] Booting worker with pid: 1016
+2014-06-09 18:00:51 [1018] [INFO] Booting worker with pid: 1018
+2014-06-09 18:01:44 [996] [INFO] Handling signal: term
+2014-06-09 14:01:44 [1010] [INFO] Worker exiting (pid: 1010)
+2014-06-09 14:01:44 [1008] [INFO] Worker exiting (pid: 1008)
+2014-06-09 14:01:44 [1011] [INFO] Worker exiting (pid: 1011)
+2014-06-09 18:01:44 [1016] [INFO] Worker exiting (pid: 1016)
+2014-06-09 14:01:44 [1018] [INFO] Worker exiting (pid: 1018)
+2014-06-09 14:01:44 [1014] [INFO] Worker exiting (pid: 1014)
+2014-06-09 14:01:44 [1013] [INFO] Worker exiting (pid: 1013)
+2014-06-09 14:01:44 [1015] [INFO] Worker exiting (pid: 1015)
+2014-06-09 14:01:44 [1012] [INFO] Worker exiting (pid: 1012)
+2014-06-09 18:01:44 [996] [INFO] Shutting down: Master
+2014-06-09 18:01:46 [1050] [INFO] Starting gunicorn 18.0
+2014-06-09 18:01:46 [1050] [INFO] Listening at: unix:./run/gunicorn.sock (1050)
+2014-06-09 18:01:46 [1050] [INFO] Using worker: sync
+2014-06-09 18:01:46 [1069] [INFO] Booting worker with pid: 1069
+2014-06-09 18:01:46 [1070] [INFO] Booting worker with pid: 1070
+2014-06-09 18:01:46 [1071] [INFO] Booting worker with pid: 1071
+2014-06-09 18:01:46 [1072] [INFO] Booting worker with pid: 1072
+2014-06-09 18:01:46 [1073] [INFO] Booting worker with pid: 1073
+2014-06-09 18:01:46 [1074] [INFO] Booting worker with pid: 1074
+2014-06-09 18:01:46 [1075] [INFO] Booting worker with pid: 1075
+2014-06-09 18:01:46 [1076] [INFO] Booting worker with pid: 1076
+2014-06-09 18:01:46 [1077] [INFO] Booting worker with pid: 1077
+2014-06-09 18:04:03 [1050] [INFO] Handling signal: term
+2014-06-09 14:04:03 [1069] [INFO] Worker exiting (pid: 1069)
+2014-06-09 14:04:03 [1070] [INFO] Worker exiting (pid: 1070)
+2014-06-09 14:04:03 [1073] [INFO] Worker exiting (pid: 1073)
+2014-06-09 14:04:03 [1072] [INFO] Worker exiting (pid: 1072)
+2014-06-09 14:04:03 [1071] [INFO] Worker exiting (pid: 1071)
+2014-06-09 14:04:03 [1074] [INFO] Worker exiting (pid: 1074)
+2014-06-09 14:04:03 [1075] [INFO] Worker exiting (pid: 1075)
+2014-06-09 14:04:03 [1076] [INFO] Worker exiting (pid: 1076)
+2014-06-09 14:04:03 [1077] [INFO] Worker exiting (pid: 1077)
+2014-06-09 18:04:03 [1050] [INFO] Shutting down: Master
+2014-06-09 18:04:04 [1135] [INFO] Starting gunicorn 18.0
+2014-06-09 18:04:04 [1135] [INFO] Listening at: unix:./run/gunicorn.sock (1135)
+2014-06-09 18:04:04 [1135] [INFO] Using worker: sync
+2014-06-09 18:04:04 [1145] [INFO] Booting worker with pid: 1145
+2014-06-09 18:04:05 [1148] [INFO] Booting worker with pid: 1148
+2014-06-09 18:04:05 [1149] [INFO] Booting worker with pid: 1149
+2014-06-09 18:04:05 [1150] [INFO] Booting worker with pid: 1150
+2014-06-09 18:04:05 [1151] [INFO] Booting worker with pid: 1151
+2014-06-09 18:04:05 [1152] [INFO] Booting worker with pid: 1152
+2014-06-09 18:04:05 [1153] [INFO] Booting worker with pid: 1153
+2014-06-09 18:04:05 [1154] [INFO] Booting worker with pid: 1154
+2014-06-09 18:04:05 [1155] [INFO] Booting worker with pid: 1155
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1152)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1153)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1154)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1155)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1145)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1148)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1149)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1150)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1154)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1155)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1145)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1148)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1149)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1150)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1151)
+2014-06-09 22:25:57 [2356] [INFO] Booting worker with pid: 2356
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1148)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1149)
+2014-06-09 22:25:57 [1135] [CRITICAL] WORKER TIMEOUT (pid:1150)
+2014-06-09 22:25:57 [2357] [INFO] Booting worker with pid: 2357
+2014-06-09 22:25:57 [2361] [INFO] Booting worker with pid: 2361
+2014-06-09 22:25:57 [2409] [INFO] Booting worker with pid: 2409
+2014-06-09 22:25:57 [2419] [INFO] Booting worker with pid: 2419
+2014-06-09 22:25:57 [2464] [INFO] Booting worker with pid: 2464
+2014-06-09 22:25:57 [2465] [INFO] Booting worker with pid: 2465
+2014-06-09 22:25:58 [2477] [INFO] Booting worker with pid: 2477
+2014-06-09 22:25:58 [2480] [INFO] Booting worker with pid: 2480
+2014-06-09 23:54:23 [1135] [INFO] Handling signal: term
+2014-06-09 23:54:23 [2464] [INFO] Worker exiting (pid: 2464)
+2014-06-09 19:54:23 [2409] [INFO] Worker exiting (pid: 2409)
+2014-06-09 19:54:23 [2465] [INFO] Worker exiting (pid: 2465)
+2014-06-09 23:54:23 [2477] [INFO] Worker exiting (pid: 2477)
+2014-06-09 23:54:23 [2480] [INFO] Worker exiting (pid: 2480)
+2014-06-09 19:54:23 [2419] [INFO] Worker exiting (pid: 2419)
+2014-06-09 23:54:23 [2356] [INFO] Worker exiting (pid: 2356)
+2014-06-09 19:54:23 [2357] [INFO] Worker exiting (pid: 2357)
+2014-06-09 23:54:23 [1135] [INFO] Shutting down: Master
+2014-06-09 23:54:24 [4637] [INFO] Starting gunicorn 18.0
+2014-06-09 23:54:24 [4637] [INFO] Listening at: unix:./run/gunicorn.sock (4637)
+2014-06-09 23:54:24 [4637] [INFO] Using worker: sync
+2014-06-09 23:54:24 [4646] [INFO] Booting worker with pid: 4646
+2014-06-09 23:54:24 [4647] [INFO] Booting worker with pid: 4647
+2014-06-09 23:54:24 [4648] [INFO] Booting worker with pid: 4648
+2014-06-09 23:54:24 [4649] [INFO] Booting worker with pid: 4649
+2014-06-09 23:54:24 [4650] [INFO] Booting worker with pid: 4650
+2014-06-09 23:54:24 [4651] [INFO] Booting worker with pid: 4651
+2014-06-09 23:54:24 [4652] [INFO] Booting worker with pid: 4652
+2014-06-09 23:54:24 [4653] [INFO] Booting worker with pid: 4653
+2014-06-09 23:54:25 [4654] [INFO] Booting worker with pid: 4654
+2014-06-09 23:58:53 [4637] [INFO] Handling signal: term
+2014-06-09 19:58:53 [4646] [INFO] Worker exiting (pid: 4646)
+2014-06-09 23:58:53 [4647] [INFO] Worker exiting (pid: 4647)
+2014-06-09 19:58:53 [4649] [INFO] Worker exiting (pid: 4649)
+2014-06-09 19:58:53 [4650] [INFO] Worker exiting (pid: 4650)
+2014-06-09 19:58:53 [4652] [INFO] Worker exiting (pid: 4652)
+2014-06-09 19:58:53 [4654] [INFO] Worker exiting (pid: 4654)
+2014-06-09 23:58:53 [4653] [INFO] Worker exiting (pid: 4653)
+2014-06-09 19:58:53 [4651] [INFO] Worker exiting (pid: 4651)
+2014-06-09 19:58:53 [4648] [INFO] Worker exiting (pid: 4648)
+2014-06-09 23:58:53 [4637] [INFO] Shutting down: Master
+2014-06-09 23:58:54 [4767] [INFO] Starting gunicorn 18.0
+2014-06-09 23:58:54 [4767] [INFO] Listening at: unix:./run/gunicorn.sock (4767)
+2014-06-09 23:58:54 [4767] [INFO] Using worker: sync
+2014-06-09 23:58:54 [4776] [INFO] Booting worker with pid: 4776
+2014-06-09 23:58:54 [4777] [INFO] Booting worker with pid: 4777
+2014-06-09 23:58:54 [4778] [INFO] Booting worker with pid: 4778
+2014-06-09 23:58:54 [4779] [INFO] Booting worker with pid: 4779
+2014-06-09 23:58:54 [4780] [INFO] Booting worker with pid: 4780
+2014-06-09 23:58:54 [4781] [INFO] Booting worker with pid: 4781
+2014-06-09 23:58:54 [4782] [INFO] Booting worker with pid: 4782
+2014-06-09 23:58:55 [4783] [INFO] Booting worker with pid: 4783
+2014-06-09 23:58:55 [4784] [INFO] Booting worker with pid: 4784
+2014-06-10 00:10:27 [4767] [INFO] Handling signal: term
+2014-06-09 20:10:27 [4777] [INFO] Worker exiting (pid: 4777)
+2014-06-09 20:10:27 [4776] [INFO] Worker exiting (pid: 4776)
+2014-06-09 20:10:27 [4781] [INFO] Worker exiting (pid: 4781)
+2014-06-09 20:10:27 [4779] [INFO] Worker exiting (pid: 4779)
+2014-06-09 20:10:27 [4778] [INFO] Worker exiting (pid: 4778)
+2014-06-09 20:10:27 [4783] [INFO] Worker exiting (pid: 4783)
+2014-06-09 20:10:27 [4784] [INFO] Worker exiting (pid: 4784)
+2014-06-09 20:10:27 [4782] [INFO] Worker exiting (pid: 4782)
+2014-06-10 00:10:27 [4767] [INFO] Shutting down: Master
+2014-06-10 00:10:28 [5011] [INFO] Starting gunicorn 18.0
+2014-06-10 00:10:28 [5011] [INFO] Listening at: unix:./run/gunicorn.sock (5011)
+2014-06-10 00:10:28 [5011] [INFO] Using worker: sync
+2014-06-10 00:10:28 [5020] [INFO] Booting worker with pid: 5020
+2014-06-10 00:10:28 [5021] [INFO] Booting worker with pid: 5021
+2014-06-10 00:10:28 [5022] [INFO] Booting worker with pid: 5022
+2014-06-10 00:10:28 [5023] [INFO] Booting worker with pid: 5023
+2014-06-10 00:10:28 [5024] [INFO] Booting worker with pid: 5024
+2014-06-10 00:10:28 [5025] [INFO] Booting worker with pid: 5025
+2014-06-10 00:10:28 [5026] [INFO] Booting worker with pid: 5026
+2014-06-10 00:10:28 [5027] [INFO] Booting worker with pid: 5027
+2014-06-10 00:10:28 [5028] [INFO] Booting worker with pid: 5028
+2014-06-10 00:17:07 [5011] [INFO] Handling signal: term
+2014-06-10 00:17:07 [5025] [INFO] Worker exiting (pid: 5025)
+2014-06-10 00:17:07 [5024] [INFO] Worker exiting (pid: 5024)
+2014-06-10 00:17:07 [5026] [INFO] Worker exiting (pid: 5026)
+2014-06-09 20:17:07 [5027] [INFO] Worker exiting (pid: 5027)
+2014-06-09 20:17:07 [5020] [INFO] Worker exiting (pid: 5020)
+2014-06-10 00:17:07 [5023] [INFO] Worker exiting (pid: 5023)
+2014-06-09 20:17:07 [5028] [INFO] Worker exiting (pid: 5028)
+2014-06-09 20:17:07 [5021] [INFO] Worker exiting (pid: 5021)
+2014-06-10 00:17:07 [5022] [INFO] Worker exiting (pid: 5022)
+2014-06-10 00:17:07 [5011] [INFO] Shutting down: Master
+2014-06-10 00:17:08 [5109] [INFO] Starting gunicorn 18.0
+2014-06-10 00:17:08 [5109] [INFO] Listening at: unix:./run/gunicorn.sock (5109)
+2014-06-10 00:17:08 [5109] [INFO] Using worker: sync
+2014-06-10 00:17:08 [5118] [INFO] Booting worker with pid: 5118
+2014-06-10 00:17:08 [5119] [INFO] Booting worker with pid: 5119
+2014-06-10 00:17:08 [5120] [INFO] Booting worker with pid: 5120
+2014-06-10 00:17:08 [5121] [INFO] Booting worker with pid: 5121
+2014-06-10 00:17:08 [5122] [INFO] Booting worker with pid: 5122
+2014-06-10 00:17:08 [5123] [INFO] Booting worker with pid: 5123
+2014-06-10 00:17:08 [5124] [INFO] Booting worker with pid: 5124
+2014-06-10 00:17:08 [5125] [INFO] Booting worker with pid: 5125
+2014-06-10 00:17:08 [5126] [INFO] Booting worker with pid: 5126
+2014-06-10 00:29:41 [5109] [INFO] Handling signal: term
+2014-06-09 20:29:41 [5122] [INFO] Worker exiting (pid: 5122)
+2014-06-09 20:29:41 [5126] [INFO] Worker exiting (pid: 5126)
+2014-06-09 20:29:41 [5119] [INFO] Worker exiting (pid: 5119)
+2014-06-10 00:29:41 [5118] [INFO] Worker exiting (pid: 5118)
+2014-06-09 20:29:41 [5124] [INFO] Worker exiting (pid: 5124)
+2014-06-09 20:29:41 [5125] [INFO] Worker exiting (pid: 5125)
+2014-06-09 20:29:41 [5120] [INFO] Worker exiting (pid: 5120)
+2014-06-09 20:29:41 [5123] [INFO] Worker exiting (pid: 5123)
+2014-06-09 20:29:41 [5121] [INFO] Worker exiting (pid: 5121)
+2014-06-10 00:29:41 [5109] [INFO] Shutting down: Master
+2014-06-10 00:29:42 [5513] [INFO] Starting gunicorn 18.0
+2014-06-10 00:29:42 [5513] [INFO] Listening at: unix:./run/gunicorn.sock (5513)
+2014-06-10 00:29:42 [5513] [INFO] Using worker: sync
+2014-06-10 00:29:42 [5522] [INFO] Booting worker with pid: 5522
+2014-06-10 00:29:42 [5523] [INFO] Booting worker with pid: 5523
+2014-06-10 00:29:42 [5524] [INFO] Booting worker with pid: 5524
+2014-06-10 00:29:42 [5525] [INFO] Booting worker with pid: 5525
+2014-06-10 00:29:42 [5526] [INFO] Booting worker with pid: 5526
+2014-06-10 00:29:42 [5527] [INFO] Booting worker with pid: 5527
+2014-06-10 00:29:42 [5528] [INFO] Booting worker with pid: 5528
+2014-06-10 00:29:42 [5529] [INFO] Booting worker with pid: 5529
+2014-06-10 00:29:42 [5530] [INFO] Booting worker with pid: 5530
+2014-06-10 00:31:13 [5513] [INFO] Handling signal: term
+2014-06-10 00:31:13 [5526] [INFO] Worker exiting (pid: 5526)
+2014-06-09 20:31:13 [5522] [INFO] Worker exiting (pid: 5522)
+2014-06-10 00:31:13 [5525] [INFO] Worker exiting (pid: 5525)
+2014-06-10 00:31:13 [5524] [INFO] Worker exiting (pid: 5524)
+2014-06-10 00:31:13 [5527] [INFO] Worker exiting (pid: 5527)
+2014-06-10 00:31:13 [5529] [INFO] Worker exiting (pid: 5529)
+2014-06-10 00:31:13 [5523] [INFO] Worker exiting (pid: 5523)
+2014-06-10 00:31:13 [5528] [INFO] Worker exiting (pid: 5528)
+2014-06-09 20:31:13 [5530] [INFO] Worker exiting (pid: 5530)
+2014-06-10 00:31:13 [5513] [INFO] Shutting down: Master
+2014-06-10 00:31:14 [5768] [INFO] Starting gunicorn 18.0
+2014-06-10 00:31:14 [5768] [INFO] Listening at: unix:./run/gunicorn.sock (5768)
+2014-06-10 00:31:14 [5768] [INFO] Using worker: sync
+2014-06-10 00:31:14 [5777] [INFO] Booting worker with pid: 5777
+2014-06-10 00:31:14 [5778] [INFO] Booting worker with pid: 5778
+2014-06-10 00:31:14 [5779] [INFO] Booting worker with pid: 5779
+2014-06-10 00:31:14 [5780] [INFO] Booting worker with pid: 5780
+2014-06-10 00:31:14 [5781] [INFO] Booting worker with pid: 5781
+2014-06-10 00:31:14 [5782] [INFO] Booting worker with pid: 5782
+2014-06-10 00:31:14 [5783] [INFO] Booting worker with pid: 5783
+2014-06-10 00:31:14 [5784] [INFO] Booting worker with pid: 5784
+2014-06-10 00:31:14 [5785] [INFO] Booting worker with pid: 5785
+2014-06-10 00:36:14 [5768] [INFO] Handling signal: term
+2014-06-10 00:36:14 [5778] [INFO] Worker exiting (pid: 5778)
+2014-06-10 00:36:14 [5777] [INFO] Worker exiting (pid: 5777)
+2014-06-09 20:36:14 [5780] [INFO] Worker exiting (pid: 5780)
+2014-06-10 00:36:14 [5779] [INFO] Worker exiting (pid: 5779)
+2014-06-10 00:36:14 [5781] [INFO] Worker exiting (pid: 5781)
+2014-06-09 20:36:14 [5782] [INFO] Worker exiting (pid: 5782)
+2014-06-09 20:36:14 [5783] [INFO] Worker exiting (pid: 5783)
+2014-06-09 20:36:14 [5784] [INFO] Worker exiting (pid: 5784)
+2014-06-09 20:36:14 [5785] [INFO] Worker exiting (pid: 5785)
+2014-06-10 00:36:14 [5768] [INFO] Shutting down: Master
+2014-06-10 00:36:15 [5943] [INFO] Starting gunicorn 18.0
+2014-06-10 00:36:15 [5943] [INFO] Listening at: unix:./run/gunicorn.sock (5943)
+2014-06-10 00:36:15 [5943] [INFO] Using worker: sync
+2014-06-10 00:36:15 [5952] [INFO] Booting worker with pid: 5952
+2014-06-10 00:36:15 [5953] [INFO] Booting worker with pid: 5953
+2014-06-10 00:36:15 [5954] [INFO] Booting worker with pid: 5954
+2014-06-10 00:36:15 [5955] [INFO] Booting worker with pid: 5955
+2014-06-10 00:36:15 [5956] [INFO] Booting worker with pid: 5956
+2014-06-10 00:36:15 [5957] [INFO] Booting worker with pid: 5957
+2014-06-10 00:36:15 [5958] [INFO] Booting worker with pid: 5958
+2014-06-10 00:36:15 [5959] [INFO] Booting worker with pid: 5959
+2014-06-10 00:36:15 [5960] [INFO] Booting worker with pid: 5960
+2014-06-10 00:39:57 [5943] [INFO] Handling signal: term
+2014-06-09 20:39:57 [5954] [INFO] Worker exiting (pid: 5954)
+2014-06-10 00:39:57 [5952] [INFO] Worker exiting (pid: 5952)
+2014-06-10 00:39:57 [5953] [INFO] Worker exiting (pid: 5953)
+2014-06-10 00:39:57 [5957] [INFO] Worker exiting (pid: 5957)
+2014-06-09 20:39:57 [5955] [INFO] Worker exiting (pid: 5955)
+2014-06-09 20:39:57 [5956] [INFO] Worker exiting (pid: 5956)
+2014-06-09 20:39:57 [5959] [INFO] Worker exiting (pid: 5959)
+2014-06-09 20:39:57 [5958] [INFO] Worker exiting (pid: 5958)
+2014-06-10 00:39:57 [5960] [INFO] Worker exiting (pid: 5960)
+2014-06-10 00:39:57 [5943] [INFO] Shutting down: Master
+2014-06-10 00:39:58 [6049] [INFO] Starting gunicorn 18.0
+2014-06-10 00:39:58 [6049] [INFO] Listening at: unix:./run/gunicorn.sock (6049)
+2014-06-10 00:39:58 [6049] [INFO] Using worker: sync
+2014-06-10 00:39:58 [6058] [INFO] Booting worker with pid: 6058
+2014-06-10 00:39:58 [6059] [INFO] Booting worker with pid: 6059
+2014-06-10 00:39:59 [6060] [INFO] Booting worker with pid: 6060
+2014-06-10 00:39:59 [6061] [INFO] Booting worker with pid: 6061
+2014-06-10 00:39:59 [6062] [INFO] Booting worker with pid: 6062
+2014-06-10 00:39:59 [6063] [INFO] Booting worker with pid: 6063
+2014-06-10 00:39:59 [6064] [INFO] Booting worker with pid: 6064
+2014-06-10 00:39:59 [6065] [INFO] Booting worker with pid: 6065
+2014-06-10 00:39:59 [6072] [INFO] Booting worker with pid: 6072
+2014-06-10 00:51:38 [6049] [INFO] Handling signal: term
+2014-06-09 20:51:38 [6063] [INFO] Worker exiting (pid: 6063)
+2014-06-09 20:51:38 [6058] [INFO] Worker exiting (pid: 6058)
+2014-06-09 20:51:38 [6065] [INFO] Worker exiting (pid: 6065)
+2014-06-09 20:51:38 [6062] [INFO] Worker exiting (pid: 6062)
+2014-06-09 20:51:38 [6061] [INFO] Worker exiting (pid: 6061)
+2014-06-09 20:51:38 [6060] [INFO] Worker exiting (pid: 6060)
+2014-06-09 20:51:38 [6059] [INFO] Worker exiting (pid: 6059)
+2014-06-09 20:51:38 [6064] [INFO] Worker exiting (pid: 6064)
+2014-06-09 20:51:38 [6072] [INFO] Worker exiting (pid: 6072)
+2014-06-10 00:51:38 [6049] [INFO] Shutting down: Master
+2014-06-10 00:51:39 [6676] [INFO] Starting gunicorn 18.0
+2014-06-10 00:51:39 [6676] [INFO] Listening at: unix:./run/gunicorn.sock (6676)
+2014-06-10 00:51:39 [6676] [INFO] Using worker: sync
+2014-06-10 00:51:39 [6685] [INFO] Booting worker with pid: 6685
+2014-06-10 00:51:39 [6686] [INFO] Booting worker with pid: 6686
+2014-06-10 00:51:39 [6687] [INFO] Booting worker with pid: 6687
+2014-06-10 00:51:39 [6688] [INFO] Booting worker with pid: 6688
+2014-06-10 00:51:39 [6689] [INFO] Booting worker with pid: 6689
+2014-06-10 00:51:39 [6690] [INFO] Booting worker with pid: 6690
+2014-06-10 00:51:39 [6691] [INFO] Booting worker with pid: 6691
+2014-06-10 00:51:39 [6692] [INFO] Booting worker with pid: 6692
+2014-06-10 00:51:39 [6693] [INFO] Booting worker with pid: 6693
+2014-06-10 00:53:09 [6676] [INFO] Handling signal: term
+2014-06-09 20:53:09 [6691] [INFO] Worker exiting (pid: 6691)
+2014-06-10 00:53:09 [6688] [INFO] Worker exiting (pid: 6688)
+2014-06-09 20:53:09 [6689] [INFO] Worker exiting (pid: 6689)
+2014-06-10 00:53:09 [6692] [INFO] Worker exiting (pid: 6692)
+2014-06-09 20:53:09 [6693] [INFO] Worker exiting (pid: 6693)
+2014-06-10 00:53:09 [6687] [INFO] Worker exiting (pid: 6687)
+2014-06-10 00:53:09 [6685] [INFO] Worker exiting (pid: 6685)
+2014-06-10 00:53:09 [6686] [INFO] Worker exiting (pid: 6686)
+2014-06-09 20:53:09 [6690] [INFO] Worker exiting (pid: 6690)
+2014-06-10 00:53:09 [6676] [INFO] Shutting down: Master
+2014-06-10 00:53:10 [6743] [INFO] Starting gunicorn 18.0
+2014-06-10 00:53:10 [6743] [INFO] Listening at: unix:./run/gunicorn.sock (6743)
+2014-06-10 00:53:10 [6743] [INFO] Using worker: sync
+2014-06-10 00:53:10 [6752] [INFO] Booting worker with pid: 6752
+2014-06-10 00:53:11 [6753] [INFO] Booting worker with pid: 6753
+2014-06-10 00:53:11 [6754] [INFO] Booting worker with pid: 6754
+2014-06-10 00:53:11 [6755] [INFO] Booting worker with pid: 6755
+2014-06-10 00:53:11 [6756] [INFO] Booting worker with pid: 6756
+2014-06-10 00:53:11 [6757] [INFO] Booting worker with pid: 6757
+2014-06-10 00:53:11 [6758] [INFO] Booting worker with pid: 6758
+2014-06-10 00:53:11 [6759] [INFO] Booting worker with pid: 6759
+2014-06-10 00:53:11 [6760] [INFO] Booting worker with pid: 6760
+2014-06-10 00:53:41 [6743] [INFO] Handling signal: term
+2014-06-10 00:53:41 [6752] [INFO] Worker exiting (pid: 6752)
+2014-06-10 00:53:41 [6753] [INFO] Worker exiting (pid: 6753)
+2014-06-10 00:53:41 [6754] [INFO] Worker exiting (pid: 6754)
+2014-06-10 00:53:41 [6757] [INFO] Worker exiting (pid: 6757)
+2014-06-10 00:53:41 [6758] [INFO] Worker exiting (pid: 6758)
+2014-06-10 00:53:41 [6755] [INFO] Worker exiting (pid: 6755)
+2014-06-09 20:53:41 [6760] [INFO] Worker exiting (pid: 6760)
+2014-06-10 00:53:41 [6759] [INFO] Worker exiting (pid: 6759)
+2014-06-09 20:53:41 [6756] [INFO] Worker exiting (pid: 6756)
+2014-06-10 00:53:41 [6743] [INFO] Shutting down: Master
+2014-06-10 00:53:42 [6779] [INFO] Starting gunicorn 18.0
+2014-06-10 00:53:42 [6779] [INFO] Listening at: unix:./run/gunicorn.sock (6779)
+2014-06-10 00:53:42 [6779] [INFO] Using worker: sync
+2014-06-10 00:53:42 [6788] [INFO] Booting worker with pid: 6788
+2014-06-10 00:53:42 [6789] [INFO] Booting worker with pid: 6789
+2014-06-10 00:53:42 [6790] [INFO] Booting worker with pid: 6790
+2014-06-10 00:53:43 [6791] [INFO] Booting worker with pid: 6791
+2014-06-10 00:53:43 [6792] [INFO] Booting worker with pid: 6792
+2014-06-10 00:53:43 [6793] [INFO] Booting worker with pid: 6793
+2014-06-10 00:53:43 [6794] [INFO] Booting worker with pid: 6794
+2014-06-10 00:53:43 [6795] [INFO] Booting worker with pid: 6795
+2014-06-10 00:53:43 [6796] [INFO] Booting worker with pid: 6796
+2014-06-10 00:54:15 [6779] [INFO] Handling signal: term
+2014-06-09 20:54:15 [6788] [INFO] Worker exiting (pid: 6788)
+2014-06-09 20:54:15 [6795] [INFO] Worker exiting (pid: 6795)
+2014-06-10 00:54:15 [6796] [INFO] Worker exiting (pid: 6796)
+2014-06-09 20:54:15 [6792] [INFO] Worker exiting (pid: 6792)
+2014-06-09 20:54:15 [6791] [INFO] Worker exiting (pid: 6791)
+2014-06-09 20:54:15 [6794] [INFO] Worker exiting (pid: 6794)
+2014-06-10 00:54:15 [6789] [INFO] Worker exiting (pid: 6789)
+2014-06-10 00:54:15 [6793] [INFO] Worker exiting (pid: 6793)
+2014-06-09 20:54:15 [6790] [INFO] Worker exiting (pid: 6790)
+2014-06-10 00:54:15 [6779] [INFO] Shutting down: Master
+2014-06-10 00:54:17 [6832] [INFO] Starting gunicorn 18.0
+2014-06-10 00:54:17 [6832] [INFO] Listening at: unix:./run/gunicorn.sock (6832)
+2014-06-10 00:54:17 [6832] [INFO] Using worker: sync
+2014-06-10 00:54:17 [6841] [INFO] Booting worker with pid: 6841
+2014-06-10 00:54:17 [6842] [INFO] Booting worker with pid: 6842
+2014-06-10 00:54:17 [6843] [INFO] Booting worker with pid: 6843
+2014-06-10 00:54:17 [6844] [INFO] Booting worker with pid: 6844
+2014-06-10 00:54:17 [6845] [INFO] Booting worker with pid: 6845
+2014-06-10 00:54:17 [6846] [INFO] Booting worker with pid: 6846
+2014-06-10 00:54:17 [6847] [INFO] Booting worker with pid: 6847
+2014-06-10 00:54:17 [6848] [INFO] Booting worker with pid: 6848
+2014-06-10 00:54:17 [6849] [INFO] Booting worker with pid: 6849
+2014-06-10 00:54:31 [6832] [INFO] Handling signal: term
+2014-06-10 00:54:31 [6848] [INFO] Worker exiting (pid: 6848)
+2014-06-10 00:54:31 [6841] [INFO] Worker exiting (pid: 6841)
+2014-06-10 00:54:31 [6849] [INFO] Worker exiting (pid: 6849)
+2014-06-09 20:54:31 [6847] [INFO] Worker exiting (pid: 6847)
+2014-06-10 00:54:31 [6842] [INFO] Worker exiting (pid: 6842)
+2014-06-09 20:54:31 [6845] [INFO] Worker exiting (pid: 6845)
+2014-06-10 00:54:31 [6843] [INFO] Worker exiting (pid: 6843)
+2014-06-10 00:54:31 [6844] [INFO] Worker exiting (pid: 6844)
+2014-06-10 00:54:31 [6846] [INFO] Worker exiting (pid: 6846)
+2014-06-10 00:54:31 [6832] [INFO] Shutting down: Master
+2014-06-10 00:54:32 [6867] [INFO] Starting gunicorn 18.0
+2014-06-10 00:54:32 [6867] [INFO] Listening at: unix:./run/gunicorn.sock (6867)
+2014-06-10 00:54:32 [6867] [INFO] Using worker: sync
+2014-06-10 00:54:32 [6876] [INFO] Booting worker with pid: 6876
+2014-06-10 00:54:32 [6877] [INFO] Booting worker with pid: 6877
+2014-06-10 00:54:32 [6878] [INFO] Booting worker with pid: 6878
+2014-06-10 00:54:32 [6879] [INFO] Booting worker with pid: 6879
+2014-06-10 00:54:32 [6880] [INFO] Booting worker with pid: 6880
+2014-06-10 00:54:32 [6881] [INFO] Booting worker with pid: 6881
+2014-06-10 00:54:32 [6882] [INFO] Booting worker with pid: 6882
+2014-06-10 00:54:32 [6883] [INFO] Booting worker with pid: 6883
+2014-06-10 00:54:32 [6884] [INFO] Booting worker with pid: 6884
+2014-06-10 01:08:15 [6867] [INFO] Handling signal: term
+2014-06-09 21:08:15 [6883] [INFO] Worker exiting (pid: 6883)
+2014-06-09 21:08:15 [6880] [INFO] Worker exiting (pid: 6880)
+2014-06-09 21:08:15 [6882] [INFO] Worker exiting (pid: 6882)
+2014-06-09 21:08:15 [6877] [INFO] Worker exiting (pid: 6877)
+2014-06-09 21:08:15 [6881] [INFO] Worker exiting (pid: 6881)
+2014-06-09 21:08:15 [6884] [INFO] Worker exiting (pid: 6884)
+2014-06-09 21:08:15 [6876] [INFO] Worker exiting (pid: 6876)
+2014-06-10 01:08:15 [6878] [INFO] Worker exiting (pid: 6878)
+2014-06-09 21:08:15 [6879] [INFO] Worker exiting (pid: 6879)
+2014-06-10 01:08:15 [6867] [INFO] Shutting down: Master
+2014-06-10 01:08:16 [7157] [INFO] Starting gunicorn 18.0
+2014-06-10 01:08:16 [7157] [INFO] Listening at: unix:./run/gunicorn.sock (7157)
+2014-06-10 01:08:16 [7157] [INFO] Using worker: sync
+2014-06-10 01:08:16 [7166] [INFO] Booting worker with pid: 7166
+2014-06-10 01:08:16 [7167] [INFO] Booting worker with pid: 7167
+2014-06-10 01:08:16 [7168] [INFO] Booting worker with pid: 7168
+2014-06-10 01:08:16 [7169] [INFO] Booting worker with pid: 7169
+2014-06-10 01:08:16 [7170] [INFO] Booting worker with pid: 7170
+2014-06-10 01:08:16 [7171] [INFO] Booting worker with pid: 7171
+2014-06-10 01:08:16 [7172] [INFO] Booting worker with pid: 7172
+2014-06-10 01:08:16 [7173] [INFO] Booting worker with pid: 7173
+2014-06-10 01:08:16 [7174] [INFO] Booting worker with pid: 7174
+2014-06-10 01:09:28 [7157] [INFO] Handling signal: term
+2014-06-09 21:09:28 [7169] [INFO] Worker exiting (pid: 7169)
+2014-06-09 21:09:28 [7170] [INFO] Worker exiting (pid: 7170)
+2014-06-10 01:09:28 [7168] [INFO] Worker exiting (pid: 7168)
+2014-06-10 01:09:28 [7171] [INFO] Worker exiting (pid: 7171)
+2014-06-10 01:09:28 [7167] [INFO] Worker exiting (pid: 7167)
+2014-06-10 01:09:28 [7166] [INFO] Worker exiting (pid: 7166)
+2014-06-09 21:09:28 [7174] [INFO] Worker exiting (pid: 7174)
+2014-06-09 21:09:28 [7172] [INFO] Worker exiting (pid: 7172)
+2014-06-09 21:09:28 [7173] [INFO] Worker exiting (pid: 7173)
+2014-06-10 01:09:28 [7157] [INFO] Shutting down: Master
+2014-06-10 01:09:29 [7231] [INFO] Starting gunicorn 18.0
+2014-06-10 01:09:29 [7231] [INFO] Listening at: unix:./run/gunicorn.sock (7231)
+2014-06-10 01:09:29 [7231] [INFO] Using worker: sync
+2014-06-10 01:09:29 [7240] [INFO] Booting worker with pid: 7240
+2014-06-10 01:09:29 [7241] [INFO] Booting worker with pid: 7241
+2014-06-10 01:09:29 [7242] [INFO] Booting worker with pid: 7242
+2014-06-10 01:09:29 [7243] [INFO] Booting worker with pid: 7243
+2014-06-10 01:09:29 [7244] [INFO] Booting worker with pid: 7244
+2014-06-10 01:09:29 [7245] [INFO] Booting worker with pid: 7245
+2014-06-10 01:09:29 [7246] [INFO] Booting worker with pid: 7246
+2014-06-10 01:09:29 [7247] [INFO] Booting worker with pid: 7247
+2014-06-10 01:09:29 [7248] [INFO] Booting worker with pid: 7248
+2014-06-10 01:10:37 [7231] [INFO] Handling signal: term
+2014-06-10 01:10:37 [7242] [INFO] Worker exiting (pid: 7242)
+2014-06-10 01:10:37 [7240] [INFO] Worker exiting (pid: 7240)
+2014-06-10 01:10:37 [7241] [INFO] Worker exiting (pid: 7241)
+2014-06-10 01:10:37 [7244] [INFO] Worker exiting (pid: 7244)
+2014-06-10 01:10:37 [7243] [INFO] Worker exiting (pid: 7243)
+2014-06-10 01:10:37 [7247] [INFO] Worker exiting (pid: 7247)
+2014-06-10 01:10:37 [7246] [INFO] Worker exiting (pid: 7246)
+2014-06-10 01:10:37 [7248] [INFO] Worker exiting (pid: 7248)
+2014-06-09 21:10:37 [7245] [INFO] Worker exiting (pid: 7245)
+2014-06-10 01:10:37 [7231] [INFO] Shutting down: Master
+2014-06-10 01:10:38 [7267] [INFO] Starting gunicorn 18.0
+2014-06-10 01:10:38 [7267] [INFO] Listening at: unix:./run/gunicorn.sock (7267)
+2014-06-10 01:10:38 [7267] [INFO] Using worker: sync
+2014-06-10 01:10:38 [7276] [INFO] Booting worker with pid: 7276
+2014-06-10 01:10:38 [7277] [INFO] Booting worker with pid: 7277
+2014-06-10 01:10:38 [7278] [INFO] Booting worker with pid: 7278
+2014-06-10 01:10:38 [7279] [INFO] Booting worker with pid: 7279
+2014-06-10 01:10:38 [7280] [INFO] Booting worker with pid: 7280
+2014-06-10 01:10:38 [7281] [INFO] Booting worker with pid: 7281
+2014-06-10 01:10:38 [7282] [INFO] Booting worker with pid: 7282
+2014-06-10 01:10:38 [7291] [INFO] Booting worker with pid: 7291
+2014-06-10 01:10:38 [7292] [INFO] Booting worker with pid: 7292
+2014-06-10 01:11:07 [7267] [INFO] Handling signal: term
+2014-06-10 01:11:07 [7280] [INFO] Worker exiting (pid: 7280)
+2014-06-10 01:11:07 [7276] [INFO] Worker exiting (pid: 7276)
+2014-06-10 01:11:07 [7277] [INFO] Worker exiting (pid: 7277)
+2014-06-10 01:11:07 [7278] [INFO] Worker exiting (pid: 7278)
+2014-06-09 21:11:07 [7279] [INFO] Worker exiting (pid: 7279)
+2014-06-09 21:11:07 [7281] [INFO] Worker exiting (pid: 7281)
+2014-06-10 01:11:07 [7282] [INFO] Worker exiting (pid: 7282)
+2014-06-10 01:11:07 [7292] [INFO] Worker exiting (pid: 7292)
+2014-06-10 01:11:07 [7291] [INFO] Worker exiting (pid: 7291)
+2014-06-10 01:11:07 [7267] [INFO] Shutting down: Master
+2014-06-10 01:11:08 [7321] [INFO] Starting gunicorn 18.0
+2014-06-10 01:11:08 [7321] [INFO] Listening at: unix:./run/gunicorn.sock (7321)
+2014-06-10 01:11:08 [7321] [INFO] Using worker: sync
+2014-06-10 01:11:08 [7330] [INFO] Booting worker with pid: 7330
+2014-06-10 01:11:08 [7331] [INFO] Booting worker with pid: 7331
+2014-06-10 01:11:08 [7332] [INFO] Booting worker with pid: 7332
+2014-06-10 01:11:08 [7333] [INFO] Booting worker with pid: 7333
+2014-06-10 01:11:08 [7334] [INFO] Booting worker with pid: 7334
+2014-06-10 01:11:08 [7335] [INFO] Booting worker with pid: 7335
+2014-06-10 01:11:08 [7336] [INFO] Booting worker with pid: 7336
+2014-06-10 01:11:08 [7337] [INFO] Booting worker with pid: 7337
+2014-06-10 01:11:08 [7338] [INFO] Booting worker with pid: 7338
+2014-06-10 01:13:59 [7321] [INFO] Handling signal: term
+2014-06-10 01:13:59 [7331] [INFO] Worker exiting (pid: 7331)
+2014-06-10 01:13:59 [7330] [INFO] Worker exiting (pid: 7330)
+2014-06-10 01:13:59 [7333] [INFO] Worker exiting (pid: 7333)
+2014-06-10 01:13:59 [7332] [INFO] Worker exiting (pid: 7332)
+2014-06-10 01:13:59 [7335] [INFO] Worker exiting (pid: 7335)
+2014-06-10 01:13:59 [7337] [INFO] Worker exiting (pid: 7337)
+2014-06-09 21:13:59 [7334] [INFO] Worker exiting (pid: 7334)
+2014-06-10 01:13:59 [7336] [INFO] Worker exiting (pid: 7336)
+2014-06-10 01:13:59 [7338] [INFO] Worker exiting (pid: 7338)
+2014-06-10 01:13:59 [7321] [INFO] Shutting down: Master
+2014-06-10 01:14:00 [7419] [INFO] Starting gunicorn 18.0
+2014-06-10 01:14:00 [7419] [INFO] Listening at: unix:./run/gunicorn.sock (7419)
+2014-06-10 01:14:00 [7419] [INFO] Using worker: sync
+2014-06-10 01:14:00 [7428] [INFO] Booting worker with pid: 7428
+2014-06-10 01:14:00 [7429] [INFO] Booting worker with pid: 7429
+2014-06-10 01:14:00 [7430] [INFO] Booting worker with pid: 7430
+2014-06-10 01:14:00 [7431] [INFO] Booting worker with pid: 7431
+2014-06-10 01:14:00 [7432] [INFO] Booting worker with pid: 7432
+2014-06-10 01:14:00 [7433] [INFO] Booting worker with pid: 7433
+2014-06-10 01:14:00 [7434] [INFO] Booting worker with pid: 7434
+2014-06-10 01:14:00 [7435] [INFO] Booting worker with pid: 7435
+2014-06-10 01:14:01 [7436] [INFO] Booting worker with pid: 7436
+2014-06-10 01:30:01 [7419] [INFO] Handling signal: term
+2014-06-09 21:30:01 [7428] [INFO] Worker exiting (pid: 7428)
+2014-06-09 21:30:01 [7429] [INFO] Worker exiting (pid: 7429)
+2014-06-09 21:30:01 [7432] [INFO] Worker exiting (pid: 7432)
+2014-06-09 21:30:01 [7430] [INFO] Worker exiting (pid: 7430)
+2014-06-09 21:30:01 [7435] [INFO] Worker exiting (pid: 7435)
+2014-06-09 21:30:01 [7431] [INFO] Worker exiting (pid: 7431)
+2014-06-09 21:30:01 [7433] [INFO] Worker exiting (pid: 7433)
+2014-06-09 21:30:01 [7434] [INFO] Worker exiting (pid: 7434)
+2014-06-09 21:30:01 [7436] [INFO] Worker exiting (pid: 7436)
+2014-06-10 01:30:01 [7419] [INFO] Shutting down: Master
+2014-06-10 01:30:03 [7983] [INFO] Starting gunicorn 18.0
+2014-06-10 01:30:03 [7983] [INFO] Listening at: unix:./run/gunicorn.sock (7983)
+2014-06-10 01:30:03 [7983] [INFO] Using worker: sync
+2014-06-10 01:30:03 [7992] [INFO] Booting worker with pid: 7992
+2014-06-10 01:30:03 [7993] [INFO] Booting worker with pid: 7993
+2014-06-10 01:30:03 [7994] [INFO] Booting worker with pid: 7994
+2014-06-10 01:30:03 [7995] [INFO] Booting worker with pid: 7995
+2014-06-10 01:30:03 [7996] [INFO] Booting worker with pid: 7996
+2014-06-10 01:30:03 [7997] [INFO] Booting worker with pid: 7997
+2014-06-10 01:30:03 [7998] [INFO] Booting worker with pid: 7998
+2014-06-10 01:30:03 [7999] [INFO] Booting worker with pid: 7999
+2014-06-10 01:30:03 [8000] [INFO] Booting worker with pid: 8000
+2014-06-10 01:30:42 [7983] [INFO] Handling signal: term
+2014-06-09 21:30:42 [7992] [INFO] Worker exiting (pid: 7992)
+2014-06-10 01:30:42 [7993] [INFO] Worker exiting (pid: 7993)
+2014-06-09 21:30:42 [7999] [INFO] Worker exiting (pid: 7999)
+2014-06-09 21:30:42 [7994] [INFO] Worker exiting (pid: 7994)
+2014-06-10 01:30:42 [7997] [INFO] Worker exiting (pid: 7997)
+2014-06-10 01:30:42 [7996] [INFO] Worker exiting (pid: 7996)
+2014-06-10 01:30:42 [7995] [INFO] Worker exiting (pid: 7995)
+2014-06-10 01:30:42 [7998] [INFO] Worker exiting (pid: 7998)
+2014-06-09 21:30:42 [8000] [INFO] Worker exiting (pid: 8000)
+2014-06-10 01:30:42 [7983] [INFO] Shutting down: Master
+2014-06-10 01:30:44 [8036] [INFO] Starting gunicorn 18.0
+2014-06-10 01:30:44 [8036] [INFO] Listening at: unix:./run/gunicorn.sock (8036)
+2014-06-10 01:30:44 [8036] [INFO] Using worker: sync
+2014-06-10 01:30:44 [8045] [INFO] Booting worker with pid: 8045
+2014-06-10 01:30:44 [8046] [INFO] Booting worker with pid: 8046
+2014-06-10 01:30:44 [8047] [INFO] Booting worker with pid: 8047
+2014-06-10 01:30:44 [8048] [INFO] Booting worker with pid: 8048
+2014-06-10 01:30:44 [8049] [INFO] Booting worker with pid: 8049
+2014-06-10 01:30:44 [8050] [INFO] Booting worker with pid: 8050
+2014-06-10 01:30:44 [8051] [INFO] Booting worker with pid: 8051
+2014-06-10 01:30:44 [8052] [INFO] Booting worker with pid: 8052
+2014-06-10 01:30:44 [8053] [INFO] Booting worker with pid: 8053
+2014-06-10 01:53:54 [8036] [INFO] Handling signal: term
+2014-06-09 21:53:54 [8045] [INFO] Worker exiting (pid: 8045)
+2014-06-09 21:53:54 [8046] [INFO] Worker exiting (pid: 8046)
+2014-06-09 21:53:54 [8048] [INFO] Worker exiting (pid: 8048)
+2014-06-09 21:53:54 [8050] [INFO] Worker exiting (pid: 8050)
+2014-06-09 21:53:54 [8047] [INFO] Worker exiting (pid: 8047)
+2014-06-09 21:53:54 [8051] [INFO] Worker exiting (pid: 8051)
+2014-06-09 21:53:54 [8049] [INFO] Worker exiting (pid: 8049)
+2014-06-09 21:53:54 [8053] [INFO] Worker exiting (pid: 8053)
+2014-06-09 21:53:54 [8052] [INFO] Worker exiting (pid: 8052)
+2014-06-10 01:53:54 [8036] [INFO] Shutting down: Master
+2014-06-10 01:53:55 [8673] [INFO] Starting gunicorn 18.0
+2014-06-10 01:53:55 [8673] [INFO] Listening at: unix:./run/gunicorn.sock (8673)
+2014-06-10 01:53:55 [8673] [INFO] Using worker: sync
+2014-06-10 01:53:55 [8682] [INFO] Booting worker with pid: 8682
+2014-06-10 01:53:55 [8683] [INFO] Booting worker with pid: 8683
+2014-06-10 01:53:55 [8684] [INFO] Booting worker with pid: 8684
+2014-06-10 01:53:55 [8685] [INFO] Booting worker with pid: 8685
+2014-06-10 01:53:55 [8686] [INFO] Booting worker with pid: 8686
+2014-06-10 01:53:55 [8687] [INFO] Booting worker with pid: 8687
+2014-06-10 01:53:55 [8688] [INFO] Booting worker with pid: 8688
+2014-06-10 01:53:55 [8689] [INFO] Booting worker with pid: 8689
+2014-06-10 01:53:55 [8690] [INFO] Booting worker with pid: 8690
+2014-06-10 01:57:24 [8673] [INFO] Handling signal: term
+2014-06-10 01:57:24 [8682] [INFO] Worker exiting (pid: 8682)
+2014-06-10 01:57:24 [8684] [INFO] Worker exiting (pid: 8684)
+2014-06-10 01:57:24 [8683] [INFO] Worker exiting (pid: 8683)
+2014-06-10 01:57:24 [8687] [INFO] Worker exiting (pid: 8687)
+2014-06-09 21:57:24 [8685] [INFO] Worker exiting (pid: 8685)
+2014-06-09 21:57:24 [8690] [INFO] Worker exiting (pid: 8690)
+2014-06-09 21:57:24 [8688] [INFO] Worker exiting (pid: 8688)
+2014-06-09 21:57:24 [8689] [INFO] Worker exiting (pid: 8689)
+2014-06-09 21:57:24 [8686] [INFO] Worker exiting (pid: 8686)
+2014-06-10 01:57:24 [8673] [INFO] Shutting down: Master
+2014-06-10 01:57:25 [8871] [INFO] Starting gunicorn 18.0
+2014-06-10 01:57:25 [8871] [INFO] Listening at: unix:./run/gunicorn.sock (8871)
+2014-06-10 01:57:25 [8871] [INFO] Using worker: sync
+2014-06-10 01:57:26 [8880] [INFO] Booting worker with pid: 8880
+2014-06-10 01:57:26 [8881] [INFO] Booting worker with pid: 8881
+2014-06-10 01:57:26 [8882] [INFO] Booting worker with pid: 8882
+2014-06-10 01:57:26 [8883] [INFO] Booting worker with pid: 8883
+2014-06-10 01:57:26 [8884] [INFO] Booting worker with pid: 8884
+2014-06-10 01:57:26 [8885] [INFO] Booting worker with pid: 8885
+2014-06-10 01:57:26 [8886] [INFO] Booting worker with pid: 8886
+2014-06-10 01:57:26 [8887] [INFO] Booting worker with pid: 8887
+2014-06-10 01:57:26 [8888] [INFO] Booting worker with pid: 8888
+2014-06-10 02:07:26 [8871] [INFO] Handling signal: term
+2014-06-10 02:07:26 [8880] [INFO] Worker exiting (pid: 8880)
+2014-06-09 22:07:26 [8881] [INFO] Worker exiting (pid: 8881)
+2014-06-09 22:07:26 [8882] [INFO] Worker exiting (pid: 8882)
+2014-06-09 22:07:26 [8886] [INFO] Worker exiting (pid: 8886)
+2014-06-09 22:07:26 [8885] [INFO] Worker exiting (pid: 8885)
+2014-06-09 22:07:26 [8883] [INFO] Worker exiting (pid: 8883)
+2014-06-10 02:07:26 [8887] [INFO] Worker exiting (pid: 8887)
+2014-06-09 22:07:26 [8888] [INFO] Worker exiting (pid: 8888)
+2014-06-09 22:07:26 [8884] [INFO] Worker exiting (pid: 8884)
+2014-06-10 02:07:26 [8871] [INFO] Shutting down: Master
+2014-06-10 02:07:27 [9238] [INFO] Starting gunicorn 18.0
+2014-06-10 02:07:27 [9238] [INFO] Listening at: unix:./run/gunicorn.sock (9238)
+2014-06-10 02:07:27 [9238] [INFO] Using worker: sync
+2014-06-10 02:07:27 [9247] [INFO] Booting worker with pid: 9247
+2014-06-10 02:07:27 [9248] [INFO] Booting worker with pid: 9248
+2014-06-10 02:07:27 [9249] [INFO] Booting worker with pid: 9249
+2014-06-10 02:07:27 [9250] [INFO] Booting worker with pid: 9250
+2014-06-10 02:07:27 [9251] [INFO] Booting worker with pid: 9251
+2014-06-10 02:07:27 [9252] [INFO] Booting worker with pid: 9252
+2014-06-10 02:07:27 [9253] [INFO] Booting worker with pid: 9253
+2014-06-10 02:07:27 [9254] [INFO] Booting worker with pid: 9254
+2014-06-10 02:07:27 [9255] [INFO] Booting worker with pid: 9255
+2014-06-10 02:12:05 [9238] [INFO] Handling signal: term
+2014-06-09 22:12:05 [9248] [INFO] Worker exiting (pid: 9248)
+2014-06-09 22:12:05 [9249] [INFO] Worker exiting (pid: 9249)
+2014-06-09 22:12:05 [9253] [INFO] Worker exiting (pid: 9253)
+2014-06-09 22:12:05 [9250] [INFO] Worker exiting (pid: 9250)
+2014-06-09 22:12:05 [9247] [INFO] Worker exiting (pid: 9247)
+2014-06-09 22:12:05 [9255] [INFO] Worker exiting (pid: 9255)
+2014-06-09 22:12:05 [9251] [INFO] Worker exiting (pid: 9251)
+2014-06-09 22:12:05 [9252] [INFO] Worker exiting (pid: 9252)
+2014-06-09 22:12:05 [9254] [INFO] Worker exiting (pid: 9254)
+2014-06-10 02:12:05 [9238] [INFO] Shutting down: Master
+2014-06-10 02:12:07 [9490] [INFO] Starting gunicorn 18.0
+2014-06-10 02:12:07 [9490] [INFO] Listening at: unix:./run/gunicorn.sock (9490)
+2014-06-10 02:12:07 [9490] [INFO] Using worker: sync
+2014-06-10 02:12:07 [9499] [INFO] Booting worker with pid: 9499
+2014-06-10 02:12:07 [9500] [INFO] Booting worker with pid: 9500
+2014-06-10 02:12:07 [9501] [INFO] Booting worker with pid: 9501
+2014-06-10 02:12:07 [9502] [INFO] Booting worker with pid: 9502
+2014-06-10 02:12:07 [9503] [INFO] Booting worker with pid: 9503
+2014-06-10 02:12:07 [9504] [INFO] Booting worker with pid: 9504
+2014-06-10 02:12:07 [9505] [INFO] Booting worker with pid: 9505
+2014-06-10 02:12:07 [9506] [INFO] Booting worker with pid: 9506
+2014-06-10 02:12:07 [9507] [INFO] Booting worker with pid: 9507
+2014-06-10 02:17:07 [9490] [INFO] Handling signal: term
+2014-06-10 02:17:07 [9505] [INFO] Worker exiting (pid: 9505)
+2014-06-10 02:17:07 [9504] [INFO] Worker exiting (pid: 9504)
+2014-06-09 22:17:07 [9506] [INFO] Worker exiting (pid: 9506)
+2014-06-09 22:17:07 [9507] [INFO] Worker exiting (pid: 9507)
+2014-06-09 22:17:07 [9499] [INFO] Worker exiting (pid: 9499)
+2014-06-10 02:17:07 [9503] [INFO] Worker exiting (pid: 9503)
+2014-06-10 02:17:07 [9500] [INFO] Worker exiting (pid: 9500)
+2014-06-10 02:17:07 [9502] [INFO] Worker exiting (pid: 9502)
+2014-06-10 02:17:07 [9501] [INFO] Worker exiting (pid: 9501)
+2014-06-10 02:17:07 [9490] [INFO] Shutting down: Master
+2014-06-10 02:17:08 [9719] [INFO] Starting gunicorn 18.0
+2014-06-10 02:17:08 [9719] [INFO] Listening at: unix:./run/gunicorn.sock (9719)
+2014-06-10 02:17:08 [9719] [INFO] Using worker: sync
+2014-06-10 02:17:08 [9728] [INFO] Booting worker with pid: 9728
+2014-06-10 02:17:08 [9729] [INFO] Booting worker with pid: 9729
+2014-06-10 02:17:08 [9730] [INFO] Booting worker with pid: 9730
+2014-06-10 02:17:08 [9731] [INFO] Booting worker with pid: 9731
+2014-06-10 02:17:08 [9732] [INFO] Booting worker with pid: 9732
+2014-06-10 02:17:08 [9733] [INFO] Booting worker with pid: 9733
+2014-06-10 02:17:08 [9734] [INFO] Booting worker with pid: 9734
+2014-06-10 02:17:09 [9735] [INFO] Booting worker with pid: 9735
+2014-06-10 02:17:09 [9736] [INFO] Booting worker with pid: 9736
+/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField User.registration_date received a naive datetime (2014-06-09 22:17:00) while time zone support is active.
+  RuntimeWarning)
+
+2014-06-10 02:17:51 [9719] [INFO] Handling signal: term
+2014-06-10 02:17:51 [9728] [INFO] Worker exiting (pid: 9728)
+2014-06-10 02:17:51 [9730] [INFO] Worker exiting (pid: 9730)
+2014-06-10 02:17:51 [9729] [INFO] Worker exiting (pid: 9729)
+2014-06-09 22:17:51 [9736] [INFO] Worker exiting (pid: 9736)
+2014-06-09 22:17:51 [9731] [INFO] Worker exiting (pid: 9731)
+2014-06-09 22:17:51 [9733] [INFO] Worker exiting (pid: 9733)
+2014-06-09 22:17:51 [9732] [INFO] Worker exiting (pid: 9732)
+2014-06-09 22:17:51 [9735] [INFO] Worker exiting (pid: 9735)
+2014-06-10 02:17:51 [9719] [INFO] Shutting down: Master
+2014-06-10 02:17:52 [9774] [INFO] Starting gunicorn 18.0
+2014-06-10 02:17:52 [9774] [INFO] Listening at: unix:./run/gunicorn.sock (9774)
+2014-06-10 02:17:52 [9774] [INFO] Using worker: sync
+2014-06-10 02:17:52 [9783] [INFO] Booting worker with pid: 9783
+2014-06-10 02:17:52 [9784] [INFO] Booting worker with pid: 9784
+2014-06-10 02:17:52 [9785] [INFO] Booting worker with pid: 9785
+2014-06-10 02:17:52 [9786] [INFO] Booting worker with pid: 9786
+2014-06-10 02:17:52 [9787] [INFO] Booting worker with pid: 9787
+2014-06-10 02:17:52 [9788] [INFO] Booting worker with pid: 9788
+2014-06-10 02:17:52 [9789] [INFO] Booting worker with pid: 9789
+2014-06-10 02:17:52 [9790] [INFO] Booting worker with pid: 9790
+2014-06-10 02:17:52 [9791] [INFO] Booting worker with pid: 9791
+/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField User.registration_date received a naive datetime (2014-06-09 22:17:00) while time zone support is active.
+  RuntimeWarning)
+
+/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField User.registration_date received a naive datetime (2014-06-09 22:18:00) while time zone support is active.
+  RuntimeWarning)
+
+2014-06-10 02:19:05 [9774] [INFO] Handling signal: term
+2014-06-09 22:19:05 [9784] [INFO] Worker exiting (pid: 9784)
+2014-06-10 02:19:05 [9783] [INFO] Worker exiting (pid: 9783)
+2014-06-09 22:19:05 [9789] [INFO] Worker exiting (pid: 9789)
+2014-06-09 22:19:05 [9790] [INFO] Worker exiting (pid: 9790)
+2014-06-10 02:19:05 [9785] [INFO] Worker exiting (pid: 9785)
+2014-06-10 02:19:05 [9788] [INFO] Worker exiting (pid: 9788)
+2014-06-09 22:19:05 [9787] [INFO] Worker exiting (pid: 9787)
+2014-06-10 02:19:05 [9791] [INFO] Worker exiting (pid: 9791)
+2014-06-09 22:19:05 [9786] [INFO] Worker exiting (pid: 9786)
+2014-06-10 02:19:05 [9774] [INFO] Shutting down: Master
+2014-06-10 02:19:06 [9816] [INFO] Starting gunicorn 18.0
+2014-06-10 02:19:06 [9816] [INFO] Listening at: unix:./run/gunicorn.sock (9816)
+2014-06-10 02:19:06 [9816] [INFO] Using worker: sync
+2014-06-10 02:19:06 [9825] [INFO] Booting worker with pid: 9825
+2014-06-10 02:19:06 [9826] [INFO] Booting worker with pid: 9826
+2014-06-10 02:19:06 [9827] [INFO] Booting worker with pid: 9827
+2014-06-10 02:19:06 [9828] [INFO] Booting worker with pid: 9828
+2014-06-10 02:19:06 [9829] [INFO] Booting worker with pid: 9829
+2014-06-10 02:19:07 [9830] [INFO] Booting worker with pid: 9830
+2014-06-10 02:19:07 [9831] [INFO] Booting worker with pid: 9831
+2014-06-10 02:19:07 [9832] [INFO] Booting worker with pid: 9832
+2014-06-10 02:19:07 [9833] [INFO] Booting worker with pid: 9833
+/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField User.registration_date received a naive datetime (2014-06-09 22:19:00) while time zone support is active.
+  RuntimeWarning)
+
+2014-06-10 02:23:41 [9816] [INFO] Handling signal: term
+2014-06-10 02:23:41 [9826] [INFO] Worker exiting (pid: 9826)
+2014-06-10 02:23:41 [9827] [INFO] Worker exiting (pid: 9827)
+2014-06-09 22:23:41 [9825] [INFO] Worker exiting (pid: 9825)
+2014-06-09 22:23:41 [9830] [INFO] Worker exiting (pid: 9830)
+2014-06-09 22:23:41 [9828] [INFO] Worker exiting (pid: 9828)
+2014-06-09 22:23:41 [9832] [INFO] Worker exiting (pid: 9832)
+2014-06-09 22:23:41 [9833] [INFO] Worker exiting (pid: 9833)
+2014-06-09 22:23:41 [9829] [INFO] Worker exiting (pid: 9829)
+2014-06-10 02:23:41 [9831] [INFO] Worker exiting (pid: 9831)
+2014-06-10 02:23:41 [9816] [INFO] Shutting down: Master
+2014-06-10 02:23:43 [9886] [INFO] Starting gunicorn 18.0
+2014-06-10 02:23:43 [9886] [INFO] Listening at: unix:./run/gunicorn.sock (9886)
+2014-06-10 02:23:43 [9886] [INFO] Using worker: sync
+2014-06-10 02:23:43 [9895] [INFO] Booting worker with pid: 9895
+2014-06-10 02:23:43 [9896] [INFO] Booting worker with pid: 9896
+2014-06-10 02:23:43 [9897] [INFO] Booting worker with pid: 9897
+2014-06-10 02:23:43 [9898] [INFO] Booting worker with pid: 9898
+2014-06-10 02:23:43 [9899] [INFO] Booting worker with pid: 9899
+2014-06-10 02:23:43 [9900] [INFO] Booting worker with pid: 9900
+2014-06-10 02:23:43 [9901] [INFO] Booting worker with pid: 9901
+2014-06-10 02:23:43 [9902] [INFO] Booting worker with pid: 9902
+2014-06-10 02:23:43 [9903] [INFO] Booting worker with pid: 9903
+2014-06-10 02:24:53 [9886] [INFO] Handling signal: term
+2014-06-09 22:24:53 [9895] [INFO] Worker exiting (pid: 9895)
+2014-06-09 22:24:53 [9896] [INFO] Worker exiting (pid: 9896)
+2014-06-09 22:24:53 [9898] [INFO] Worker exiting (pid: 9898)
+2014-06-09 22:24:53 [9897] [INFO] Worker exiting (pid: 9897)
+2014-06-10 02:24:53 [9900] [INFO] Worker exiting (pid: 9900)
+2014-06-10 02:24:53 [9901] [INFO] Worker exiting (pid: 9901)
+2014-06-10 02:24:53 [9902] [INFO] Worker exiting (pid: 9902)
+2014-06-09 22:24:53 [9903] [INFO] Worker exiting (pid: 9903)
+2014-06-09 22:24:53 [9899] [INFO] Worker exiting (pid: 9899)
+2014-06-10 02:24:53 [9886] [INFO] Shutting down: Master
+2014-06-10 02:24:54 [9952] [INFO] Starting gunicorn 18.0
+2014-06-10 02:24:54 [9952] [INFO] Listening at: unix:./run/gunicorn.sock (9952)
+2014-06-10 02:24:54 [9952] [INFO] Using worker: sync
+2014-06-10 02:24:54 [9961] [INFO] Booting worker with pid: 9961
+2014-06-10 02:24:54 [9962] [INFO] Booting worker with pid: 9962
+2014-06-10 02:24:54 [9963] [INFO] Booting worker with pid: 9963
+2014-06-10 02:24:54 [9964] [INFO] Booting worker with pid: 9964
+2014-06-10 02:24:54 [9965] [INFO] Booting worker with pid: 9965
+2014-06-10 02:24:54 [9966] [INFO] Booting worker with pid: 9966
+2014-06-10 02:24:54 [9967] [INFO] Booting worker with pid: 9967
+2014-06-10 02:24:54 [9968] [INFO] Booting worker with pid: 9968
+2014-06-10 02:24:54 [9969] [INFO] Booting worker with pid: 9969
+2014-06-10 02:26:16 [9952] [INFO] Handling signal: term
+2014-06-09 22:26:16 [9961] [INFO] Worker exiting (pid: 9961)
+2014-06-10 02:26:16 [9962] [INFO] Worker exiting (pid: 9962)
+2014-06-10 02:26:16 [9964] [INFO] Worker exiting (pid: 9964)
+2014-06-09 22:26:16 [9965] [INFO] Worker exiting (pid: 9965)
+2014-06-10 02:26:16 [9968] [INFO] Worker exiting (pid: 9968)
+2014-06-10 02:26:16 [9963] [INFO] Worker exiting (pid: 9963)
+2014-06-09 22:26:16 [9969] [INFO] Worker exiting (pid: 9969)
+2014-06-09 22:26:16 [9967] [INFO] Worker exiting (pid: 9967)
+2014-06-09 22:26:16 [9966] [INFO] Worker exiting (pid: 9966)
+2014-06-10 02:26:16 [9952] [INFO] Shutting down: Master
+2014-06-10 02:26:17 [10067] [INFO] Starting gunicorn 18.0
+2014-06-10 02:26:17 [10067] [INFO] Listening at: unix:./run/gunicorn.sock (10067)
+2014-06-10 02:26:17 [10067] [INFO] Using worker: sync
+2014-06-10 02:26:17 [10076] [INFO] Booting worker with pid: 10076
+2014-06-10 02:26:17 [10077] [INFO] Booting worker with pid: 10077
+2014-06-10 02:26:17 [10078] [INFO] Booting worker with pid: 10078
+2014-06-10 02:26:17 [10079] [INFO] Booting worker with pid: 10079
+2014-06-10 02:26:17 [10080] [INFO] Booting worker with pid: 10080
+2014-06-10 02:26:18 [10081] [INFO] Booting worker with pid: 10081
+2014-06-10 02:26:18 [10082] [INFO] Booting worker with pid: 10082
+2014-06-10 02:26:18 [10083] [INFO] Booting worker with pid: 10083
+2014-06-10 02:26:18 [10084] [INFO] Booting worker with pid: 10084
+/home/last/programming/envs/mailru_first/local/lib/python2.7/site-packages/django/db/models/fields/__init__.py:903: RuntimeWarning: DateTimeField User.registration_date received a naive datetime (2014-06-09 22:28:00) while time zone support is active.
+  RuntimeWarning)
+
